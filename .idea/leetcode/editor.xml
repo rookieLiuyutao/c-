@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/../../算法/leetcode刷题/leetcode/editor/cn/[10]正则表达式匹配.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../算法/leetcode刷题/leetcode/editor/cn/[10]正则表达式匹配.cpp" />
+              <option name="questionId" value="10" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../算法/leetcode刷题/leetcode/editor/cn/[8]字符串转换整数 (atoi).cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../算法/leetcode刷题/leetcode/editor/cn/[8]字符串转换整数 (atoi).cpp" />
+              <option name="questionId" value="8" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
