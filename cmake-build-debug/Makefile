@@ -129,6 +129,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TwoSum
+
+# Build rule for target.
+TwoSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TwoSum
+.PHONY : TwoSum
+
+# fast build rule for target.
+TwoSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/build
+.PHONY : TwoSum/fast
+
+#=============================================================================
+# Target rules for targets named Acwing95
+
+# Build rule for target.
+Acwing95: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing95
+.PHONY : Acwing95
+
+# fast build rule for target.
+Acwing95/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/build
+.PHONY : Acwing95/fast
+
+#=============================================================================
 # Target rules for targets named FIFO
 
 # Build rule for target.
@@ -168,17 +194,17 @@ MyAtoi/fast:
 .PHONY : MyAtoi/fast
 
 #=============================================================================
-# Target rules for targets named TwoSum
+# Target rules for targets named dijkstraClass
 
 # Build rule for target.
-TwoSum: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TwoSum
-.PHONY : TwoSum
+dijkstraClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dijkstraClass
+.PHONY : dijkstraClass
 
 # fast build rule for target.
-TwoSum/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/build
-.PHONY : TwoSum/fast
+dijkstraClass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/build
+.PHONY : dijkstraClass/fast
 
 #=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
@@ -205,6 +231,32 @@ leetcode10: cmake_check_build_system
 leetcode10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/build
 .PHONY : leetcode10/fast
+
+#=============================================================================
+# Target rules for targets named leetcode11
+
+# Build rule for target.
+leetcode11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode11
+.PHONY : leetcode11
+
+# fast build rule for target.
+leetcode11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode11.dir\build.make CMakeFiles/leetcode11.dir/build
+.PHONY : leetcode11/fast
+
+#=============================================================================
+# Target rules for targets named leetcode957PrisonAfterNDays
+
+# Build rule for target.
+leetcode957PrisonAfterNDays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode957PrisonAfterNDays
+.PHONY : leetcode957PrisonAfterNDays
+
+# fast build rule for target.
+leetcode957PrisonAfterNDays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/build
+.PHONY : leetcode957PrisonAfterNDays/fast
 
 #=============================================================================
 # Target rules for targets named lut
@@ -257,6 +309,33 @@ test3: cmake_check_build_system
 test3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/build
 .PHONY : test3/fast
+
+Acwing95.obj: Acwing95.cpp.obj
+
+.PHONY : Acwing95.obj
+
+# target to build an object file
+Acwing95.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/Acwing95.cpp.obj
+.PHONY : Acwing95.cpp.obj
+
+Acwing95.i: Acwing95.cpp.i
+
+.PHONY : Acwing95.i
+
+# target to preprocess a source file
+Acwing95.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/Acwing95.cpp.i
+.PHONY : Acwing95.cpp.i
+
+Acwing95.s: Acwing95.cpp.s
+
+.PHONY : Acwing95.s
+
+# target to generate assembly for a file
+Acwing95.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/Acwing95.cpp.s
+.PHONY : Acwing95.cpp.s
 
 CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 
@@ -393,6 +472,33 @@ TwoSum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/TwoSum.cpp.s
 .PHONY : TwoSum.cpp.s
 
+dijkstraClass.obj: dijkstraClass.cpp.obj
+
+.PHONY : dijkstraClass.obj
+
+# target to build an object file
+dijkstraClass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/dijkstraClass.cpp.obj
+.PHONY : dijkstraClass.cpp.obj
+
+dijkstraClass.i: dijkstraClass.cpp.i
+
+.PHONY : dijkstraClass.i
+
+# target to preprocess a source file
+dijkstraClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/dijkstraClass.cpp.i
+.PHONY : dijkstraClass.cpp.i
+
+dijkstraClass.s: dijkstraClass.cpp.s
+
+.PHONY : dijkstraClass.s
+
+# target to generate assembly for a file
+dijkstraClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/dijkstraClass.cpp.s
+.PHONY : dijkstraClass.cpp.s
+
 leetcode10.obj: leetcode10.cpp.obj
 
 .PHONY : leetcode10.obj
@@ -419,6 +525,60 @@ leetcode10.s: leetcode10.cpp.s
 leetcode10.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/leetcode10.cpp.s
 .PHONY : leetcode10.cpp.s
+
+leetcode11.obj: leetcode11.cpp.obj
+
+.PHONY : leetcode11.obj
+
+# target to build an object file
+leetcode11.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode11.dir\build.make CMakeFiles/leetcode11.dir/leetcode11.cpp.obj
+.PHONY : leetcode11.cpp.obj
+
+leetcode11.i: leetcode11.cpp.i
+
+.PHONY : leetcode11.i
+
+# target to preprocess a source file
+leetcode11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode11.dir\build.make CMakeFiles/leetcode11.dir/leetcode11.cpp.i
+.PHONY : leetcode11.cpp.i
+
+leetcode11.s: leetcode11.cpp.s
+
+.PHONY : leetcode11.s
+
+# target to generate assembly for a file
+leetcode11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode11.dir\build.make CMakeFiles/leetcode11.dir/leetcode11.cpp.s
+.PHONY : leetcode11.cpp.s
+
+leetcode957PrisonAfterNDays.obj: leetcode957PrisonAfterNDays.cpp.obj
+
+.PHONY : leetcode957PrisonAfterNDays.obj
+
+# target to build an object file
+leetcode957PrisonAfterNDays.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/leetcode957PrisonAfterNDays.cpp.obj
+.PHONY : leetcode957PrisonAfterNDays.cpp.obj
+
+leetcode957PrisonAfterNDays.i: leetcode957PrisonAfterNDays.cpp.i
+
+.PHONY : leetcode957PrisonAfterNDays.i
+
+# target to preprocess a source file
+leetcode957PrisonAfterNDays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/leetcode957PrisonAfterNDays.cpp.i
+.PHONY : leetcode957PrisonAfterNDays.cpp.i
+
+leetcode957PrisonAfterNDays.s: leetcode957PrisonAfterNDays.cpp.s
+
+.PHONY : leetcode957PrisonAfterNDays.s
+
+# target to generate assembly for a file
+leetcode957PrisonAfterNDays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/leetcode957PrisonAfterNDays.cpp.s
+.PHONY : leetcode957PrisonAfterNDays.cpp.s
 
 lut.obj: lut.cpp.obj
 
@@ -536,16 +696,23 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Acwing95
 	@echo ... CMakeCXXCompilerId
 	@echo ... ExponentialEnumeration
 	@echo ... FIFO
 	@echo ... MyAtoi
 	@echo ... TwoSum
+	@echo ... dijkstraClass
 	@echo ... leetcode10
+	@echo ... leetcode11
+	@echo ... leetcode957PrisonAfterNDays
 	@echo ... lut
 	@echo ... main
 	@echo ... o1Bag
 	@echo ... test3
+	@echo ... Acwing95.obj
+	@echo ... Acwing95.i
+	@echo ... Acwing95.s
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s
@@ -561,9 +728,18 @@ help:
 	@echo ... TwoSum.obj
 	@echo ... TwoSum.i
 	@echo ... TwoSum.s
+	@echo ... dijkstraClass.obj
+	@echo ... dijkstraClass.i
+	@echo ... dijkstraClass.s
 	@echo ... leetcode10.obj
 	@echo ... leetcode10.i
 	@echo ... leetcode10.s
+	@echo ... leetcode11.obj
+	@echo ... leetcode11.i
+	@echo ... leetcode11.s
+	@echo ... leetcode957PrisonAfterNDays.obj
+	@echo ... leetcode957PrisonAfterNDays.i
+	@echo ... leetcode957PrisonAfterNDays.s
 	@echo ... lut.obj
 	@echo ... lut.i
 	@echo ... lut.s
