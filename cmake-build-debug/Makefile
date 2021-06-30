@@ -129,6 +129,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Queue
+
+# Build rule for target.
+Queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Queue
+.PHONY : Queue
+
+# fast build rule for target.
+Queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/build
+.PHONY : Queue/fast
+
+#=============================================================================
+# Target rules for targets named Acwing172
+
+# Build rule for target.
+Acwing172: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing172
+.PHONY : Acwing172
+
+# fast build rule for target.
+Acwing172/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/build
+.PHONY : Acwing172/fast
+
+#=============================================================================
 # Target rules for targets named TwoSum
 
 # Build rule for target.
@@ -194,17 +220,17 @@ MyAtoi/fast:
 .PHONY : MyAtoi/fast
 
 #=============================================================================
-# Target rules for targets named dijkstraClass
+# Target rules for targets named PushTheThreeDimensionalBox
 
 # Build rule for target.
-dijkstraClass: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dijkstraClass
-.PHONY : dijkstraClass
+PushTheThreeDimensionalBox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PushTheThreeDimensionalBox
+.PHONY : PushTheThreeDimensionalBox
 
 # fast build rule for target.
-dijkstraClass/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/build
-.PHONY : dijkstraClass/fast
+PushTheThreeDimensionalBox/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushTheThreeDimensionalBox.dir\build.make CMakeFiles/PushTheThreeDimensionalBox.dir/build
+.PHONY : PushTheThreeDimensionalBox/fast
 
 #=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
@@ -218,6 +244,19 @@ CMakeCXXCompilerId: cmake_check_build_system
 CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
 .PHONY : CMakeCXXCompilerId/fast
+
+#=============================================================================
+# Target rules for targets named dijkstraClass
+
+# Build rule for target.
+dijkstraClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dijkstraClass
+.PHONY : dijkstraClass
+
+# fast build rule for target.
+dijkstraClass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/build
+.PHONY : dijkstraClass/fast
 
 #=============================================================================
 # Target rules for targets named leetcode10
@@ -310,6 +349,33 @@ test3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/build
 .PHONY : test3/fast
 
+Acwing172.obj: Acwing172.cpp.obj
+
+.PHONY : Acwing172.obj
+
+# target to build an object file
+Acwing172.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/Acwing172.cpp.obj
+.PHONY : Acwing172.cpp.obj
+
+Acwing172.i: Acwing172.cpp.i
+
+.PHONY : Acwing172.i
+
+# target to preprocess a source file
+Acwing172.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/Acwing172.cpp.i
+.PHONY : Acwing172.cpp.i
+
+Acwing172.s: Acwing172.cpp.s
+
+.PHONY : Acwing172.s
+
+# target to generate assembly for a file
+Acwing172.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/Acwing172.cpp.s
+.PHONY : Acwing172.cpp.s
+
 Acwing95.obj: Acwing95.cpp.obj
 
 .PHONY : Acwing95.obj
@@ -336,6 +402,33 @@ Acwing95.s: Acwing95.cpp.s
 Acwing95.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/Acwing95.cpp.s
 .PHONY : Acwing95.cpp.s
+
+C++STL/Queue.obj: C++STL/Queue.cpp.obj
+
+.PHONY : C++STL/Queue.obj
+
+# target to build an object file
+C++STL/Queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/C++STL/Queue.cpp.obj
+.PHONY : C++STL/Queue.cpp.obj
+
+C++STL/Queue.i: C++STL/Queue.cpp.i
+
+.PHONY : C++STL/Queue.i
+
+# target to preprocess a source file
+C++STL/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/C++STL/Queue.cpp.i
+.PHONY : C++STL/Queue.cpp.i
+
+C++STL/Queue.s: C++STL/Queue.cpp.s
+
+.PHONY : C++STL/Queue.s
+
+# target to generate assembly for a file
+C++STL/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/C++STL/Queue.cpp.s
+.PHONY : C++STL/Queue.cpp.s
 
 CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 
@@ -444,6 +537,33 @@ MyAtoi.s: MyAtoi.cpp.s
 MyAtoi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyAtoi.dir\build.make CMakeFiles/MyAtoi.dir/MyAtoi.cpp.s
 .PHONY : MyAtoi.cpp.s
+
+PushTheThreeDimensionalBox.obj: PushTheThreeDimensionalBox.cpp.obj
+
+.PHONY : PushTheThreeDimensionalBox.obj
+
+# target to build an object file
+PushTheThreeDimensionalBox.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushTheThreeDimensionalBox.dir\build.make CMakeFiles/PushTheThreeDimensionalBox.dir/PushTheThreeDimensionalBox.cpp.obj
+.PHONY : PushTheThreeDimensionalBox.cpp.obj
+
+PushTheThreeDimensionalBox.i: PushTheThreeDimensionalBox.cpp.i
+
+.PHONY : PushTheThreeDimensionalBox.i
+
+# target to preprocess a source file
+PushTheThreeDimensionalBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushTheThreeDimensionalBox.dir\build.make CMakeFiles/PushTheThreeDimensionalBox.dir/PushTheThreeDimensionalBox.cpp.i
+.PHONY : PushTheThreeDimensionalBox.cpp.i
+
+PushTheThreeDimensionalBox.s: PushTheThreeDimensionalBox.cpp.s
+
+.PHONY : PushTheThreeDimensionalBox.s
+
+# target to generate assembly for a file
+PushTheThreeDimensionalBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushTheThreeDimensionalBox.dir\build.make CMakeFiles/PushTheThreeDimensionalBox.dir/PushTheThreeDimensionalBox.cpp.s
+.PHONY : PushTheThreeDimensionalBox.cpp.s
 
 TwoSum.obj: TwoSum.cpp.obj
 
@@ -696,11 +816,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Acwing172
 	@echo ... Acwing95
 	@echo ... CMakeCXXCompilerId
 	@echo ... ExponentialEnumeration
 	@echo ... FIFO
 	@echo ... MyAtoi
+	@echo ... PushTheThreeDimensionalBox
+	@echo ... Queue
 	@echo ... TwoSum
 	@echo ... dijkstraClass
 	@echo ... leetcode10
@@ -710,9 +833,15 @@ help:
 	@echo ... main
 	@echo ... o1Bag
 	@echo ... test3
+	@echo ... Acwing172.obj
+	@echo ... Acwing172.i
+	@echo ... Acwing172.s
 	@echo ... Acwing95.obj
 	@echo ... Acwing95.i
 	@echo ... Acwing95.s
+	@echo ... C++STL/Queue.obj
+	@echo ... C++STL/Queue.i
+	@echo ... C++STL/Queue.s
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s
@@ -725,6 +854,9 @@ help:
 	@echo ... MyAtoi.obj
 	@echo ... MyAtoi.i
 	@echo ... MyAtoi.s
+	@echo ... PushTheThreeDimensionalBox.obj
+	@echo ... PushTheThreeDimensionalBox.i
+	@echo ... PushTheThreeDimensionalBox.s
 	@echo ... TwoSum.obj
 	@echo ... TwoSum.i
 	@echo ... TwoSum.s

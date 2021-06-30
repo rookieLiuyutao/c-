@@ -17,6 +17,94 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Queue">
+				<Option output="E:/cppCode/cmake-build-debug/Queue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Queue"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Queue/fast">
+				<Option output="E:/cppCode/cmake-build-debug/Queue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Queue/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing172">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing172.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing172"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing172/fast">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing172.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing172/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="TwoSum">
 				<Option output="E:/cppCode/cmake-build-debug/TwoSum.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/cppCode/cmake-build-debug"/>
@@ -237,8 +325,8 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="dijkstraClass">
-				<Option output="E:/cppCode/cmake-build-debug/dijkstraClass.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="PushTheThreeDimensionalBox">
+				<Option output="E:/cppCode/cmake-build-debug/PushTheThreeDimensionalBox.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/cppCode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -253,14 +341,14 @@
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 dijkstraClass"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PushTheThreeDimensionalBox"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="dijkstraClass/fast">
-				<Option output="E:/cppCode/cmake-build-debug/dijkstraClass.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="PushTheThreeDimensionalBox/fast">
+				<Option output="E:/cppCode/cmake-build-debug/PushTheThreeDimensionalBox.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/cppCode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -275,7 +363,7 @@
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 dijkstraClass/fast"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PushTheThreeDimensionalBox/fast"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -320,6 +408,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dijkstraClass">
+				<Option output="E:/cppCode/cmake-build-debug/dijkstraClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 dijkstraClass"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dijkstraClass/fast">
+				<Option output="E:/cppCode/cmake-build-debug/dijkstraClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 dijkstraClass/fast"/>
 					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -654,8 +786,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/cppCode/Acwing172.cpp">
+			<Option target="Acwing172"/>
+		</Unit>
 		<Unit filename="E:/cppCode/Acwing95.cpp">
 			<Option target="Acwing95"/>
+		</Unit>
+		<Unit filename="E:/cppCode/C++STL/Queue.cpp">
+			<Option target="Queue"/>
 		</Unit>
 		<Unit filename="E:/cppCode/ExponentialEnumeration.cpp">
 			<Option target="ExponentialEnumeration"/>
@@ -665,6 +803,9 @@
 		</Unit>
 		<Unit filename="E:/cppCode/MyAtoi.cpp">
 			<Option target="MyAtoi"/>
+		</Unit>
+		<Unit filename="E:/cppCode/PushTheThreeDimensionalBox.cpp">
+			<Option target="PushTheThreeDimensionalBox"/>
 		</Unit>
 		<Unit filename="E:/cppCode/TwoSum.cpp">
 			<Option target="TwoSum"/>

@@ -1,8 +1,11 @@
 "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\cppCode
+    -- src/Acwing172.cpp will be compiled to bin/Acwing172
     -- src/Acwing95.cpp will be compiled to bin/Acwing95
+    -- src/Queue.cpp will be compiled to bin/Queue
     -- src/ExponentialEnumeration.cpp will be compiled to bin/ExponentialEnumeration
     -- src/FIFO.cpp will be compiled to bin/FIFO
     -- src/MyAtoi.cpp will be compiled to bin/MyAtoi
+    -- src/PushTheThreeDimensionalBox.cpp will be compiled to bin/PushTheThreeDimensionalBox
     -- src/TwoSum.cpp will be compiled to bin/TwoSum
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/dijkstraClass.cpp will be compiled to bin/dijkstraClass
