@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = E:\cppCode\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -95,6 +84,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,56 +129,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Queue
+# Target rules for targets named dijkstraClass
 
 # Build rule for target.
-Queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Queue
-.PHONY : Queue
+dijkstraClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dijkstraClass
+.PHONY : dijkstraClass
 
 # fast build rule for target.
-Queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/build
-.PHONY : Queue/fast
+dijkstraClass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/build
+.PHONY : dijkstraClass/fast
 
 #=============================================================================
-# Target rules for targets named Acwing172
+# Target rules for targets named Acwung282_MergingOfStones
 
 # Build rule for target.
-Acwing172: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing172
-.PHONY : Acwing172
+Acwung282_MergingOfStones: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwung282_MergingOfStones
+.PHONY : Acwung282_MergingOfStones
 
 # fast build rule for target.
-Acwing172/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/build
-.PHONY : Acwing172/fast
-
-#=============================================================================
-# Target rules for targets named TwoSum
-
-# Build rule for target.
-TwoSum: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TwoSum
-.PHONY : TwoSum
-
-# fast build rule for target.
-TwoSum/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/build
-.PHONY : TwoSum/fast
-
-#=============================================================================
-# Target rules for targets named Acwing95
-
-# Build rule for target.
-Acwing95: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing95
-.PHONY : Acwing95
-
-# fast build rule for target.
-Acwing95/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/build
-.PHONY : Acwing95/fast
+Acwung282_MergingOfStones/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/build
+.PHONY : Acwung282_MergingOfStones/fast
 
 #=============================================================================
 # Target rules for targets named FIFO
@@ -207,17 +181,43 @@ ExponentialEnumeration/fast:
 .PHONY : ExponentialEnumeration/fast
 
 #=============================================================================
-# Target rules for targets named MyAtoi
+# Target rules for targets named Acwing897_LongestCommonSubsequence
 
 # Build rule for target.
-MyAtoi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyAtoi
-.PHONY : MyAtoi
+Acwing897_LongestCommonSubsequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing897_LongestCommonSubsequence
+.PHONY : Acwing897_LongestCommonSubsequence
 
 # fast build rule for target.
-MyAtoi/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyAtoi.dir\build.make CMakeFiles/MyAtoi.dir/build
-.PHONY : MyAtoi/fast
+Acwing897_LongestCommonSubsequence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/build
+.PHONY : Acwing897_LongestCommonSubsequence/fast
+
+#=============================================================================
+# Target rules for targets named Acwing95
+
+# Build rule for target.
+Acwing95: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing95
+.PHONY : Acwing95
+
+# fast build rule for target.
+Acwing95/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/build
+.PHONY : Acwing95/fast
+
+#=============================================================================
+# Target rules for targets named Acwing172
+
+# Build rule for target.
+Acwing172: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing172
+.PHONY : Acwing172
+
+# fast build rule for target.
+Acwing172/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/build
+.PHONY : Acwing172/fast
 
 #=============================================================================
 # Target rules for targets named PushTheThreeDimensionalBox
@@ -233,69 +233,30 @@ PushTheThreeDimensionalBox/fast:
 .PHONY : PushTheThreeDimensionalBox/fast
 
 #=============================================================================
-# Target rules for targets named CMakeCXXCompilerId
+# Target rules for targets named o1Bag
 
 # Build rule for target.
-CMakeCXXCompilerId: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeCXXCompilerId
-.PHONY : CMakeCXXCompilerId
+o1Bag: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 o1Bag
+.PHONY : o1Bag
 
 # fast build rule for target.
-CMakeCXXCompilerId/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
-.PHONY : CMakeCXXCompilerId/fast
+o1Bag/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\o1Bag.dir\build.make CMakeFiles/o1Bag.dir/build
+.PHONY : o1Bag/fast
 
 #=============================================================================
-# Target rules for targets named dijkstraClass
+# Target rules for targets named MyAtoi
 
 # Build rule for target.
-dijkstraClass: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dijkstraClass
-.PHONY : dijkstraClass
+MyAtoi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyAtoi
+.PHONY : MyAtoi
 
 # fast build rule for target.
-dijkstraClass/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/build
-.PHONY : dijkstraClass/fast
-
-#=============================================================================
-# Target rules for targets named leetcode10
-
-# Build rule for target.
-leetcode10: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode10
-.PHONY : leetcode10
-
-# fast build rule for target.
-leetcode10/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/build
-.PHONY : leetcode10/fast
-
-#=============================================================================
-# Target rules for targets named leetcode11
-
-# Build rule for target.
-leetcode11: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode11
-.PHONY : leetcode11
-
-# fast build rule for target.
-leetcode11/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode11.dir\build.make CMakeFiles/leetcode11.dir/build
-.PHONY : leetcode11/fast
-
-#=============================================================================
-# Target rules for targets named leetcode957PrisonAfterNDays
-
-# Build rule for target.
-leetcode957PrisonAfterNDays: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode957PrisonAfterNDays
-.PHONY : leetcode957PrisonAfterNDays
-
-# fast build rule for target.
-leetcode957PrisonAfterNDays/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/build
-.PHONY : leetcode957PrisonAfterNDays/fast
+MyAtoi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyAtoi.dir\build.make CMakeFiles/MyAtoi.dir/build
+.PHONY : MyAtoi/fast
 
 #=============================================================================
 # Target rules for targets named lut
@@ -311,43 +272,43 @@ lut/fast:
 .PHONY : lut/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named LongestAscendingSubsequence
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
-.PHONY : main
+LongestAscendingSubsequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LongestAscendingSubsequence
+.PHONY : LongestAscendingSubsequence
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+LongestAscendingSubsequence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LongestAscendingSubsequence.dir\build.make CMakeFiles/LongestAscendingSubsequence.dir/build
+.PHONY : LongestAscendingSubsequence/fast
 
 #=============================================================================
-# Target rules for targets named o1Bag
+# Target rules for targets named leetcode957PrisonAfterNDays
 
 # Build rule for target.
-o1Bag: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 o1Bag
-.PHONY : o1Bag
+leetcode957PrisonAfterNDays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode957PrisonAfterNDays
+.PHONY : leetcode957PrisonAfterNDays
 
 # fast build rule for target.
-o1Bag/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\o1Bag.dir\build.make CMakeFiles/o1Bag.dir/build
-.PHONY : o1Bag/fast
+leetcode957PrisonAfterNDays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/build
+.PHONY : leetcode957PrisonAfterNDays/fast
 
 #=============================================================================
-# Target rules for targets named test3
+# Target rules for targets named leetcode10
 
 # Build rule for target.
-test3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test3
-.PHONY : test3
+leetcode10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode10
+.PHONY : leetcode10
 
 # fast build rule for target.
-test3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/build
-.PHONY : test3/fast
+leetcode10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/build
+.PHONY : leetcode10/fast
 
 Acwing172.obj: Acwing172.cpp.obj
 
@@ -376,6 +337,33 @@ Acwing172.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/Acwing172.cpp.s
 .PHONY : Acwing172.cpp.s
 
+Acwing897_LongestCommonSubsequence_.obj: Acwing897_LongestCommonSubsequence_.cpp.obj
+
+.PHONY : Acwing897_LongestCommonSubsequence_.obj
+
+# target to build an object file
+Acwing897_LongestCommonSubsequence_.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/Acwing897_LongestCommonSubsequence_.cpp.obj
+.PHONY : Acwing897_LongestCommonSubsequence_.cpp.obj
+
+Acwing897_LongestCommonSubsequence_.i: Acwing897_LongestCommonSubsequence_.cpp.i
+
+.PHONY : Acwing897_LongestCommonSubsequence_.i
+
+# target to preprocess a source file
+Acwing897_LongestCommonSubsequence_.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/Acwing897_LongestCommonSubsequence_.cpp.i
+.PHONY : Acwing897_LongestCommonSubsequence_.cpp.i
+
+Acwing897_LongestCommonSubsequence_.s: Acwing897_LongestCommonSubsequence_.cpp.s
+
+.PHONY : Acwing897_LongestCommonSubsequence_.s
+
+# target to generate assembly for a file
+Acwing897_LongestCommonSubsequence_.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/Acwing897_LongestCommonSubsequence_.cpp.s
+.PHONY : Acwing897_LongestCommonSubsequence_.cpp.s
+
 Acwing95.obj: Acwing95.cpp.obj
 
 .PHONY : Acwing95.obj
@@ -403,59 +391,32 @@ Acwing95.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/Acwing95.cpp.s
 .PHONY : Acwing95.cpp.s
 
-C++STL/Queue.obj: C++STL/Queue.cpp.obj
+Acwung282_MergingOfStones.obj: Acwung282_MergingOfStones.cpp.obj
 
-.PHONY : C++STL/Queue.obj
-
-# target to build an object file
-C++STL/Queue.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/C++STL/Queue.cpp.obj
-.PHONY : C++STL/Queue.cpp.obj
-
-C++STL/Queue.i: C++STL/Queue.cpp.i
-
-.PHONY : C++STL/Queue.i
-
-# target to preprocess a source file
-C++STL/Queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/C++STL/Queue.cpp.i
-.PHONY : C++STL/Queue.cpp.i
-
-C++STL/Queue.s: C++STL/Queue.cpp.s
-
-.PHONY : C++STL/Queue.s
-
-# target to generate assembly for a file
-C++STL/Queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/C++STL/Queue.cpp.s
-.PHONY : C++STL/Queue.cpp.s
-
-CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-
-.PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
+.PHONY : Acwung282_MergingOfStones.obj
 
 # target to build an object file
-CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-.PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+Acwung282_MergingOfStones.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/Acwung282_MergingOfStones.cpp.obj
+.PHONY : Acwung282_MergingOfStones.cpp.obj
 
-CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+Acwung282_MergingOfStones.i: Acwung282_MergingOfStones.cpp.i
 
-.PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i
+.PHONY : Acwung282_MergingOfStones.i
 
 # target to preprocess a source file
-CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+Acwung282_MergingOfStones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/Acwung282_MergingOfStones.cpp.i
+.PHONY : Acwung282_MergingOfStones.cpp.i
 
-CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+Acwung282_MergingOfStones.s: Acwung282_MergingOfStones.cpp.s
 
-.PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s
+.PHONY : Acwung282_MergingOfStones.s
 
 # target to generate assembly for a file
-CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+Acwung282_MergingOfStones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/Acwung282_MergingOfStones.cpp.s
+.PHONY : Acwung282_MergingOfStones.cpp.s
 
 ExponentialEnumeration.obj: ExponentialEnumeration.cpp.obj
 
@@ -511,6 +472,33 @@ FIFO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FIFO.dir\build.make CMakeFiles/FIFO.dir/FIFO.cpp.s
 .PHONY : FIFO.cpp.s
 
+LongestAscendingSubsequence.obj: LongestAscendingSubsequence.cpp.obj
+
+.PHONY : LongestAscendingSubsequence.obj
+
+# target to build an object file
+LongestAscendingSubsequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LongestAscendingSubsequence.dir\build.make CMakeFiles/LongestAscendingSubsequence.dir/LongestAscendingSubsequence.cpp.obj
+.PHONY : LongestAscendingSubsequence.cpp.obj
+
+LongestAscendingSubsequence.i: LongestAscendingSubsequence.cpp.i
+
+.PHONY : LongestAscendingSubsequence.i
+
+# target to preprocess a source file
+LongestAscendingSubsequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LongestAscendingSubsequence.dir\build.make CMakeFiles/LongestAscendingSubsequence.dir/LongestAscendingSubsequence.cpp.i
+.PHONY : LongestAscendingSubsequence.cpp.i
+
+LongestAscendingSubsequence.s: LongestAscendingSubsequence.cpp.s
+
+.PHONY : LongestAscendingSubsequence.s
+
+# target to generate assembly for a file
+LongestAscendingSubsequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LongestAscendingSubsequence.dir\build.make CMakeFiles/LongestAscendingSubsequence.dir/LongestAscendingSubsequence.cpp.s
+.PHONY : LongestAscendingSubsequence.cpp.s
+
 MyAtoi.obj: MyAtoi.cpp.obj
 
 .PHONY : MyAtoi.obj
@@ -564,33 +552,6 @@ PushTheThreeDimensionalBox.s: PushTheThreeDimensionalBox.cpp.s
 PushTheThreeDimensionalBox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushTheThreeDimensionalBox.dir\build.make CMakeFiles/PushTheThreeDimensionalBox.dir/PushTheThreeDimensionalBox.cpp.s
 .PHONY : PushTheThreeDimensionalBox.cpp.s
-
-TwoSum.obj: TwoSum.cpp.obj
-
-.PHONY : TwoSum.obj
-
-# target to build an object file
-TwoSum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/TwoSum.cpp.obj
-.PHONY : TwoSum.cpp.obj
-
-TwoSum.i: TwoSum.cpp.i
-
-.PHONY : TwoSum.i
-
-# target to preprocess a source file
-TwoSum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/TwoSum.cpp.i
-.PHONY : TwoSum.cpp.i
-
-TwoSum.s: TwoSum.cpp.s
-
-.PHONY : TwoSum.s
-
-# target to generate assembly for a file
-TwoSum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/TwoSum.cpp.s
-.PHONY : TwoSum.cpp.s
 
 dijkstraClass.obj: dijkstraClass.cpp.obj
 
@@ -646,33 +607,6 @@ leetcode10.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/leetcode10.cpp.s
 .PHONY : leetcode10.cpp.s
 
-leetcode11.obj: leetcode11.cpp.obj
-
-.PHONY : leetcode11.obj
-
-# target to build an object file
-leetcode11.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode11.dir\build.make CMakeFiles/leetcode11.dir/leetcode11.cpp.obj
-.PHONY : leetcode11.cpp.obj
-
-leetcode11.i: leetcode11.cpp.i
-
-.PHONY : leetcode11.i
-
-# target to preprocess a source file
-leetcode11.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode11.dir\build.make CMakeFiles/leetcode11.dir/leetcode11.cpp.i
-.PHONY : leetcode11.cpp.i
-
-leetcode11.s: leetcode11.cpp.s
-
-.PHONY : leetcode11.s
-
-# target to generate assembly for a file
-leetcode11.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode11.dir\build.make CMakeFiles/leetcode11.dir/leetcode11.cpp.s
-.PHONY : leetcode11.cpp.s
-
 leetcode957PrisonAfterNDays.obj: leetcode957PrisonAfterNDays.cpp.obj
 
 .PHONY : leetcode957PrisonAfterNDays.obj
@@ -727,33 +661,6 @@ lut.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lut.dir\build.make CMakeFiles/lut.dir/lut.cpp.s
 .PHONY : lut.cpp.s
 
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 o1Bag.obj: o1Bag.cpp.obj
 
 .PHONY : o1Bag.obj
@@ -781,33 +688,6 @@ o1Bag.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\o1Bag.dir\build.make CMakeFiles/o1Bag.dir/o1Bag.cpp.s
 .PHONY : o1Bag.cpp.s
 
-test3.obj: test3.cpp.obj
-
-.PHONY : test3.obj
-
-# target to build an object file
-test3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test3.cpp.obj
-.PHONY : test3.cpp.obj
-
-test3.i: test3.cpp.i
-
-.PHONY : test3.i
-
-# target to preprocess a source file
-test3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test3.cpp.i
-.PHONY : test3.cpp.i
-
-test3.s: test3.cpp.s
-
-.PHONY : test3.s
-
-# target to generate assembly for a file
-test3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test3.cpp.s
-.PHONY : test3.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -817,73 +697,61 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Acwing172
+	@echo ... Acwing897_LongestCommonSubsequence
 	@echo ... Acwing95
-	@echo ... CMakeCXXCompilerId
+	@echo ... Acwung282_MergingOfStones
 	@echo ... ExponentialEnumeration
 	@echo ... FIFO
+	@echo ... LongestAscendingSubsequence
 	@echo ... MyAtoi
 	@echo ... PushTheThreeDimensionalBox
-	@echo ... Queue
-	@echo ... TwoSum
 	@echo ... dijkstraClass
 	@echo ... leetcode10
-	@echo ... leetcode11
 	@echo ... leetcode957PrisonAfterNDays
 	@echo ... lut
-	@echo ... main
 	@echo ... o1Bag
-	@echo ... test3
 	@echo ... Acwing172.obj
 	@echo ... Acwing172.i
 	@echo ... Acwing172.s
+	@echo ... Acwing897_LongestCommonSubsequence_.obj
+	@echo ... Acwing897_LongestCommonSubsequence_.i
+	@echo ... Acwing897_LongestCommonSubsequence_.s
 	@echo ... Acwing95.obj
 	@echo ... Acwing95.i
 	@echo ... Acwing95.s
-	@echo ... C++STL/Queue.obj
-	@echo ... C++STL/Queue.i
-	@echo ... C++STL/Queue.s
-	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
-	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i
-	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s
+	@echo ... Acwung282_MergingOfStones.obj
+	@echo ... Acwung282_MergingOfStones.i
+	@echo ... Acwung282_MergingOfStones.s
 	@echo ... ExponentialEnumeration.obj
 	@echo ... ExponentialEnumeration.i
 	@echo ... ExponentialEnumeration.s
 	@echo ... FIFO.obj
 	@echo ... FIFO.i
 	@echo ... FIFO.s
+	@echo ... LongestAscendingSubsequence.obj
+	@echo ... LongestAscendingSubsequence.i
+	@echo ... LongestAscendingSubsequence.s
 	@echo ... MyAtoi.obj
 	@echo ... MyAtoi.i
 	@echo ... MyAtoi.s
 	@echo ... PushTheThreeDimensionalBox.obj
 	@echo ... PushTheThreeDimensionalBox.i
 	@echo ... PushTheThreeDimensionalBox.s
-	@echo ... TwoSum.obj
-	@echo ... TwoSum.i
-	@echo ... TwoSum.s
 	@echo ... dijkstraClass.obj
 	@echo ... dijkstraClass.i
 	@echo ... dijkstraClass.s
 	@echo ... leetcode10.obj
 	@echo ... leetcode10.i
 	@echo ... leetcode10.s
-	@echo ... leetcode11.obj
-	@echo ... leetcode11.i
-	@echo ... leetcode11.s
 	@echo ... leetcode957PrisonAfterNDays.obj
 	@echo ... leetcode957PrisonAfterNDays.i
 	@echo ... leetcode957PrisonAfterNDays.s
 	@echo ... lut.obj
 	@echo ... lut.i
 	@echo ... lut.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... o1Bag.obj
 	@echo ... o1Bag.i
 	@echo ... o1Bag.s
-	@echo ... test3.obj
-	@echo ... test3.i
-	@echo ... test3.s
 .PHONY : help
 
 
