@@ -6,11 +6,17 @@ E:/cppCode/cmake-build-debug/CMakeFiles/ExponentialEnumeration.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing897_LongestCommonSubsequence.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing95.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing172.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/leetcode15_ThreeSum.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/PushTheThreeDimensionalBox.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/o1Bag.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/MyAtoi.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1012_SisterCity.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/lut.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/LongestAscendingSubsequence.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/leetcode957PrisonAfterNDays.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/leetcode10.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing482_ChorusFormation.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/BitOperationTest.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing_3483PowerOfTwo.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing_1225RegularProblem.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/edit_cache.dir

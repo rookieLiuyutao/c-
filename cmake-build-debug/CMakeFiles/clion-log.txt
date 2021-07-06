@@ -1,8 +1,13 @@
 "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\cppCode
+    -- src/Acwing1012_SisterCity.cpp will be compiled to bin/Acwing1012_SisterCity
     -- src/Acwing172.cpp will be compiled to bin/Acwing172
+    -- src/Acwing482_ChorusFormation.cpp will be compiled to bin/Acwing482_ChorusFormation
     -- src/Acwing897_LongestCommonSubsequence .cpp will be compiled to bin/Acwing897_LongestCommonSubsequence 
     -- src/Acwing95.cpp will be compiled to bin/Acwing95
+    -- src/Acwing_1225RegularProblem.cpp will be compiled to bin/Acwing_1225RegularProblem
+    -- src/Acwing_3483PowerOfTwo.cpp will be compiled to bin/Acwing_3483PowerOfTwo
     -- src/Acwung282_MergingOfStones.cpp will be compiled to bin/Acwung282_MergingOfStones
+    -- src/BitOperationTest .cpp will be compiled to bin/BitOperationTest 
     -- src/Queue.cpp will be compiled to bin/Queue
     -- src/ExponentialEnumeration.cpp will be compiled to bin/ExponentialEnumeration
     -- src/FIFO.cpp will be compiled to bin/FIFO
@@ -12,6 +17,7 @@
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/dijkstraClass.cpp will be compiled to bin/dijkstraClass
     -- src/leetcode10.cpp will be compiled to bin/leetcode10
+    -- src/leetcode15_ThreeSum.cpp will be compiled to bin/leetcode15_ThreeSum
     -- src/leetcode957PrisonAfterNDays.cpp will be compiled to bin/leetcode957PrisonAfterNDays
     -- src/lut.cpp will be compiled to bin/lut
     -- src/o1Bag.cpp will be compiled to bin/o1Bag

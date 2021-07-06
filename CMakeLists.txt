@@ -25,3 +25,11 @@ add_executable(lut lut.cpp)
 add_executable(LongestAscendingSubsequence LongestAscendingSubsequence.cpp)
 add_executable(leetcode957PrisonAfterNDays leetcode957PrisonAfterNDays.cpp)
 add_executable(leetcode10 leetcode10.cpp)
+add_executable(Acwing482_ChorusFormation Acwing482_ChorusFormation.cpp)
+add_executable(Acwing1012_SisterCity Acwing1012_SisterCity.cpp )
+add_executable(leetcode15_ThreeSum leetcode15_ThreeSum.cpp)
+add_executable(BitOperationTest  "BitOperationTest .cpp")
+
+
+add_executable(Acwing_3483PowerOfTwo Acwing_3483PowerOfTwo.cpp)
+add_executable(Acwing_1225RegularProblem Acwing_1225RegularProblem.cpp)

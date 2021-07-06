@@ -220,6 +220,19 @@ Acwing172/fast:
 .PHONY : Acwing172/fast
 
 #=============================================================================
+# Target rules for targets named leetcode15_ThreeSum
+
+# Build rule for target.
+leetcode15_ThreeSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode15_ThreeSum
+.PHONY : leetcode15_ThreeSum
+
+# fast build rule for target.
+leetcode15_ThreeSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode15_ThreeSum.dir\build.make CMakeFiles/leetcode15_ThreeSum.dir/build
+.PHONY : leetcode15_ThreeSum/fast
+
+#=============================================================================
 # Target rules for targets named PushTheThreeDimensionalBox
 
 # Build rule for target.
@@ -257,6 +270,19 @@ MyAtoi: cmake_check_build_system
 MyAtoi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyAtoi.dir\build.make CMakeFiles/MyAtoi.dir/build
 .PHONY : MyAtoi/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1012_SisterCity
+
+# Build rule for target.
+Acwing1012_SisterCity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1012_SisterCity
+.PHONY : Acwing1012_SisterCity
+
+# fast build rule for target.
+Acwing1012_SisterCity/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity.dir\build.make CMakeFiles/Acwing1012_SisterCity.dir/build
+.PHONY : Acwing1012_SisterCity/fast
 
 #=============================================================================
 # Target rules for targets named lut
@@ -310,6 +336,85 @@ leetcode10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/build
 .PHONY : leetcode10/fast
 
+#=============================================================================
+# Target rules for targets named Acwing482_ChorusFormation
+
+# Build rule for target.
+Acwing482_ChorusFormation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing482_ChorusFormation
+.PHONY : Acwing482_ChorusFormation
+
+# fast build rule for target.
+Acwing482_ChorusFormation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/build
+.PHONY : Acwing482_ChorusFormation/fast
+
+#=============================================================================
+# Target rules for targets named BitOperationTest
+
+# Build rule for target.
+BitOperationTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BitOperationTest
+.PHONY : BitOperationTest
+
+# fast build rule for target.
+BitOperationTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOperationTest.dir\build.make CMakeFiles/BitOperationTest.dir/build
+.PHONY : BitOperationTest/fast
+
+#=============================================================================
+# Target rules for targets named Acwing_3483PowerOfTwo
+
+# Build rule for target.
+Acwing_3483PowerOfTwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing_3483PowerOfTwo
+.PHONY : Acwing_3483PowerOfTwo
+
+# fast build rule for target.
+Acwing_3483PowerOfTwo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_3483PowerOfTwo.dir\build.make CMakeFiles/Acwing_3483PowerOfTwo.dir/build
+.PHONY : Acwing_3483PowerOfTwo/fast
+
+#=============================================================================
+# Target rules for targets named Acwing_1225RegularProblem
+
+# Build rule for target.
+Acwing_1225RegularProblem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing_1225RegularProblem
+.PHONY : Acwing_1225RegularProblem
+
+# fast build rule for target.
+Acwing_1225RegularProblem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_1225RegularProblem.dir\build.make CMakeFiles/Acwing_1225RegularProblem.dir/build
+.PHONY : Acwing_1225RegularProblem/fast
+
+Acwing1012_SisterCity.obj: Acwing1012_SisterCity.cpp.obj
+
+.PHONY : Acwing1012_SisterCity.obj
+
+# target to build an object file
+Acwing1012_SisterCity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity.dir\build.make CMakeFiles/Acwing1012_SisterCity.dir/Acwing1012_SisterCity.cpp.obj
+.PHONY : Acwing1012_SisterCity.cpp.obj
+
+Acwing1012_SisterCity.i: Acwing1012_SisterCity.cpp.i
+
+.PHONY : Acwing1012_SisterCity.i
+
+# target to preprocess a source file
+Acwing1012_SisterCity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity.dir\build.make CMakeFiles/Acwing1012_SisterCity.dir/Acwing1012_SisterCity.cpp.i
+.PHONY : Acwing1012_SisterCity.cpp.i
+
+Acwing1012_SisterCity.s: Acwing1012_SisterCity.cpp.s
+
+.PHONY : Acwing1012_SisterCity.s
+
+# target to generate assembly for a file
+Acwing1012_SisterCity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity.dir\build.make CMakeFiles/Acwing1012_SisterCity.dir/Acwing1012_SisterCity.cpp.s
+.PHONY : Acwing1012_SisterCity.cpp.s
+
 Acwing172.obj: Acwing172.cpp.obj
 
 .PHONY : Acwing172.obj
@@ -336,6 +441,33 @@ Acwing172.s: Acwing172.cpp.s
 Acwing172.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/Acwing172.cpp.s
 .PHONY : Acwing172.cpp.s
+
+Acwing482_ChorusFormation.obj: Acwing482_ChorusFormation.cpp.obj
+
+.PHONY : Acwing482_ChorusFormation.obj
+
+# target to build an object file
+Acwing482_ChorusFormation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/Acwing482_ChorusFormation.cpp.obj
+.PHONY : Acwing482_ChorusFormation.cpp.obj
+
+Acwing482_ChorusFormation.i: Acwing482_ChorusFormation.cpp.i
+
+.PHONY : Acwing482_ChorusFormation.i
+
+# target to preprocess a source file
+Acwing482_ChorusFormation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/Acwing482_ChorusFormation.cpp.i
+.PHONY : Acwing482_ChorusFormation.cpp.i
+
+Acwing482_ChorusFormation.s: Acwing482_ChorusFormation.cpp.s
+
+.PHONY : Acwing482_ChorusFormation.s
+
+# target to generate assembly for a file
+Acwing482_ChorusFormation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/Acwing482_ChorusFormation.cpp.s
+.PHONY : Acwing482_ChorusFormation.cpp.s
 
 Acwing897_LongestCommonSubsequence_.obj: Acwing897_LongestCommonSubsequence_.cpp.obj
 
@@ -391,6 +523,60 @@ Acwing95.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/Acwing95.cpp.s
 .PHONY : Acwing95.cpp.s
 
+Acwing_1225RegularProblem.obj: Acwing_1225RegularProblem.cpp.obj
+
+.PHONY : Acwing_1225RegularProblem.obj
+
+# target to build an object file
+Acwing_1225RegularProblem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_1225RegularProblem.dir\build.make CMakeFiles/Acwing_1225RegularProblem.dir/Acwing_1225RegularProblem.cpp.obj
+.PHONY : Acwing_1225RegularProblem.cpp.obj
+
+Acwing_1225RegularProblem.i: Acwing_1225RegularProblem.cpp.i
+
+.PHONY : Acwing_1225RegularProblem.i
+
+# target to preprocess a source file
+Acwing_1225RegularProblem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_1225RegularProblem.dir\build.make CMakeFiles/Acwing_1225RegularProblem.dir/Acwing_1225RegularProblem.cpp.i
+.PHONY : Acwing_1225RegularProblem.cpp.i
+
+Acwing_1225RegularProblem.s: Acwing_1225RegularProblem.cpp.s
+
+.PHONY : Acwing_1225RegularProblem.s
+
+# target to generate assembly for a file
+Acwing_1225RegularProblem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_1225RegularProblem.dir\build.make CMakeFiles/Acwing_1225RegularProblem.dir/Acwing_1225RegularProblem.cpp.s
+.PHONY : Acwing_1225RegularProblem.cpp.s
+
+Acwing_3483PowerOfTwo.obj: Acwing_3483PowerOfTwo.cpp.obj
+
+.PHONY : Acwing_3483PowerOfTwo.obj
+
+# target to build an object file
+Acwing_3483PowerOfTwo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_3483PowerOfTwo.dir\build.make CMakeFiles/Acwing_3483PowerOfTwo.dir/Acwing_3483PowerOfTwo.cpp.obj
+.PHONY : Acwing_3483PowerOfTwo.cpp.obj
+
+Acwing_3483PowerOfTwo.i: Acwing_3483PowerOfTwo.cpp.i
+
+.PHONY : Acwing_3483PowerOfTwo.i
+
+# target to preprocess a source file
+Acwing_3483PowerOfTwo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_3483PowerOfTwo.dir\build.make CMakeFiles/Acwing_3483PowerOfTwo.dir/Acwing_3483PowerOfTwo.cpp.i
+.PHONY : Acwing_3483PowerOfTwo.cpp.i
+
+Acwing_3483PowerOfTwo.s: Acwing_3483PowerOfTwo.cpp.s
+
+.PHONY : Acwing_3483PowerOfTwo.s
+
+# target to generate assembly for a file
+Acwing_3483PowerOfTwo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_3483PowerOfTwo.dir\build.make CMakeFiles/Acwing_3483PowerOfTwo.dir/Acwing_3483PowerOfTwo.cpp.s
+.PHONY : Acwing_3483PowerOfTwo.cpp.s
+
 Acwung282_MergingOfStones.obj: Acwung282_MergingOfStones.cpp.obj
 
 .PHONY : Acwung282_MergingOfStones.obj
@@ -417,6 +603,33 @@ Acwung282_MergingOfStones.s: Acwung282_MergingOfStones.cpp.s
 Acwung282_MergingOfStones.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/Acwung282_MergingOfStones.cpp.s
 .PHONY : Acwung282_MergingOfStones.cpp.s
+
+BitOperationTest_.obj: BitOperationTest_.cpp.obj
+
+.PHONY : BitOperationTest_.obj
+
+# target to build an object file
+BitOperationTest_.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOperationTest.dir\build.make CMakeFiles/BitOperationTest.dir/BitOperationTest_.cpp.obj
+.PHONY : BitOperationTest_.cpp.obj
+
+BitOperationTest_.i: BitOperationTest_.cpp.i
+
+.PHONY : BitOperationTest_.i
+
+# target to preprocess a source file
+BitOperationTest_.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOperationTest.dir\build.make CMakeFiles/BitOperationTest.dir/BitOperationTest_.cpp.i
+.PHONY : BitOperationTest_.cpp.i
+
+BitOperationTest_.s: BitOperationTest_.cpp.s
+
+.PHONY : BitOperationTest_.s
+
+# target to generate assembly for a file
+BitOperationTest_.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOperationTest.dir\build.make CMakeFiles/BitOperationTest.dir/BitOperationTest_.cpp.s
+.PHONY : BitOperationTest_.cpp.s
 
 ExponentialEnumeration.obj: ExponentialEnumeration.cpp.obj
 
@@ -607,6 +820,33 @@ leetcode10.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/leetcode10.cpp.s
 .PHONY : leetcode10.cpp.s
 
+leetcode15_ThreeSum.obj: leetcode15_ThreeSum.cpp.obj
+
+.PHONY : leetcode15_ThreeSum.obj
+
+# target to build an object file
+leetcode15_ThreeSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode15_ThreeSum.dir\build.make CMakeFiles/leetcode15_ThreeSum.dir/leetcode15_ThreeSum.cpp.obj
+.PHONY : leetcode15_ThreeSum.cpp.obj
+
+leetcode15_ThreeSum.i: leetcode15_ThreeSum.cpp.i
+
+.PHONY : leetcode15_ThreeSum.i
+
+# target to preprocess a source file
+leetcode15_ThreeSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode15_ThreeSum.dir\build.make CMakeFiles/leetcode15_ThreeSum.dir/leetcode15_ThreeSum.cpp.i
+.PHONY : leetcode15_ThreeSum.cpp.i
+
+leetcode15_ThreeSum.s: leetcode15_ThreeSum.cpp.s
+
+.PHONY : leetcode15_ThreeSum.s
+
+# target to generate assembly for a file
+leetcode15_ThreeSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode15_ThreeSum.dir\build.make CMakeFiles/leetcode15_ThreeSum.dir/leetcode15_ThreeSum.cpp.s
+.PHONY : leetcode15_ThreeSum.cpp.s
+
 leetcode957PrisonAfterNDays.obj: leetcode957PrisonAfterNDays.cpp.obj
 
 .PHONY : leetcode957PrisonAfterNDays.obj
@@ -696,10 +936,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Acwing1012_SisterCity
 	@echo ... Acwing172
+	@echo ... Acwing482_ChorusFormation
 	@echo ... Acwing897_LongestCommonSubsequence
 	@echo ... Acwing95
+	@echo ... Acwing_1225RegularProblem
+	@echo ... Acwing_3483PowerOfTwo
 	@echo ... Acwung282_MergingOfStones
+	@echo ... BitOperationTest
 	@echo ... ExponentialEnumeration
 	@echo ... FIFO
 	@echo ... LongestAscendingSubsequence
@@ -707,21 +952,37 @@ help:
 	@echo ... PushTheThreeDimensionalBox
 	@echo ... dijkstraClass
 	@echo ... leetcode10
+	@echo ... leetcode15_ThreeSum
 	@echo ... leetcode957PrisonAfterNDays
 	@echo ... lut
 	@echo ... o1Bag
+	@echo ... Acwing1012_SisterCity.obj
+	@echo ... Acwing1012_SisterCity.i
+	@echo ... Acwing1012_SisterCity.s
 	@echo ... Acwing172.obj
 	@echo ... Acwing172.i
 	@echo ... Acwing172.s
+	@echo ... Acwing482_ChorusFormation.obj
+	@echo ... Acwing482_ChorusFormation.i
+	@echo ... Acwing482_ChorusFormation.s
 	@echo ... Acwing897_LongestCommonSubsequence_.obj
 	@echo ... Acwing897_LongestCommonSubsequence_.i
 	@echo ... Acwing897_LongestCommonSubsequence_.s
 	@echo ... Acwing95.obj
 	@echo ... Acwing95.i
 	@echo ... Acwing95.s
+	@echo ... Acwing_1225RegularProblem.obj
+	@echo ... Acwing_1225RegularProblem.i
+	@echo ... Acwing_1225RegularProblem.s
+	@echo ... Acwing_3483PowerOfTwo.obj
+	@echo ... Acwing_3483PowerOfTwo.i
+	@echo ... Acwing_3483PowerOfTwo.s
 	@echo ... Acwung282_MergingOfStones.obj
 	@echo ... Acwung282_MergingOfStones.i
 	@echo ... Acwung282_MergingOfStones.s
+	@echo ... BitOperationTest_.obj
+	@echo ... BitOperationTest_.i
+	@echo ... BitOperationTest_.s
 	@echo ... ExponentialEnumeration.obj
 	@echo ... ExponentialEnumeration.i
 	@echo ... ExponentialEnumeration.s
@@ -743,6 +1004,9 @@ help:
 	@echo ... leetcode10.obj
 	@echo ... leetcode10.i
 	@echo ... leetcode10.s
+	@echo ... leetcode15_ThreeSum.obj
+	@echo ... leetcode15_ThreeSum.i
+	@echo ... leetcode15_ThreeSum.s
 	@echo ... leetcode957PrisonAfterNDays.obj
 	@echo ... leetcode957PrisonAfterNDays.i
 	@echo ... leetcode957PrisonAfterNDays.s
