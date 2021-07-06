@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/cppCode/C++STL/Queue.cpp
+string
+E:/cppCode/C++STL/string
+queue
+E:/cppCode/C++STL/queue
+cstdlib
+E:/cppCode/C++STL/cstdlib
+cstring
+E:/cppCode/C++STL/cstring
+algorithm
+E:/cppCode/C++STL/algorithm
+iostream
+E:/cppCode/C++STL/iostream
+vector
+E:/cppCode/C++STL/vector
+
