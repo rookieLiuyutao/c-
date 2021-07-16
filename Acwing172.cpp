@@ -17,13 +17,13 @@ struct State {
 };
 
 
-int n, m;
+int n, pass;
 char g[N][N];
 int dist[N][N][3];
 
 
 bool check(int x, int y) {
-    if (x < 0 || x >= n || y < 0 || y >= m) return true;
+    if (x < 0 || x >= n || y < 0 || y >= pass) return true;
     return g[x][y] == '#';
 }
 
@@ -65,7 +65,7 @@ int bfs(State start, State end) {
     }
 
 //    for(int i = 0; i <n; i++) {
-//      for(int j = 0; j <m; j++) {
+//      for(int j = 0; j <pass; j++) {
 //        for(int k = 0; k <3; k++) {
 //          cout<<dist[k][j][k]<<" ";
 //        }
@@ -79,12 +79,12 @@ int bfs(State start, State end) {
 
 
 int main() {
-    while (scanf("%d%d", &n, &m), n || m) {
+    while (scanf("%d%d", &n, &pass), n || pass) {
         for (int i = 0; i < n; i++) scanf("%s", g[i]);
 
         State start = {-1}, end;
         for (int i = 0; i < n; i++)
-            for (int j = 0; j < m; j++)
+            for (int j = 0; j < pass; j++)
                 if (g[i][j] == 'X' && start.x == -1) {
                     if (g[i + 1][j] == 'X') start = {i, j, 2};
                     else if (g[i][j + 1] == 'X') start = {i, j, 1};

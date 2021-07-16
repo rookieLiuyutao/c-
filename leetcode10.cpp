@@ -13,7 +13,7 @@ bool isMatch(string s, string p) {
     int m = p.size();
     s = ' ' + s;
     p = ' ' + p;
-//    bool dp[n + 1][m + 1];
+//    bool dp[n + 1][pass + 1];
     vector<vector<bool>> dp(n+1,vector<bool>(m+1));
     dp[0][0] = true;
     for (int i = 0; i <= n; i++) {

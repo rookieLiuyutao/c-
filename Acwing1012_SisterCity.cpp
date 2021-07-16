@@ -4,36 +4,37 @@
  * https://www.luogu.com.cn/problem/P2782
  */
 
+
 #include "bits/stdc++.h"
-
 using namespace std;
+#define x first
+#define y second
+const int N = 5010;
+int n,s[N];
+pair<int ,int >c[N];
 
-const int N = 1010;
-int arr[N], save[N],  n;
-
-pair<int ,int >city[N];
-
-int main() {
-    cin >> n;
+int main(){
+    scanf("%d",&n);
     int res = 0;
-    for (int i = 0; i < n; i++) {
-        cin >> city[i].first>> city[i].second;
+    for(int i = 0; i <n; i++) {
+        scanf("%d%d",&c[i].x,&c[i].y);
     }
-    sort(city,city+n);
-
-    for (int i = 0; i < n; i++) {
-        int l = 0, r = res;
-        while (l < r) {
-            int mid = (l + r + 1) >> 1;
-            if (save[mid] < city[i].second) {
+    sort(c,c+n);
+    for(int i = 0; i <n; i++) {
+      int l = 0,r = res;
+        while (l<r){
+            int mid = (l+r+1)>>1;
+            if(s[mid]<c[i].y){
                 l = mid;
-            } else {
-                r = mid - 1;
+            } else{
+                r = mid-1;
             }
         }
-        save[l + 1] = city[i].second;
-        res = max(res, l + 1);
+        s[l+1] = c[i].y;
+        res = max(res,l+1);
     }
-    cout<<res<<endl;
-
+//    for(int i = 0; i <n; i++) {
+//      cout<<c[i].x<<' '<<c[i].y<<endl;
+//    }
+    printf("%d",res);
 }

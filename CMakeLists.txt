@@ -33,3 +33,18 @@ add_executable(BitOperationTest  "BitOperationTest .cpp")
 
 add_executable(Acwing_3483PowerOfTwo Acwing_3483PowerOfTwo.cpp)
 add_executable(Acwing_1225RegularProblem Acwing_1225RegularProblem.cpp)
+add_executable(ThreeKingdoms ThreeKingdoms.cpp)
+add_executable(ThreeKingdoms2 ThreeKingdoms2.cpp)
+add_executable(DigitalTriangle Acwing_898DigitalTriangle.cpp)
+add_executable(Acwing1015_PickPeanuts Acwing1015_PickPeanuts.cpp)
+
+add_executable(Acwing1018_MinimumToll Acwing1018_MinimumToll.cpp)
+add_executable(leetcode_5793NearestExit leetcode_5793NearestExit.cpp)
+add_executable(Acwing275_PassingANote Acwing275_PassingANote.cpp)
+add_executable(Acwing1016MaximumAscendingSubsequenceSum Acwing1016MaximumAscendingSubsequenceSum.cpp)
+add_executable(Acwing1010_MissileInterception Acwing1010_MissileInterception.cpp)
+
+add_executable(Acwing3607_PrintDate Acwing3607_PrintDate.cpp)
+add_executable(Acwing187_MissileDefenseSystem Acwing187_MissileDefenseSystem.cpp)
+add_executable(Acwing902_ShortestEditDistance  "Acwing902_ShortestEditDistance .cpp")
+add_executable(Acwing1012_SisterCity2 Acwing1012_SisterCity2.cpp)

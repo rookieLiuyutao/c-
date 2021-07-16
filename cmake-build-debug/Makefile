@@ -181,6 +181,32 @@ ExponentialEnumeration/fast:
 .PHONY : ExponentialEnumeration/fast
 
 #=============================================================================
+# Target rules for targets named Acwing902_ShortestEditDistance
+
+# Build rule for target.
+Acwing902_ShortestEditDistance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing902_ShortestEditDistance
+.PHONY : Acwing902_ShortestEditDistance
+
+# fast build rule for target.
+Acwing902_ShortestEditDistance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing902_ShortestEditDistance.dir\build.make CMakeFiles/Acwing902_ShortestEditDistance.dir/build
+.PHONY : Acwing902_ShortestEditDistance/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1010_MissileInterception
+
+# Build rule for target.
+Acwing1010_MissileInterception: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1010_MissileInterception
+.PHONY : Acwing1010_MissileInterception
+
+# fast build rule for target.
+Acwing1010_MissileInterception/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1010_MissileInterception.dir\build.make CMakeFiles/Acwing1010_MissileInterception.dir/build
+.PHONY : Acwing1010_MissileInterception/fast
+
+#=============================================================================
 # Target rules for targets named Acwing897_LongestCommonSubsequence
 
 # Build rule for target.
@@ -192,6 +218,19 @@ Acwing897_LongestCommonSubsequence: cmake_check_build_system
 Acwing897_LongestCommonSubsequence/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/build
 .PHONY : Acwing897_LongestCommonSubsequence/fast
+
+#=============================================================================
+# Target rules for targets named Acwing187_MissileDefenseSystem
+
+# Build rule for target.
+Acwing187_MissileDefenseSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing187_MissileDefenseSystem
+.PHONY : Acwing187_MissileDefenseSystem
+
+# fast build rule for target.
+Acwing187_MissileDefenseSystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/build
+.PHONY : Acwing187_MissileDefenseSystem/fast
 
 #=============================================================================
 # Target rules for targets named Acwing95
@@ -324,6 +363,19 @@ leetcode957PrisonAfterNDays/fast:
 .PHONY : leetcode957PrisonAfterNDays/fast
 
 #=============================================================================
+# Target rules for targets named Acwing275_PassingANote
+
+# Build rule for target.
+Acwing275_PassingANote: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing275_PassingANote
+.PHONY : Acwing275_PassingANote
+
+# fast build rule for target.
+Acwing275_PassingANote/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing275_PassingANote.dir\build.make CMakeFiles/Acwing275_PassingANote.dir/build
+.PHONY : Acwing275_PassingANote/fast
+
+#=============================================================================
 # Target rules for targets named leetcode10
 
 # Build rule for target.
@@ -363,6 +415,19 @@ BitOperationTest/fast:
 .PHONY : BitOperationTest/fast
 
 #=============================================================================
+# Target rules for targets named leetcode_5793NearestExit
+
+# Build rule for target.
+leetcode_5793NearestExit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 leetcode_5793NearestExit
+.PHONY : leetcode_5793NearestExit
+
+# fast build rule for target.
+leetcode_5793NearestExit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode_5793NearestExit.dir\build.make CMakeFiles/leetcode_5793NearestExit.dir/build
+.PHONY : leetcode_5793NearestExit/fast
+
+#=============================================================================
 # Target rules for targets named Acwing_3483PowerOfTwo
 
 # Build rule for target.
@@ -387,6 +452,137 @@ Acwing_1225RegularProblem: cmake_check_build_system
 Acwing_1225RegularProblem/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_1225RegularProblem.dir\build.make CMakeFiles/Acwing_1225RegularProblem.dir/build
 .PHONY : Acwing_1225RegularProblem/fast
+
+#=============================================================================
+# Target rules for targets named ThreeKingdoms2
+
+# Build rule for target.
+ThreeKingdoms2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ThreeKingdoms2
+.PHONY : ThreeKingdoms2
+
+# fast build rule for target.
+ThreeKingdoms2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms2.dir\build.make CMakeFiles/ThreeKingdoms2.dir/build
+.PHONY : ThreeKingdoms2/fast
+
+#=============================================================================
+# Target rules for targets named ThreeKingdoms
+
+# Build rule for target.
+ThreeKingdoms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ThreeKingdoms
+.PHONY : ThreeKingdoms
+
+# fast build rule for target.
+ThreeKingdoms/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms.dir\build.make CMakeFiles/ThreeKingdoms.dir/build
+.PHONY : ThreeKingdoms/fast
+
+#=============================================================================
+# Target rules for targets named DigitalTriangle
+
+# Build rule for target.
+DigitalTriangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DigitalTriangle
+.PHONY : DigitalTriangle
+
+# fast build rule for target.
+DigitalTriangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalTriangle.dir\build.make CMakeFiles/DigitalTriangle.dir/build
+.PHONY : DigitalTriangle/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1015_PickPeanuts
+
+# Build rule for target.
+Acwing1015_PickPeanuts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1015_PickPeanuts
+.PHONY : Acwing1015_PickPeanuts
+
+# fast build rule for target.
+Acwing1015_PickPeanuts/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1015_PickPeanuts.dir\build.make CMakeFiles/Acwing1015_PickPeanuts.dir/build
+.PHONY : Acwing1015_PickPeanuts/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1018_MinimumToll
+
+# Build rule for target.
+Acwing1018_MinimumToll: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1018_MinimumToll
+.PHONY : Acwing1018_MinimumToll
+
+# fast build rule for target.
+Acwing1018_MinimumToll/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1018_MinimumToll.dir\build.make CMakeFiles/Acwing1018_MinimumToll.dir/build
+.PHONY : Acwing1018_MinimumToll/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1016MaximumAscendingSubsequenceSum
+
+# Build rule for target.
+Acwing1016MaximumAscendingSubsequenceSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1016MaximumAscendingSubsequenceSum
+.PHONY : Acwing1016MaximumAscendingSubsequenceSum
+
+# fast build rule for target.
+Acwing1016MaximumAscendingSubsequenceSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1016MaximumAscendingSubsequenceSum.dir\build.make CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir/build
+.PHONY : Acwing1016MaximumAscendingSubsequenceSum/fast
+
+#=============================================================================
+# Target rules for targets named Acwing3607_PrintDate
+
+# Build rule for target.
+Acwing3607_PrintDate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing3607_PrintDate
+.PHONY : Acwing3607_PrintDate
+
+# fast build rule for target.
+Acwing3607_PrintDate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3607_PrintDate.dir\build.make CMakeFiles/Acwing3607_PrintDate.dir/build
+.PHONY : Acwing3607_PrintDate/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1012_SisterCity2
+
+# Build rule for target.
+Acwing1012_SisterCity2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1012_SisterCity2
+.PHONY : Acwing1012_SisterCity2
+
+# fast build rule for target.
+Acwing1012_SisterCity2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity2.dir\build.make CMakeFiles/Acwing1012_SisterCity2.dir/build
+.PHONY : Acwing1012_SisterCity2/fast
+
+Acwing1010_MissileInterception.obj: Acwing1010_MissileInterception.cpp.obj
+
+.PHONY : Acwing1010_MissileInterception.obj
+
+# target to build an object file
+Acwing1010_MissileInterception.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1010_MissileInterception.dir\build.make CMakeFiles/Acwing1010_MissileInterception.dir/Acwing1010_MissileInterception.cpp.obj
+.PHONY : Acwing1010_MissileInterception.cpp.obj
+
+Acwing1010_MissileInterception.i: Acwing1010_MissileInterception.cpp.i
+
+.PHONY : Acwing1010_MissileInterception.i
+
+# target to preprocess a source file
+Acwing1010_MissileInterception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1010_MissileInterception.dir\build.make CMakeFiles/Acwing1010_MissileInterception.dir/Acwing1010_MissileInterception.cpp.i
+.PHONY : Acwing1010_MissileInterception.cpp.i
+
+Acwing1010_MissileInterception.s: Acwing1010_MissileInterception.cpp.s
+
+.PHONY : Acwing1010_MissileInterception.s
+
+# target to generate assembly for a file
+Acwing1010_MissileInterception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1010_MissileInterception.dir\build.make CMakeFiles/Acwing1010_MissileInterception.dir/Acwing1010_MissileInterception.cpp.s
+.PHONY : Acwing1010_MissileInterception.cpp.s
 
 Acwing1012_SisterCity.obj: Acwing1012_SisterCity.cpp.obj
 
@@ -415,6 +611,114 @@ Acwing1012_SisterCity.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity.dir\build.make CMakeFiles/Acwing1012_SisterCity.dir/Acwing1012_SisterCity.cpp.s
 .PHONY : Acwing1012_SisterCity.cpp.s
 
+Acwing1012_SisterCity2.obj: Acwing1012_SisterCity2.cpp.obj
+
+.PHONY : Acwing1012_SisterCity2.obj
+
+# target to build an object file
+Acwing1012_SisterCity2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity2.dir\build.make CMakeFiles/Acwing1012_SisterCity2.dir/Acwing1012_SisterCity2.cpp.obj
+.PHONY : Acwing1012_SisterCity2.cpp.obj
+
+Acwing1012_SisterCity2.i: Acwing1012_SisterCity2.cpp.i
+
+.PHONY : Acwing1012_SisterCity2.i
+
+# target to preprocess a source file
+Acwing1012_SisterCity2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity2.dir\build.make CMakeFiles/Acwing1012_SisterCity2.dir/Acwing1012_SisterCity2.cpp.i
+.PHONY : Acwing1012_SisterCity2.cpp.i
+
+Acwing1012_SisterCity2.s: Acwing1012_SisterCity2.cpp.s
+
+.PHONY : Acwing1012_SisterCity2.s
+
+# target to generate assembly for a file
+Acwing1012_SisterCity2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity2.dir\build.make CMakeFiles/Acwing1012_SisterCity2.dir/Acwing1012_SisterCity2.cpp.s
+.PHONY : Acwing1012_SisterCity2.cpp.s
+
+Acwing1015_PickPeanuts.obj: Acwing1015_PickPeanuts.cpp.obj
+
+.PHONY : Acwing1015_PickPeanuts.obj
+
+# target to build an object file
+Acwing1015_PickPeanuts.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1015_PickPeanuts.dir\build.make CMakeFiles/Acwing1015_PickPeanuts.dir/Acwing1015_PickPeanuts.cpp.obj
+.PHONY : Acwing1015_PickPeanuts.cpp.obj
+
+Acwing1015_PickPeanuts.i: Acwing1015_PickPeanuts.cpp.i
+
+.PHONY : Acwing1015_PickPeanuts.i
+
+# target to preprocess a source file
+Acwing1015_PickPeanuts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1015_PickPeanuts.dir\build.make CMakeFiles/Acwing1015_PickPeanuts.dir/Acwing1015_PickPeanuts.cpp.i
+.PHONY : Acwing1015_PickPeanuts.cpp.i
+
+Acwing1015_PickPeanuts.s: Acwing1015_PickPeanuts.cpp.s
+
+.PHONY : Acwing1015_PickPeanuts.s
+
+# target to generate assembly for a file
+Acwing1015_PickPeanuts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1015_PickPeanuts.dir\build.make CMakeFiles/Acwing1015_PickPeanuts.dir/Acwing1015_PickPeanuts.cpp.s
+.PHONY : Acwing1015_PickPeanuts.cpp.s
+
+Acwing1016MaximumAscendingSubsequenceSum.obj: Acwing1016MaximumAscendingSubsequenceSum.cpp.obj
+
+.PHONY : Acwing1016MaximumAscendingSubsequenceSum.obj
+
+# target to build an object file
+Acwing1016MaximumAscendingSubsequenceSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1016MaximumAscendingSubsequenceSum.dir\build.make CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir/Acwing1016MaximumAscendingSubsequenceSum.cpp.obj
+.PHONY : Acwing1016MaximumAscendingSubsequenceSum.cpp.obj
+
+Acwing1016MaximumAscendingSubsequenceSum.i: Acwing1016MaximumAscendingSubsequenceSum.cpp.i
+
+.PHONY : Acwing1016MaximumAscendingSubsequenceSum.i
+
+# target to preprocess a source file
+Acwing1016MaximumAscendingSubsequenceSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1016MaximumAscendingSubsequenceSum.dir\build.make CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir/Acwing1016MaximumAscendingSubsequenceSum.cpp.i
+.PHONY : Acwing1016MaximumAscendingSubsequenceSum.cpp.i
+
+Acwing1016MaximumAscendingSubsequenceSum.s: Acwing1016MaximumAscendingSubsequenceSum.cpp.s
+
+.PHONY : Acwing1016MaximumAscendingSubsequenceSum.s
+
+# target to generate assembly for a file
+Acwing1016MaximumAscendingSubsequenceSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1016MaximumAscendingSubsequenceSum.dir\build.make CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir/Acwing1016MaximumAscendingSubsequenceSum.cpp.s
+.PHONY : Acwing1016MaximumAscendingSubsequenceSum.cpp.s
+
+Acwing1018_MinimumToll.obj: Acwing1018_MinimumToll.cpp.obj
+
+.PHONY : Acwing1018_MinimumToll.obj
+
+# target to build an object file
+Acwing1018_MinimumToll.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1018_MinimumToll.dir\build.make CMakeFiles/Acwing1018_MinimumToll.dir/Acwing1018_MinimumToll.cpp.obj
+.PHONY : Acwing1018_MinimumToll.cpp.obj
+
+Acwing1018_MinimumToll.i: Acwing1018_MinimumToll.cpp.i
+
+.PHONY : Acwing1018_MinimumToll.i
+
+# target to preprocess a source file
+Acwing1018_MinimumToll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1018_MinimumToll.dir\build.make CMakeFiles/Acwing1018_MinimumToll.dir/Acwing1018_MinimumToll.cpp.i
+.PHONY : Acwing1018_MinimumToll.cpp.i
+
+Acwing1018_MinimumToll.s: Acwing1018_MinimumToll.cpp.s
+
+.PHONY : Acwing1018_MinimumToll.s
+
+# target to generate assembly for a file
+Acwing1018_MinimumToll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1018_MinimumToll.dir\build.make CMakeFiles/Acwing1018_MinimumToll.dir/Acwing1018_MinimumToll.cpp.s
+.PHONY : Acwing1018_MinimumToll.cpp.s
+
 Acwing172.obj: Acwing172.cpp.obj
 
 .PHONY : Acwing172.obj
@@ -441,6 +745,87 @@ Acwing172.s: Acwing172.cpp.s
 Acwing172.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/Acwing172.cpp.s
 .PHONY : Acwing172.cpp.s
+
+Acwing187_MissileDefenseSystem.obj: Acwing187_MissileDefenseSystem.cpp.obj
+
+.PHONY : Acwing187_MissileDefenseSystem.obj
+
+# target to build an object file
+Acwing187_MissileDefenseSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/Acwing187_MissileDefenseSystem.cpp.obj
+.PHONY : Acwing187_MissileDefenseSystem.cpp.obj
+
+Acwing187_MissileDefenseSystem.i: Acwing187_MissileDefenseSystem.cpp.i
+
+.PHONY : Acwing187_MissileDefenseSystem.i
+
+# target to preprocess a source file
+Acwing187_MissileDefenseSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/Acwing187_MissileDefenseSystem.cpp.i
+.PHONY : Acwing187_MissileDefenseSystem.cpp.i
+
+Acwing187_MissileDefenseSystem.s: Acwing187_MissileDefenseSystem.cpp.s
+
+.PHONY : Acwing187_MissileDefenseSystem.s
+
+# target to generate assembly for a file
+Acwing187_MissileDefenseSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/Acwing187_MissileDefenseSystem.cpp.s
+.PHONY : Acwing187_MissileDefenseSystem.cpp.s
+
+Acwing275_PassingANote.obj: Acwing275_PassingANote.cpp.obj
+
+.PHONY : Acwing275_PassingANote.obj
+
+# target to build an object file
+Acwing275_PassingANote.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing275_PassingANote.dir\build.make CMakeFiles/Acwing275_PassingANote.dir/Acwing275_PassingANote.cpp.obj
+.PHONY : Acwing275_PassingANote.cpp.obj
+
+Acwing275_PassingANote.i: Acwing275_PassingANote.cpp.i
+
+.PHONY : Acwing275_PassingANote.i
+
+# target to preprocess a source file
+Acwing275_PassingANote.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing275_PassingANote.dir\build.make CMakeFiles/Acwing275_PassingANote.dir/Acwing275_PassingANote.cpp.i
+.PHONY : Acwing275_PassingANote.cpp.i
+
+Acwing275_PassingANote.s: Acwing275_PassingANote.cpp.s
+
+.PHONY : Acwing275_PassingANote.s
+
+# target to generate assembly for a file
+Acwing275_PassingANote.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing275_PassingANote.dir\build.make CMakeFiles/Acwing275_PassingANote.dir/Acwing275_PassingANote.cpp.s
+.PHONY : Acwing275_PassingANote.cpp.s
+
+Acwing3607_PrintDate.obj: Acwing3607_PrintDate.cpp.obj
+
+.PHONY : Acwing3607_PrintDate.obj
+
+# target to build an object file
+Acwing3607_PrintDate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3607_PrintDate.dir\build.make CMakeFiles/Acwing3607_PrintDate.dir/Acwing3607_PrintDate.cpp.obj
+.PHONY : Acwing3607_PrintDate.cpp.obj
+
+Acwing3607_PrintDate.i: Acwing3607_PrintDate.cpp.i
+
+.PHONY : Acwing3607_PrintDate.i
+
+# target to preprocess a source file
+Acwing3607_PrintDate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3607_PrintDate.dir\build.make CMakeFiles/Acwing3607_PrintDate.dir/Acwing3607_PrintDate.cpp.i
+.PHONY : Acwing3607_PrintDate.cpp.i
+
+Acwing3607_PrintDate.s: Acwing3607_PrintDate.cpp.s
+
+.PHONY : Acwing3607_PrintDate.s
+
+# target to generate assembly for a file
+Acwing3607_PrintDate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3607_PrintDate.dir\build.make CMakeFiles/Acwing3607_PrintDate.dir/Acwing3607_PrintDate.cpp.s
+.PHONY : Acwing3607_PrintDate.cpp.s
 
 Acwing482_ChorusFormation.obj: Acwing482_ChorusFormation.cpp.obj
 
@@ -495,6 +880,33 @@ Acwing897_LongestCommonSubsequence_.s: Acwing897_LongestCommonSubsequence_.cpp.s
 Acwing897_LongestCommonSubsequence_.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/Acwing897_LongestCommonSubsequence_.cpp.s
 .PHONY : Acwing897_LongestCommonSubsequence_.cpp.s
+
+Acwing902_ShortestEditDistance_.obj: Acwing902_ShortestEditDistance_.cpp.obj
+
+.PHONY : Acwing902_ShortestEditDistance_.obj
+
+# target to build an object file
+Acwing902_ShortestEditDistance_.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing902_ShortestEditDistance.dir\build.make CMakeFiles/Acwing902_ShortestEditDistance.dir/Acwing902_ShortestEditDistance_.cpp.obj
+.PHONY : Acwing902_ShortestEditDistance_.cpp.obj
+
+Acwing902_ShortestEditDistance_.i: Acwing902_ShortestEditDistance_.cpp.i
+
+.PHONY : Acwing902_ShortestEditDistance_.i
+
+# target to preprocess a source file
+Acwing902_ShortestEditDistance_.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing902_ShortestEditDistance.dir\build.make CMakeFiles/Acwing902_ShortestEditDistance.dir/Acwing902_ShortestEditDistance_.cpp.i
+.PHONY : Acwing902_ShortestEditDistance_.cpp.i
+
+Acwing902_ShortestEditDistance_.s: Acwing902_ShortestEditDistance_.cpp.s
+
+.PHONY : Acwing902_ShortestEditDistance_.s
+
+# target to generate assembly for a file
+Acwing902_ShortestEditDistance_.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing902_ShortestEditDistance.dir\build.make CMakeFiles/Acwing902_ShortestEditDistance.dir/Acwing902_ShortestEditDistance_.cpp.s
+.PHONY : Acwing902_ShortestEditDistance_.cpp.s
 
 Acwing95.obj: Acwing95.cpp.obj
 
@@ -576,6 +988,33 @@ Acwing_3483PowerOfTwo.s: Acwing_3483PowerOfTwo.cpp.s
 Acwing_3483PowerOfTwo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_3483PowerOfTwo.dir\build.make CMakeFiles/Acwing_3483PowerOfTwo.dir/Acwing_3483PowerOfTwo.cpp.s
 .PHONY : Acwing_3483PowerOfTwo.cpp.s
+
+Acwing_898DigitalTriangle.obj: Acwing_898DigitalTriangle.cpp.obj
+
+.PHONY : Acwing_898DigitalTriangle.obj
+
+# target to build an object file
+Acwing_898DigitalTriangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalTriangle.dir\build.make CMakeFiles/DigitalTriangle.dir/Acwing_898DigitalTriangle.cpp.obj
+.PHONY : Acwing_898DigitalTriangle.cpp.obj
+
+Acwing_898DigitalTriangle.i: Acwing_898DigitalTriangle.cpp.i
+
+.PHONY : Acwing_898DigitalTriangle.i
+
+# target to preprocess a source file
+Acwing_898DigitalTriangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalTriangle.dir\build.make CMakeFiles/DigitalTriangle.dir/Acwing_898DigitalTriangle.cpp.i
+.PHONY : Acwing_898DigitalTriangle.cpp.i
+
+Acwing_898DigitalTriangle.s: Acwing_898DigitalTriangle.cpp.s
+
+.PHONY : Acwing_898DigitalTriangle.s
+
+# target to generate assembly for a file
+Acwing_898DigitalTriangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalTriangle.dir\build.make CMakeFiles/DigitalTriangle.dir/Acwing_898DigitalTriangle.cpp.s
+.PHONY : Acwing_898DigitalTriangle.cpp.s
 
 Acwung282_MergingOfStones.obj: Acwung282_MergingOfStones.cpp.obj
 
@@ -766,6 +1205,60 @@ PushTheThreeDimensionalBox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushTheThreeDimensionalBox.dir\build.make CMakeFiles/PushTheThreeDimensionalBox.dir/PushTheThreeDimensionalBox.cpp.s
 .PHONY : PushTheThreeDimensionalBox.cpp.s
 
+ThreeKingdoms.obj: ThreeKingdoms.cpp.obj
+
+.PHONY : ThreeKingdoms.obj
+
+# target to build an object file
+ThreeKingdoms.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms.dir\build.make CMakeFiles/ThreeKingdoms.dir/ThreeKingdoms.cpp.obj
+.PHONY : ThreeKingdoms.cpp.obj
+
+ThreeKingdoms.i: ThreeKingdoms.cpp.i
+
+.PHONY : ThreeKingdoms.i
+
+# target to preprocess a source file
+ThreeKingdoms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms.dir\build.make CMakeFiles/ThreeKingdoms.dir/ThreeKingdoms.cpp.i
+.PHONY : ThreeKingdoms.cpp.i
+
+ThreeKingdoms.s: ThreeKingdoms.cpp.s
+
+.PHONY : ThreeKingdoms.s
+
+# target to generate assembly for a file
+ThreeKingdoms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms.dir\build.make CMakeFiles/ThreeKingdoms.dir/ThreeKingdoms.cpp.s
+.PHONY : ThreeKingdoms.cpp.s
+
+ThreeKingdoms2.obj: ThreeKingdoms2.cpp.obj
+
+.PHONY : ThreeKingdoms2.obj
+
+# target to build an object file
+ThreeKingdoms2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms2.dir\build.make CMakeFiles/ThreeKingdoms2.dir/ThreeKingdoms2.cpp.obj
+.PHONY : ThreeKingdoms2.cpp.obj
+
+ThreeKingdoms2.i: ThreeKingdoms2.cpp.i
+
+.PHONY : ThreeKingdoms2.i
+
+# target to preprocess a source file
+ThreeKingdoms2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms2.dir\build.make CMakeFiles/ThreeKingdoms2.dir/ThreeKingdoms2.cpp.i
+.PHONY : ThreeKingdoms2.cpp.i
+
+ThreeKingdoms2.s: ThreeKingdoms2.cpp.s
+
+.PHONY : ThreeKingdoms2.s
+
+# target to generate assembly for a file
+ThreeKingdoms2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms2.dir\build.make CMakeFiles/ThreeKingdoms2.dir/ThreeKingdoms2.cpp.s
+.PHONY : ThreeKingdoms2.cpp.s
+
 dijkstraClass.obj: dijkstraClass.cpp.obj
 
 .PHONY : dijkstraClass.obj
@@ -874,6 +1367,33 @@ leetcode957PrisonAfterNDays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/leetcode957PrisonAfterNDays.cpp.s
 .PHONY : leetcode957PrisonAfterNDays.cpp.s
 
+leetcode_5793NearestExit.obj: leetcode_5793NearestExit.cpp.obj
+
+.PHONY : leetcode_5793NearestExit.obj
+
+# target to build an object file
+leetcode_5793NearestExit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode_5793NearestExit.dir\build.make CMakeFiles/leetcode_5793NearestExit.dir/leetcode_5793NearestExit.cpp.obj
+.PHONY : leetcode_5793NearestExit.cpp.obj
+
+leetcode_5793NearestExit.i: leetcode_5793NearestExit.cpp.i
+
+.PHONY : leetcode_5793NearestExit.i
+
+# target to preprocess a source file
+leetcode_5793NearestExit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode_5793NearestExit.dir\build.make CMakeFiles/leetcode_5793NearestExit.dir/leetcode_5793NearestExit.cpp.i
+.PHONY : leetcode_5793NearestExit.cpp.i
+
+leetcode_5793NearestExit.s: leetcode_5793NearestExit.cpp.s
+
+.PHONY : leetcode_5793NearestExit.s
+
+# target to generate assembly for a file
+leetcode_5793NearestExit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode_5793NearestExit.dir\build.make CMakeFiles/leetcode_5793NearestExit.dir/leetcode_5793NearestExit.cpp.s
+.PHONY : leetcode_5793NearestExit.cpp.s
+
 lut.obj: lut.cpp.obj
 
 .PHONY : lut.obj
@@ -936,38 +1456,78 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Acwing1010_MissileInterception
 	@echo ... Acwing1012_SisterCity
+	@echo ... Acwing1012_SisterCity2
+	@echo ... Acwing1015_PickPeanuts
+	@echo ... Acwing1016MaximumAscendingSubsequenceSum
+	@echo ... Acwing1018_MinimumToll
 	@echo ... Acwing172
+	@echo ... Acwing187_MissileDefenseSystem
+	@echo ... Acwing275_PassingANote
+	@echo ... Acwing3607_PrintDate
 	@echo ... Acwing482_ChorusFormation
 	@echo ... Acwing897_LongestCommonSubsequence
+	@echo ... Acwing902_ShortestEditDistance
 	@echo ... Acwing95
 	@echo ... Acwing_1225RegularProblem
 	@echo ... Acwing_3483PowerOfTwo
 	@echo ... Acwung282_MergingOfStones
 	@echo ... BitOperationTest
+	@echo ... DigitalTriangle
 	@echo ... ExponentialEnumeration
 	@echo ... FIFO
 	@echo ... LongestAscendingSubsequence
 	@echo ... MyAtoi
 	@echo ... PushTheThreeDimensionalBox
+	@echo ... ThreeKingdoms
+	@echo ... ThreeKingdoms2
 	@echo ... dijkstraClass
 	@echo ... leetcode10
 	@echo ... leetcode15_ThreeSum
 	@echo ... leetcode957PrisonAfterNDays
+	@echo ... leetcode_5793NearestExit
 	@echo ... lut
 	@echo ... o1Bag
+	@echo ... Acwing1010_MissileInterception.obj
+	@echo ... Acwing1010_MissileInterception.i
+	@echo ... Acwing1010_MissileInterception.s
 	@echo ... Acwing1012_SisterCity.obj
 	@echo ... Acwing1012_SisterCity.i
 	@echo ... Acwing1012_SisterCity.s
+	@echo ... Acwing1012_SisterCity2.obj
+	@echo ... Acwing1012_SisterCity2.i
+	@echo ... Acwing1012_SisterCity2.s
+	@echo ... Acwing1015_PickPeanuts.obj
+	@echo ... Acwing1015_PickPeanuts.i
+	@echo ... Acwing1015_PickPeanuts.s
+	@echo ... Acwing1016MaximumAscendingSubsequenceSum.obj
+	@echo ... Acwing1016MaximumAscendingSubsequenceSum.i
+	@echo ... Acwing1016MaximumAscendingSubsequenceSum.s
+	@echo ... Acwing1018_MinimumToll.obj
+	@echo ... Acwing1018_MinimumToll.i
+	@echo ... Acwing1018_MinimumToll.s
 	@echo ... Acwing172.obj
 	@echo ... Acwing172.i
 	@echo ... Acwing172.s
+	@echo ... Acwing187_MissileDefenseSystem.obj
+	@echo ... Acwing187_MissileDefenseSystem.i
+	@echo ... Acwing187_MissileDefenseSystem.s
+	@echo ... Acwing275_PassingANote.obj
+	@echo ... Acwing275_PassingANote.i
+	@echo ... Acwing275_PassingANote.s
+	@echo ... Acwing3607_PrintDate.obj
+	@echo ... Acwing3607_PrintDate.i
+	@echo ... Acwing3607_PrintDate.s
 	@echo ... Acwing482_ChorusFormation.obj
 	@echo ... Acwing482_ChorusFormation.i
 	@echo ... Acwing482_ChorusFormation.s
 	@echo ... Acwing897_LongestCommonSubsequence_.obj
 	@echo ... Acwing897_LongestCommonSubsequence_.i
 	@echo ... Acwing897_LongestCommonSubsequence_.s
+	@echo ... Acwing902_ShortestEditDistance_.obj
+	@echo ... Acwing902_ShortestEditDistance_.i
+	@echo ... Acwing902_ShortestEditDistance_.s
 	@echo ... Acwing95.obj
 	@echo ... Acwing95.i
 	@echo ... Acwing95.s
@@ -977,6 +1537,9 @@ help:
 	@echo ... Acwing_3483PowerOfTwo.obj
 	@echo ... Acwing_3483PowerOfTwo.i
 	@echo ... Acwing_3483PowerOfTwo.s
+	@echo ... Acwing_898DigitalTriangle.obj
+	@echo ... Acwing_898DigitalTriangle.i
+	@echo ... Acwing_898DigitalTriangle.s
 	@echo ... Acwung282_MergingOfStones.obj
 	@echo ... Acwung282_MergingOfStones.i
 	@echo ... Acwung282_MergingOfStones.s
@@ -998,6 +1561,12 @@ help:
 	@echo ... PushTheThreeDimensionalBox.obj
 	@echo ... PushTheThreeDimensionalBox.i
 	@echo ... PushTheThreeDimensionalBox.s
+	@echo ... ThreeKingdoms.obj
+	@echo ... ThreeKingdoms.i
+	@echo ... ThreeKingdoms.s
+	@echo ... ThreeKingdoms2.obj
+	@echo ... ThreeKingdoms2.i
+	@echo ... ThreeKingdoms2.s
 	@echo ... dijkstraClass.obj
 	@echo ... dijkstraClass.i
 	@echo ... dijkstraClass.s
@@ -1010,6 +1579,9 @@ help:
 	@echo ... leetcode957PrisonAfterNDays.obj
 	@echo ... leetcode957PrisonAfterNDays.i
 	@echo ... leetcode957PrisonAfterNDays.s
+	@echo ... leetcode_5793NearestExit.obj
+	@echo ... leetcode_5793NearestExit.i
+	@echo ... leetcode_5793NearestExit.s
 	@echo ... lut.obj
 	@echo ... lut.i
 	@echo ... lut.s
