@@ -33,3 +33,6 @@ E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing3607_PrintDate.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1012_SisterCity2.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1024_PackingProblem.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1022_PokemonSReception.dir

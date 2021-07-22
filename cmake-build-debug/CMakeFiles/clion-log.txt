@@ -5,6 +5,9 @@
     -- src/Acwing1015_PickPeanuts.cpp will be compiled to bin/Acwing1015_PickPeanuts
     -- src/Acwing1016MaximumAscendingSubsequenceSum.cpp will be compiled to bin/Acwing1016MaximumAscendingSubsequenceSum
     -- src/Acwing1018_MinimumToll.cpp will be compiled to bin/Acwing1018_MinimumToll
+    -- src/Acwing1022_PokemonSReception.cpp will be compiled to bin/Acwing1022_PokemonSReception
+    -- src/Acwing1024_PackingProblem.cpp will be compiled to bin/Acwing1024_PackingProblem
+    -- src/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp will be compiled to bin/Acwing11_KnapsackProblemForTheNumberOfSolutions
     -- src/Acwing172.cpp will be compiled to bin/Acwing172
     -- src/Acwing187_MissileDefenseSystem.cpp will be compiled to bin/Acwing187_MissileDefenseSystem
     -- src/Acwing275_PassingANote.cpp will be compiled to bin/Acwing275_PassingANote
@@ -16,6 +19,7 @@
     -- src/Acwing_1225RegularProblem.cpp will be compiled to bin/Acwing_1225RegularProblem
     -- src/Acwing_3483PowerOfTwo.cpp will be compiled to bin/Acwing_3483PowerOfTwo
     -- src/Acwing_898DigitalTriangle.cpp will be compiled to bin/Acwing_898DigitalTriangle
+    -- src/Acwing_899EditDistance.cpp will be compiled to bin/Acwing_899EditDistance
     -- src/Acwung282_MergingOfStones.cpp will be compiled to bin/Acwung282_MergingOfStones
     -- src/BitOperationTest .cpp will be compiled to bin/BitOperationTest 
     -- src/Queue.cpp will be compiled to bin/Queue

@@ -66,8 +66,8 @@ int bfs(State start, State end) {
 
 //    for(int i = 0; i <n; i++) {
 //      for(int j = 0; j <pass; j++) {
-//        for(int k = 0; k <3; k++) {
-//          cout<<dist[k][j][k]<<" ";
+//        for(int m = 0; m <3; m++) {
+//          cout<<dist[m][j][m]<<" ";
 //        }
 //          puts("");
 //      }

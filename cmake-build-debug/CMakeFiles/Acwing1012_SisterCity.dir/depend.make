@@ -3,5 +3,3 @@
 
 CMakeFiles/Acwing1012_SisterCity.dir/Acwing1012_SisterCity.cpp.obj: ../Acwing1012_SisterCity.cpp
 
-CMakeFiles/Acwing1012_SisterCity.dir/leetcode15_ThreeSum.cpp.obj: ../leetcode15_ThreeSum.cpp
-

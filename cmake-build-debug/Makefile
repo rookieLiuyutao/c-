@@ -557,6 +557,45 @@ Acwing1012_SisterCity2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity2.dir\build.make CMakeFiles/Acwing1012_SisterCity2.dir/build
 .PHONY : Acwing1012_SisterCity2/fast
 
+#=============================================================================
+# Target rules for targets named Acwing11_KnapsackProblemForTheNumberOfSolutions
+
+# Build rule for target.
+Acwing11_KnapsackProblemForTheNumberOfSolutions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing11_KnapsackProblemForTheNumberOfSolutions
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions
+
+# fast build rule for target.
+Acwing11_KnapsackProblemForTheNumberOfSolutions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/build
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1024_PackingProblem
+
+# Build rule for target.
+Acwing1024_PackingProblem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1024_PackingProblem
+.PHONY : Acwing1024_PackingProblem
+
+# fast build rule for target.
+Acwing1024_PackingProblem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/build
+.PHONY : Acwing1024_PackingProblem/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1022_PokemonSReception
+
+# Build rule for target.
+Acwing1022_PokemonSReception: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1022_PokemonSReception
+.PHONY : Acwing1022_PokemonSReception
+
+# fast build rule for target.
+Acwing1022_PokemonSReception/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/build
+.PHONY : Acwing1022_PokemonSReception/fast
+
 Acwing1010_MissileInterception.obj: Acwing1010_MissileInterception.cpp.obj
 
 .PHONY : Acwing1010_MissileInterception.obj
@@ -718,6 +757,87 @@ Acwing1018_MinimumToll.s: Acwing1018_MinimumToll.cpp.s
 Acwing1018_MinimumToll.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1018_MinimumToll.dir\build.make CMakeFiles/Acwing1018_MinimumToll.dir/Acwing1018_MinimumToll.cpp.s
 .PHONY : Acwing1018_MinimumToll.cpp.s
+
+Acwing1022_PokemonSReception.obj: Acwing1022_PokemonSReception.cpp.obj
+
+.PHONY : Acwing1022_PokemonSReception.obj
+
+# target to build an object file
+Acwing1022_PokemonSReception.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/Acwing1022_PokemonSReception.cpp.obj
+.PHONY : Acwing1022_PokemonSReception.cpp.obj
+
+Acwing1022_PokemonSReception.i: Acwing1022_PokemonSReception.cpp.i
+
+.PHONY : Acwing1022_PokemonSReception.i
+
+# target to preprocess a source file
+Acwing1022_PokemonSReception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/Acwing1022_PokemonSReception.cpp.i
+.PHONY : Acwing1022_PokemonSReception.cpp.i
+
+Acwing1022_PokemonSReception.s: Acwing1022_PokemonSReception.cpp.s
+
+.PHONY : Acwing1022_PokemonSReception.s
+
+# target to generate assembly for a file
+Acwing1022_PokemonSReception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/Acwing1022_PokemonSReception.cpp.s
+.PHONY : Acwing1022_PokemonSReception.cpp.s
+
+Acwing1024_PackingProblem.obj: Acwing1024_PackingProblem.cpp.obj
+
+.PHONY : Acwing1024_PackingProblem.obj
+
+# target to build an object file
+Acwing1024_PackingProblem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/Acwing1024_PackingProblem.cpp.obj
+.PHONY : Acwing1024_PackingProblem.cpp.obj
+
+Acwing1024_PackingProblem.i: Acwing1024_PackingProblem.cpp.i
+
+.PHONY : Acwing1024_PackingProblem.i
+
+# target to preprocess a source file
+Acwing1024_PackingProblem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/Acwing1024_PackingProblem.cpp.i
+.PHONY : Acwing1024_PackingProblem.cpp.i
+
+Acwing1024_PackingProblem.s: Acwing1024_PackingProblem.cpp.s
+
+.PHONY : Acwing1024_PackingProblem.s
+
+# target to generate assembly for a file
+Acwing1024_PackingProblem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/Acwing1024_PackingProblem.cpp.s
+.PHONY : Acwing1024_PackingProblem.cpp.s
+
+Acwing11_KnapsackProblemForTheNumberOfSolutions.obj: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
+
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.obj
+
+# target to build an object file
+Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
+
+Acwing11_KnapsackProblemForTheNumberOfSolutions.i: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
+
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.i
+
+# target to preprocess a source file
+Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
+
+Acwing11_KnapsackProblemForTheNumberOfSolutions.s: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
+
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.s
+
+# target to generate assembly for a file
+Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
 
 Acwing172.obj: Acwing172.cpp.obj
 
@@ -1462,6 +1582,9 @@ help:
 	@echo ... Acwing1015_PickPeanuts
 	@echo ... Acwing1016MaximumAscendingSubsequenceSum
 	@echo ... Acwing1018_MinimumToll
+	@echo ... Acwing1022_PokemonSReception
+	@echo ... Acwing1024_PackingProblem
+	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions
 	@echo ... Acwing172
 	@echo ... Acwing187_MissileDefenseSystem
 	@echo ... Acwing275_PassingANote
@@ -1507,6 +1630,15 @@ help:
 	@echo ... Acwing1018_MinimumToll.obj
 	@echo ... Acwing1018_MinimumToll.i
 	@echo ... Acwing1018_MinimumToll.s
+	@echo ... Acwing1022_PokemonSReception.obj
+	@echo ... Acwing1022_PokemonSReception.i
+	@echo ... Acwing1022_PokemonSReception.s
+	@echo ... Acwing1024_PackingProblem.obj
+	@echo ... Acwing1024_PackingProblem.i
+	@echo ... Acwing1024_PackingProblem.s
+	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.obj
+	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.i
+	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.s
 	@echo ... Acwing172.obj
 	@echo ... Acwing172.i
 	@echo ... Acwing172.s

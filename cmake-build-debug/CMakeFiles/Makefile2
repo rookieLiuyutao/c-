@@ -104,6 +104,9 @@ all: CMakeFiles/Acwing1018_MinimumToll.dir/all
 all: CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir/all
 all: CMakeFiles/Acwing3607_PrintDate.dir/all
 all: CMakeFiles/Acwing1012_SisterCity2.dir/all
+all: CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/all
+all: CMakeFiles/Acwing1024_PackingProblem.dir/all
+all: CMakeFiles/Acwing1022_PokemonSReception.dir/all
 
 .PHONY : all
 
@@ -146,6 +149,9 @@ clean: CMakeFiles/Acwing1018_MinimumToll.dir/clean
 clean: CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir/clean
 clean: CMakeFiles/Acwing3607_PrintDate.dir/clean
 clean: CMakeFiles/Acwing1012_SisterCity2.dir/clean
+clean: CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/clean
+clean: CMakeFiles/Acwing1024_PackingProblem.dir/clean
+clean: CMakeFiles/Acwing1022_PokemonSReception.dir/clean
 
 .PHONY : clean
 
@@ -156,7 +162,7 @@ clean: CMakeFiles/Acwing1012_SisterCity2.dir/clean
 CMakeFiles/dijkstraClass.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstraClass.dir\build.make CMakeFiles/dijkstraClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target dijkstraClass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target dijkstraClass"
 .PHONY : CMakeFiles/dijkstraClass.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,7 +189,7 @@ CMakeFiles/dijkstraClass.dir/clean:
 CMakeFiles/Acwung282_MergingOfStones.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target Acwung282_MergingOfStones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Acwung282_MergingOfStones"
 .PHONY : CMakeFiles/Acwung282_MergingOfStones.dir/all
 
 # Build rule for subdir invocation for target.
@@ -210,7 +216,7 @@ CMakeFiles/Acwung282_MergingOfStones.dir/clean:
 CMakeFiles/FIFO.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FIFO.dir\build.make CMakeFiles/FIFO.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FIFO.dir\build.make CMakeFiles/FIFO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target FIFO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target FIFO"
 .PHONY : CMakeFiles/FIFO.dir/all
 
 # Build rule for subdir invocation for target.
@@ -237,7 +243,7 @@ CMakeFiles/FIFO.dir/clean:
 CMakeFiles/ExponentialEnumeration.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialEnumeration.dir\build.make CMakeFiles/ExponentialEnumeration.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialEnumeration.dir\build.make CMakeFiles/ExponentialEnumeration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target ExponentialEnumeration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target ExponentialEnumeration"
 .PHONY : CMakeFiles/ExponentialEnumeration.dir/all
 
 # Build rule for subdir invocation for target.
@@ -264,7 +270,7 @@ CMakeFiles/ExponentialEnumeration.dir/clean:
 CMakeFiles/Acwing902_ShortestEditDistance.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing902_ShortestEditDistance.dir\build.make CMakeFiles/Acwing902_ShortestEditDistance.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing902_ShortestEditDistance.dir\build.make CMakeFiles/Acwing902_ShortestEditDistance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target Acwing902_ShortestEditDistance"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target Acwing902_ShortestEditDistance"
 .PHONY : CMakeFiles/Acwing902_ShortestEditDistance.dir/all
 
 # Build rule for subdir invocation for target.
@@ -318,7 +324,7 @@ CMakeFiles/Acwing1010_MissileInterception.dir/clean:
 CMakeFiles/Acwing897_LongestCommonSubsequence.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Acwing897_LongestCommonSubsequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target Acwing897_LongestCommonSubsequence"
 .PHONY : CMakeFiles/Acwing897_LongestCommonSubsequence.dir/all
 
 # Build rule for subdir invocation for target.
@@ -345,7 +351,7 @@ CMakeFiles/Acwing897_LongestCommonSubsequence.dir/clean:
 CMakeFiles/Acwing187_MissileDefenseSystem.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Acwing187_MissileDefenseSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Acwing187_MissileDefenseSystem"
 .PHONY : CMakeFiles/Acwing187_MissileDefenseSystem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -372,7 +378,7 @@ CMakeFiles/Acwing187_MissileDefenseSystem.dir/clean:
 CMakeFiles/Acwing95.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target Acwing95"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target Acwing95"
 .PHONY : CMakeFiles/Acwing95.dir/all
 
 # Build rule for subdir invocation for target.
@@ -399,7 +405,7 @@ CMakeFiles/Acwing95.dir/clean:
 CMakeFiles/Acwing172.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Acwing172"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Acwing172"
 .PHONY : CMakeFiles/Acwing172.dir/all
 
 # Build rule for subdir invocation for target.
@@ -426,7 +432,7 @@ CMakeFiles/Acwing172.dir/clean:
 CMakeFiles/leetcode15_ThreeSum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode15_ThreeSum.dir\build.make CMakeFiles/leetcode15_ThreeSum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode15_ThreeSum.dir\build.make CMakeFiles/leetcode15_ThreeSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target leetcode15_ThreeSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target leetcode15_ThreeSum"
 .PHONY : CMakeFiles/leetcode15_ThreeSum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -453,7 +459,7 @@ CMakeFiles/leetcode15_ThreeSum.dir/clean:
 CMakeFiles/PushTheThreeDimensionalBox.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushTheThreeDimensionalBox.dir\build.make CMakeFiles/PushTheThreeDimensionalBox.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PushTheThreeDimensionalBox.dir\build.make CMakeFiles/PushTheThreeDimensionalBox.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target PushTheThreeDimensionalBox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target PushTheThreeDimensionalBox"
 .PHONY : CMakeFiles/PushTheThreeDimensionalBox.dir/all
 
 # Build rule for subdir invocation for target.
@@ -480,7 +486,7 @@ CMakeFiles/PushTheThreeDimensionalBox.dir/clean:
 CMakeFiles/o1Bag.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\o1Bag.dir\build.make CMakeFiles/o1Bag.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\o1Bag.dir\build.make CMakeFiles/o1Bag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target o1Bag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target o1Bag"
 .PHONY : CMakeFiles/o1Bag.dir/all
 
 # Build rule for subdir invocation for target.
@@ -507,7 +513,7 @@ CMakeFiles/o1Bag.dir/clean:
 CMakeFiles/MyAtoi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyAtoi.dir\build.make CMakeFiles/MyAtoi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MyAtoi.dir\build.make CMakeFiles/MyAtoi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target MyAtoi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target MyAtoi"
 .PHONY : CMakeFiles/MyAtoi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -561,7 +567,7 @@ CMakeFiles/Acwing1012_SisterCity.dir/clean:
 CMakeFiles/lut.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lut.dir\build.make CMakeFiles/lut.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lut.dir\build.make CMakeFiles/lut.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target lut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target lut"
 .PHONY : CMakeFiles/lut.dir/all
 
 # Build rule for subdir invocation for target.
@@ -588,7 +594,7 @@ CMakeFiles/lut.dir/clean:
 CMakeFiles/LongestAscendingSubsequence.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LongestAscendingSubsequence.dir\build.make CMakeFiles/LongestAscendingSubsequence.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LongestAscendingSubsequence.dir\build.make CMakeFiles/LongestAscendingSubsequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target LongestAscendingSubsequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target LongestAscendingSubsequence"
 .PHONY : CMakeFiles/LongestAscendingSubsequence.dir/all
 
 # Build rule for subdir invocation for target.
@@ -615,7 +621,7 @@ CMakeFiles/LongestAscendingSubsequence.dir/clean:
 CMakeFiles/leetcode957PrisonAfterNDays.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode957PrisonAfterNDays.dir\build.make CMakeFiles/leetcode957PrisonAfterNDays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target leetcode957PrisonAfterNDays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target leetcode957PrisonAfterNDays"
 .PHONY : CMakeFiles/leetcode957PrisonAfterNDays.dir/all
 
 # Build rule for subdir invocation for target.
@@ -642,7 +648,7 @@ CMakeFiles/leetcode957PrisonAfterNDays.dir/clean:
 CMakeFiles/Acwing275_PassingANote.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing275_PassingANote.dir\build.make CMakeFiles/Acwing275_PassingANote.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing275_PassingANote.dir\build.make CMakeFiles/Acwing275_PassingANote.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target Acwing275_PassingANote"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Acwing275_PassingANote"
 .PHONY : CMakeFiles/Acwing275_PassingANote.dir/all
 
 # Build rule for subdir invocation for target.
@@ -669,7 +675,7 @@ CMakeFiles/Acwing275_PassingANote.dir/clean:
 CMakeFiles/leetcode10.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target leetcode10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target leetcode10"
 .PHONY : CMakeFiles/leetcode10.dir/all
 
 # Build rule for subdir invocation for target.
@@ -696,7 +702,7 @@ CMakeFiles/leetcode10.dir/clean:
 CMakeFiles/Acwing482_ChorusFormation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Acwing482_ChorusFormation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target Acwing482_ChorusFormation"
 .PHONY : CMakeFiles/Acwing482_ChorusFormation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -723,7 +729,7 @@ CMakeFiles/Acwing482_ChorusFormation.dir/clean:
 CMakeFiles/BitOperationTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOperationTest.dir\build.make CMakeFiles/BitOperationTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOperationTest.dir\build.make CMakeFiles/BitOperationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target BitOperationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target BitOperationTest"
 .PHONY : CMakeFiles/BitOperationTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -750,7 +756,7 @@ CMakeFiles/BitOperationTest.dir/clean:
 CMakeFiles/leetcode_5793NearestExit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode_5793NearestExit.dir\build.make CMakeFiles/leetcode_5793NearestExit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode_5793NearestExit.dir\build.make CMakeFiles/leetcode_5793NearestExit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target leetcode_5793NearestExit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target leetcode_5793NearestExit"
 .PHONY : CMakeFiles/leetcode_5793NearestExit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -777,7 +783,7 @@ CMakeFiles/leetcode_5793NearestExit.dir/clean:
 CMakeFiles/Acwing_3483PowerOfTwo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_3483PowerOfTwo.dir\build.make CMakeFiles/Acwing_3483PowerOfTwo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_3483PowerOfTwo.dir\build.make CMakeFiles/Acwing_3483PowerOfTwo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target Acwing_3483PowerOfTwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Acwing_3483PowerOfTwo"
 .PHONY : CMakeFiles/Acwing_3483PowerOfTwo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -804,7 +810,7 @@ CMakeFiles/Acwing_3483PowerOfTwo.dir/clean:
 CMakeFiles/Acwing_1225RegularProblem.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_1225RegularProblem.dir\build.make CMakeFiles/Acwing_1225RegularProblem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing_1225RegularProblem.dir\build.make CMakeFiles/Acwing_1225RegularProblem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target Acwing_1225RegularProblem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Acwing_1225RegularProblem"
 .PHONY : CMakeFiles/Acwing_1225RegularProblem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -831,7 +837,7 @@ CMakeFiles/Acwing_1225RegularProblem.dir/clean:
 CMakeFiles/ThreeKingdoms2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms2.dir\build.make CMakeFiles/ThreeKingdoms2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms2.dir\build.make CMakeFiles/ThreeKingdoms2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target ThreeKingdoms2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target ThreeKingdoms2"
 .PHONY : CMakeFiles/ThreeKingdoms2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -858,7 +864,7 @@ CMakeFiles/ThreeKingdoms2.dir/clean:
 CMakeFiles/ThreeKingdoms.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms.dir\build.make CMakeFiles/ThreeKingdoms.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms.dir\build.make CMakeFiles/ThreeKingdoms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target ThreeKingdoms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target ThreeKingdoms"
 .PHONY : CMakeFiles/ThreeKingdoms.dir/all
 
 # Build rule for subdir invocation for target.
@@ -885,7 +891,7 @@ CMakeFiles/ThreeKingdoms.dir/clean:
 CMakeFiles/DigitalTriangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalTriangle.dir\build.make CMakeFiles/DigitalTriangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DigitalTriangle.dir\build.make CMakeFiles/DigitalTriangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target DigitalTriangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target DigitalTriangle"
 .PHONY : CMakeFiles/DigitalTriangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -993,7 +999,7 @@ CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir/clean:
 CMakeFiles/Acwing3607_PrintDate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3607_PrintDate.dir\build.make CMakeFiles/Acwing3607_PrintDate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3607_PrintDate.dir\build.make CMakeFiles/Acwing3607_PrintDate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target Acwing3607_PrintDate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target Acwing3607_PrintDate"
 .PHONY : CMakeFiles/Acwing3607_PrintDate.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1039,6 +1045,87 @@ Acwing1012_SisterCity2: CMakeFiles/Acwing1012_SisterCity2.dir/rule
 CMakeFiles/Acwing1012_SisterCity2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity2.dir\build.make CMakeFiles/Acwing1012_SisterCity2.dir/clean
 .PHONY : CMakeFiles/Acwing1012_SisterCity2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir
+
+# All Build rule for target.
+CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target Acwing11_KnapsackProblemForTheNumberOfSolutions"
+.PHONY : CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/rule
+
+# Convenience name for target.
+Acwing11_KnapsackProblemForTheNumberOfSolutions: CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/rule
+
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions
+
+# clean rule for target.
+CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/clean
+.PHONY : CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Acwing1024_PackingProblem.dir
+
+# All Build rule for target.
+CMakeFiles/Acwing1024_PackingProblem.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Acwing1024_PackingProblem"
+.PHONY : CMakeFiles/Acwing1024_PackingProblem.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Acwing1024_PackingProblem.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Acwing1024_PackingProblem.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Acwing1024_PackingProblem.dir/rule
+
+# Convenience name for target.
+Acwing1024_PackingProblem: CMakeFiles/Acwing1024_PackingProblem.dir/rule
+
+.PHONY : Acwing1024_PackingProblem
+
+# clean rule for target.
+CMakeFiles/Acwing1024_PackingProblem.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/clean
+.PHONY : CMakeFiles/Acwing1024_PackingProblem.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Acwing1022_PokemonSReception.dir
+
+# All Build rule for target.
+CMakeFiles/Acwing1022_PokemonSReception.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cppCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Acwing1022_PokemonSReception"
+.PHONY : CMakeFiles/Acwing1022_PokemonSReception.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Acwing1022_PokemonSReception.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cppCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Acwing1022_PokemonSReception.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cppCode\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Acwing1022_PokemonSReception.dir/rule
+
+# Convenience name for target.
+Acwing1022_PokemonSReception: CMakeFiles/Acwing1022_PokemonSReception.dir/rule
+
+.PHONY : Acwing1022_PokemonSReception
+
+# clean rule for target.
+CMakeFiles/Acwing1022_PokemonSReception.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/clean
+.PHONY : CMakeFiles/Acwing1022_PokemonSReception.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

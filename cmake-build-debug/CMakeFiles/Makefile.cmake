@@ -84,4 +84,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir/DependInfo.cmake"
   "CMakeFiles/Acwing3607_PrintDate.dir/DependInfo.cmake"
   "CMakeFiles/Acwing1012_SisterCity2.dir/DependInfo.cmake"
+  "CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/DependInfo.cmake"
+  "CMakeFiles/Acwing1024_PackingProblem.dir/DependInfo.cmake"
+  "CMakeFiles/Acwing1022_PokemonSReception.dir/DependInfo.cmake"
   )
