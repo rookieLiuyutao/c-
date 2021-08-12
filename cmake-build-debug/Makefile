@@ -350,6 +350,19 @@ LongestAscendingSubsequence/fast:
 .PHONY : LongestAscendingSubsequence/fast
 
 #=============================================================================
+# Target rules for targets named Acwing154_SlidingWindow
+
+# Build rule for target.
+Acwing154_SlidingWindow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing154_SlidingWindow
+.PHONY : Acwing154_SlidingWindow
+
+# fast build rule for target.
+Acwing154_SlidingWindow/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing154_SlidingWindow.dir\build.make CMakeFiles/Acwing154_SlidingWindow.dir/build
+.PHONY : Acwing154_SlidingWindow/fast
+
+#=============================================================================
 # Target rules for targets named leetcode957PrisonAfterNDays
 
 # Build rule for target.
@@ -519,6 +532,19 @@ Acwing1018_MinimumToll/fast:
 .PHONY : Acwing1018_MinimumToll/fast
 
 #=============================================================================
+# Target rules for targets named Acwing1023_BuyBook
+
+# Build rule for target.
+Acwing1023_BuyBook: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1023_BuyBook
+.PHONY : Acwing1023_BuyBook
+
+# fast build rule for target.
+Acwing1023_BuyBook/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1023_BuyBook.dir\build.make CMakeFiles/Acwing1023_BuyBook.dir/build
+.PHONY : Acwing1023_BuyBook/fast
+
+#=============================================================================
 # Target rules for targets named Acwing1016MaximumAscendingSubsequenceSum
 
 # Build rule for target.
@@ -558,19 +584,6 @@ Acwing1012_SisterCity2/fast:
 .PHONY : Acwing1012_SisterCity2/fast
 
 #=============================================================================
-# Target rules for targets named Acwing11_KnapsackProblemForTheNumberOfSolutions
-
-# Build rule for target.
-Acwing11_KnapsackProblemForTheNumberOfSolutions: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing11_KnapsackProblemForTheNumberOfSolutions
-.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions
-
-# fast build rule for target.
-Acwing11_KnapsackProblemForTheNumberOfSolutions/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/build
-.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions/fast
-
-#=============================================================================
 # Target rules for targets named Acwing1024_PackingProblem
 
 # Build rule for target.
@@ -595,6 +608,58 @@ Acwing1022_PokemonSReception: cmake_check_build_system
 Acwing1022_PokemonSReception/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/build
 .PHONY : Acwing1022_PokemonSReception/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1020_diver
+
+# Build rule for target.
+Acwing1020_diver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1020_diver
+.PHONY : Acwing1020_diver
+
+# fast build rule for target.
+Acwing1020_diver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1020_diver.dir\build.make CMakeFiles/Acwing1020_diver.dir/build
+.PHONY : Acwing1020_diver/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1019_CelebrationParty
+
+# Build rule for target.
+Acwing1019_CelebrationParty: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1019_CelebrationParty
+.PHONY : Acwing1019_CelebrationParty
+
+# fast build rule for target.
+Acwing1019_CelebrationParty/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1019_CelebrationParty.dir\build.make CMakeFiles/Acwing1019_CelebrationParty.dir/build
+.PHONY : Acwing1019_CelebrationParty/fast
+
+#=============================================================================
+# Target rules for targets named ccf201312_1theMostFrequentOccurrences
+
+# Build rule for target.
+ccf201312_1theMostFrequentOccurrences: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ccf201312_1theMostFrequentOccurrences
+.PHONY : ccf201312_1theMostFrequentOccurrences
+
+# fast build rule for target.
+ccf201312_1theMostFrequentOccurrences/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201312_1theMostFrequentOccurrences.dir\build.make CMakeFiles/ccf201312_1theMostFrequentOccurrences.dir/build
+.PHONY : ccf201312_1theMostFrequentOccurrences/fast
+
+#=============================================================================
+# Target rules for targets named ccf201403_1OppositeNumber
+
+# Build rule for target.
+ccf201403_1OppositeNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ccf201403_1OppositeNumber
+.PHONY : ccf201403_1OppositeNumber
+
+# fast build rule for target.
+ccf201403_1OppositeNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201403_1OppositeNumber.dir\build.make CMakeFiles/ccf201403_1OppositeNumber.dir/build
+.PHONY : ccf201403_1OppositeNumber/fast
 
 Acwing1010_MissileInterception.obj: Acwing1010_MissileInterception.cpp.obj
 
@@ -758,6 +823,60 @@ Acwing1018_MinimumToll.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1018_MinimumToll.dir\build.make CMakeFiles/Acwing1018_MinimumToll.dir/Acwing1018_MinimumToll.cpp.s
 .PHONY : Acwing1018_MinimumToll.cpp.s
 
+Acwing1019_CelebrationParty.obj: Acwing1019_CelebrationParty.cpp.obj
+
+.PHONY : Acwing1019_CelebrationParty.obj
+
+# target to build an object file
+Acwing1019_CelebrationParty.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1019_CelebrationParty.dir\build.make CMakeFiles/Acwing1019_CelebrationParty.dir/Acwing1019_CelebrationParty.cpp.obj
+.PHONY : Acwing1019_CelebrationParty.cpp.obj
+
+Acwing1019_CelebrationParty.i: Acwing1019_CelebrationParty.cpp.i
+
+.PHONY : Acwing1019_CelebrationParty.i
+
+# target to preprocess a source file
+Acwing1019_CelebrationParty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1019_CelebrationParty.dir\build.make CMakeFiles/Acwing1019_CelebrationParty.dir/Acwing1019_CelebrationParty.cpp.i
+.PHONY : Acwing1019_CelebrationParty.cpp.i
+
+Acwing1019_CelebrationParty.s: Acwing1019_CelebrationParty.cpp.s
+
+.PHONY : Acwing1019_CelebrationParty.s
+
+# target to generate assembly for a file
+Acwing1019_CelebrationParty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1019_CelebrationParty.dir\build.make CMakeFiles/Acwing1019_CelebrationParty.dir/Acwing1019_CelebrationParty.cpp.s
+.PHONY : Acwing1019_CelebrationParty.cpp.s
+
+Acwing1020_diver.obj: Acwing1020_diver.cpp.obj
+
+.PHONY : Acwing1020_diver.obj
+
+# target to build an object file
+Acwing1020_diver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1020_diver.dir\build.make CMakeFiles/Acwing1020_diver.dir/Acwing1020_diver.cpp.obj
+.PHONY : Acwing1020_diver.cpp.obj
+
+Acwing1020_diver.i: Acwing1020_diver.cpp.i
+
+.PHONY : Acwing1020_diver.i
+
+# target to preprocess a source file
+Acwing1020_diver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1020_diver.dir\build.make CMakeFiles/Acwing1020_diver.dir/Acwing1020_diver.cpp.i
+.PHONY : Acwing1020_diver.cpp.i
+
+Acwing1020_diver.s: Acwing1020_diver.cpp.s
+
+.PHONY : Acwing1020_diver.s
+
+# target to generate assembly for a file
+Acwing1020_diver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1020_diver.dir\build.make CMakeFiles/Acwing1020_diver.dir/Acwing1020_diver.cpp.s
+.PHONY : Acwing1020_diver.cpp.s
+
 Acwing1022_PokemonSReception.obj: Acwing1022_PokemonSReception.cpp.obj
 
 .PHONY : Acwing1022_PokemonSReception.obj
@@ -784,6 +903,33 @@ Acwing1022_PokemonSReception.s: Acwing1022_PokemonSReception.cpp.s
 Acwing1022_PokemonSReception.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1022_PokemonSReception.dir\build.make CMakeFiles/Acwing1022_PokemonSReception.dir/Acwing1022_PokemonSReception.cpp.s
 .PHONY : Acwing1022_PokemonSReception.cpp.s
+
+Acwing1023_BuyBook.obj: Acwing1023_BuyBook.cpp.obj
+
+.PHONY : Acwing1023_BuyBook.obj
+
+# target to build an object file
+Acwing1023_BuyBook.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1023_BuyBook.dir\build.make CMakeFiles/Acwing1023_BuyBook.dir/Acwing1023_BuyBook.cpp.obj
+.PHONY : Acwing1023_BuyBook.cpp.obj
+
+Acwing1023_BuyBook.i: Acwing1023_BuyBook.cpp.i
+
+.PHONY : Acwing1023_BuyBook.i
+
+# target to preprocess a source file
+Acwing1023_BuyBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1023_BuyBook.dir\build.make CMakeFiles/Acwing1023_BuyBook.dir/Acwing1023_BuyBook.cpp.i
+.PHONY : Acwing1023_BuyBook.cpp.i
+
+Acwing1023_BuyBook.s: Acwing1023_BuyBook.cpp.s
+
+.PHONY : Acwing1023_BuyBook.s
+
+# target to generate assembly for a file
+Acwing1023_BuyBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1023_BuyBook.dir\build.make CMakeFiles/Acwing1023_BuyBook.dir/Acwing1023_BuyBook.cpp.s
+.PHONY : Acwing1023_BuyBook.cpp.s
 
 Acwing1024_PackingProblem.obj: Acwing1024_PackingProblem.cpp.obj
 
@@ -812,32 +958,32 @@ Acwing1024_PackingProblem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/Acwing1024_PackingProblem.cpp.s
 .PHONY : Acwing1024_PackingProblem.cpp.s
 
-Acwing11_KnapsackProblemForTheNumberOfSolutions.obj: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
+Acwing154_SlidingWindow.obj: Acwing154_SlidingWindow.cpp.obj
 
-.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.obj
+.PHONY : Acwing154_SlidingWindow.obj
 
 # target to build an object file
-Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
-.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
+Acwing154_SlidingWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing154_SlidingWindow.dir\build.make CMakeFiles/Acwing154_SlidingWindow.dir/Acwing154_SlidingWindow.cpp.obj
+.PHONY : Acwing154_SlidingWindow.cpp.obj
 
-Acwing11_KnapsackProblemForTheNumberOfSolutions.i: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
+Acwing154_SlidingWindow.i: Acwing154_SlidingWindow.cpp.i
 
-.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.i
+.PHONY : Acwing154_SlidingWindow.i
 
 # target to preprocess a source file
-Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
-.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
+Acwing154_SlidingWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing154_SlidingWindow.dir\build.make CMakeFiles/Acwing154_SlidingWindow.dir/Acwing154_SlidingWindow.cpp.i
+.PHONY : Acwing154_SlidingWindow.cpp.i
 
-Acwing11_KnapsackProblemForTheNumberOfSolutions.s: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
+Acwing154_SlidingWindow.s: Acwing154_SlidingWindow.cpp.s
 
-.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.s
+.PHONY : Acwing154_SlidingWindow.s
 
 # target to generate assembly for a file
-Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
-.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
+Acwing154_SlidingWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing154_SlidingWindow.dir\build.make CMakeFiles/Acwing154_SlidingWindow.dir/Acwing154_SlidingWindow.cpp.s
+.PHONY : Acwing154_SlidingWindow.cpp.s
 
 Acwing172.obj: Acwing172.cpp.obj
 
@@ -1379,6 +1525,60 @@ ThreeKingdoms2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ThreeKingdoms2.dir\build.make CMakeFiles/ThreeKingdoms2.dir/ThreeKingdoms2.cpp.s
 .PHONY : ThreeKingdoms2.cpp.s
 
+ccf201312_1theMostFrequentOccurrences.obj: ccf201312_1theMostFrequentOccurrences.cpp.obj
+
+.PHONY : ccf201312_1theMostFrequentOccurrences.obj
+
+# target to build an object file
+ccf201312_1theMostFrequentOccurrences.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201312_1theMostFrequentOccurrences.dir\build.make CMakeFiles/ccf201312_1theMostFrequentOccurrences.dir/ccf201312_1theMostFrequentOccurrences.cpp.obj
+.PHONY : ccf201312_1theMostFrequentOccurrences.cpp.obj
+
+ccf201312_1theMostFrequentOccurrences.i: ccf201312_1theMostFrequentOccurrences.cpp.i
+
+.PHONY : ccf201312_1theMostFrequentOccurrences.i
+
+# target to preprocess a source file
+ccf201312_1theMostFrequentOccurrences.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201312_1theMostFrequentOccurrences.dir\build.make CMakeFiles/ccf201312_1theMostFrequentOccurrences.dir/ccf201312_1theMostFrequentOccurrences.cpp.i
+.PHONY : ccf201312_1theMostFrequentOccurrences.cpp.i
+
+ccf201312_1theMostFrequentOccurrences.s: ccf201312_1theMostFrequentOccurrences.cpp.s
+
+.PHONY : ccf201312_1theMostFrequentOccurrences.s
+
+# target to generate assembly for a file
+ccf201312_1theMostFrequentOccurrences.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201312_1theMostFrequentOccurrences.dir\build.make CMakeFiles/ccf201312_1theMostFrequentOccurrences.dir/ccf201312_1theMostFrequentOccurrences.cpp.s
+.PHONY : ccf201312_1theMostFrequentOccurrences.cpp.s
+
+ccf201403_1OppositeNumber.obj: ccf201403_1OppositeNumber.cpp.obj
+
+.PHONY : ccf201403_1OppositeNumber.obj
+
+# target to build an object file
+ccf201403_1OppositeNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201403_1OppositeNumber.dir\build.make CMakeFiles/ccf201403_1OppositeNumber.dir/ccf201403_1OppositeNumber.cpp.obj
+.PHONY : ccf201403_1OppositeNumber.cpp.obj
+
+ccf201403_1OppositeNumber.i: ccf201403_1OppositeNumber.cpp.i
+
+.PHONY : ccf201403_1OppositeNumber.i
+
+# target to preprocess a source file
+ccf201403_1OppositeNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201403_1OppositeNumber.dir\build.make CMakeFiles/ccf201403_1OppositeNumber.dir/ccf201403_1OppositeNumber.cpp.i
+.PHONY : ccf201403_1OppositeNumber.cpp.i
+
+ccf201403_1OppositeNumber.s: ccf201403_1OppositeNumber.cpp.s
+
+.PHONY : ccf201403_1OppositeNumber.s
+
+# target to generate assembly for a file
+ccf201403_1OppositeNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201403_1OppositeNumber.dir\build.make CMakeFiles/ccf201403_1OppositeNumber.dir/ccf201403_1OppositeNumber.cpp.s
+.PHONY : ccf201403_1OppositeNumber.cpp.s
+
 dijkstraClass.obj: dijkstraClass.cpp.obj
 
 .PHONY : dijkstraClass.obj
@@ -1582,9 +1782,12 @@ help:
 	@echo ... Acwing1015_PickPeanuts
 	@echo ... Acwing1016MaximumAscendingSubsequenceSum
 	@echo ... Acwing1018_MinimumToll
+	@echo ... Acwing1019_CelebrationParty
+	@echo ... Acwing1020_diver
 	@echo ... Acwing1022_PokemonSReception
+	@echo ... Acwing1023_BuyBook
 	@echo ... Acwing1024_PackingProblem
-	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions
+	@echo ... Acwing154_SlidingWindow
 	@echo ... Acwing172
 	@echo ... Acwing187_MissileDefenseSystem
 	@echo ... Acwing275_PassingANote
@@ -1605,6 +1808,8 @@ help:
 	@echo ... PushTheThreeDimensionalBox
 	@echo ... ThreeKingdoms
 	@echo ... ThreeKingdoms2
+	@echo ... ccf201312_1theMostFrequentOccurrences
+	@echo ... ccf201403_1OppositeNumber
 	@echo ... dijkstraClass
 	@echo ... leetcode10
 	@echo ... leetcode15_ThreeSum
@@ -1630,15 +1835,24 @@ help:
 	@echo ... Acwing1018_MinimumToll.obj
 	@echo ... Acwing1018_MinimumToll.i
 	@echo ... Acwing1018_MinimumToll.s
+	@echo ... Acwing1019_CelebrationParty.obj
+	@echo ... Acwing1019_CelebrationParty.i
+	@echo ... Acwing1019_CelebrationParty.s
+	@echo ... Acwing1020_diver.obj
+	@echo ... Acwing1020_diver.i
+	@echo ... Acwing1020_diver.s
 	@echo ... Acwing1022_PokemonSReception.obj
 	@echo ... Acwing1022_PokemonSReception.i
 	@echo ... Acwing1022_PokemonSReception.s
+	@echo ... Acwing1023_BuyBook.obj
+	@echo ... Acwing1023_BuyBook.i
+	@echo ... Acwing1023_BuyBook.s
 	@echo ... Acwing1024_PackingProblem.obj
 	@echo ... Acwing1024_PackingProblem.i
 	@echo ... Acwing1024_PackingProblem.s
-	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.obj
-	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.i
-	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.s
+	@echo ... Acwing154_SlidingWindow.obj
+	@echo ... Acwing154_SlidingWindow.i
+	@echo ... Acwing154_SlidingWindow.s
 	@echo ... Acwing172.obj
 	@echo ... Acwing172.i
 	@echo ... Acwing172.s
@@ -1699,6 +1913,12 @@ help:
 	@echo ... ThreeKingdoms2.obj
 	@echo ... ThreeKingdoms2.i
 	@echo ... ThreeKingdoms2.s
+	@echo ... ccf201312_1theMostFrequentOccurrences.obj
+	@echo ... ccf201312_1theMostFrequentOccurrences.i
+	@echo ... ccf201312_1theMostFrequentOccurrences.s
+	@echo ... ccf201403_1OppositeNumber.obj
+	@echo ... ccf201403_1OppositeNumber.i
+	@echo ... ccf201403_1OppositeNumber.s
 	@echo ... dijkstraClass.obj
 	@echo ... dijkstraClass.i
 	@echo ... dijkstraClass.s

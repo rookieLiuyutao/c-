@@ -5,9 +5,13 @@
     -- src/Acwing1015_PickPeanuts.cpp will be compiled to bin/Acwing1015_PickPeanuts
     -- src/Acwing1016MaximumAscendingSubsequenceSum.cpp will be compiled to bin/Acwing1016MaximumAscendingSubsequenceSum
     -- src/Acwing1018_MinimumToll.cpp will be compiled to bin/Acwing1018_MinimumToll
+    -- src/Acwing1019_CelebrationParty.cpp will be compiled to bin/Acwing1019_CelebrationParty
+    -- src/Acwing1020_diver.cpp will be compiled to bin/Acwing1020_diver
     -- src/Acwing1022_PokemonSReception.cpp will be compiled to bin/Acwing1022_PokemonSReception
+    -- src/Acwing1023_BuyBook.cpp will be compiled to bin/Acwing1023_BuyBook
     -- src/Acwing1024_PackingProblem.cpp will be compiled to bin/Acwing1024_PackingProblem
     -- src/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp will be compiled to bin/Acwing11_KnapsackProblemForTheNumberOfSolutions
+    -- src/Acwing154_SlidingWindow.cpp will be compiled to bin/Acwing154_SlidingWindow
     -- src/Acwing172.cpp will be compiled to bin/Acwing172
     -- src/Acwing187_MissileDefenseSystem.cpp will be compiled to bin/Acwing187_MissileDefenseSystem
     -- src/Acwing275_PassingANote.cpp will be compiled to bin/Acwing275_PassingANote
@@ -30,6 +34,8 @@
     -- src/PushTheThreeDimensionalBox.cpp will be compiled to bin/PushTheThreeDimensionalBox
     -- src/ThreeKingdoms.cpp will be compiled to bin/ThreeKingdoms
     -- src/ThreeKingdoms2.cpp will be compiled to bin/ThreeKingdoms2
+    -- src/ccf201312_1theMostFrequentOccurrences.cpp will be compiled to bin/ccf201312_1theMostFrequentOccurrences
+    -- src/ccf201403_1OppositeNumber.cpp will be compiled to bin/ccf201403_1OppositeNumber
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/dijkstraClass.cpp will be compiled to bin/dijkstraClass
     -- src/leetcode10.cpp will be compiled to bin/leetcode10

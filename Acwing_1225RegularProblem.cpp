@@ -5,7 +5,7 @@
 
 #include "bits/stdc++.h"
 using namespace std;
-unordered_map<string,int> map;
+unordered_map<string,int> save;
 int n;
 string ss;
 int u;

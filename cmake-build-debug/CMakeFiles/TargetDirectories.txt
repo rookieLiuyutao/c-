@@ -16,6 +16,7 @@ E:/cppCode/cmake-build-debug/CMakeFiles/MyAtoi.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1012_SisterCity.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/lut.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/LongestAscendingSubsequence.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing154_SlidingWindow.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/leetcode957PrisonAfterNDays.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing275_PassingANote.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/leetcode10.dir
@@ -29,10 +30,14 @@ E:/cppCode/cmake-build-debug/CMakeFiles/ThreeKingdoms.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/DigitalTriangle.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1015_PickPeanuts.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1018_MinimumToll.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1023_BuyBook.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing3607_PrintDate.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1012_SisterCity2.dir
-E:/cppCode/cmake-build-debug/CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1024_PackingProblem.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1022_PokemonSReception.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1020_diver.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1019_CelebrationParty.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/ccf201312_1theMostFrequentOccurrences.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/ccf201403_1OppositeNumber.dir
