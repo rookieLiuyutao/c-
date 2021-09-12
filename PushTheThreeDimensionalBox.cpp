@@ -97,7 +97,8 @@ int main() {
         }
         int res = bfs(start, end);
 
-//        cout << "起点" << start.x << " " << start.y << " " << start.line << endl;
+//        cout << "起点" << start.x << " " << start.y << " " <<
+//        start.line << endl;
 //        cout << "终点" << end.x << " " << end.y << " " << end.line << endl;
 
         if (res == -1) {

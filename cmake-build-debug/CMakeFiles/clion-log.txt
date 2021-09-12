@@ -7,9 +7,13 @@
     -- src/Acwing1018_MinimumToll.cpp will be compiled to bin/Acwing1018_MinimumToll
     -- src/Acwing1019_CelebrationParty.cpp will be compiled to bin/Acwing1019_CelebrationParty
     -- src/Acwing1020_diver.cpp will be compiled to bin/Acwing1020_diver
+    -- src/Acwing1021_CurrencySystem.cpp will be compiled to bin/Acwing1021_CurrencySystem
     -- src/Acwing1022_PokemonSReception.cpp will be compiled to bin/Acwing1022_PokemonSReception
     -- src/Acwing1023_BuyBook.cpp will be compiled to bin/Acwing1023_BuyBook
     -- src/Acwing1024_PackingProblem.cpp will be compiled to bin/Acwing1024_PackingProblem
+    -- src/Acwing1049_TheThiefAfu.cpp will be compiled to bin/Acwing1049_TheThiefAfu
+    -- src/Acwing1053_RepairDNA.cpp will be compiled to bin/Acwing1053_RepairDNA
+    -- src/Acwing1097_LakeCounting.cpp will be compiled to bin/Acwing1097_LakeCounting
     -- src/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp will be compiled to bin/Acwing11_KnapsackProblemForTheNumberOfSolutions
     -- src/Acwing154_SlidingWindow.cpp will be compiled to bin/Acwing154_SlidingWindow
     -- src/Acwing172.cpp will be compiled to bin/Acwing172
@@ -26,7 +30,12 @@
     -- src/Acwing_899EditDistance.cpp will be compiled to bin/Acwing_899EditDistance
     -- src/Acwung282_MergingOfStones.cpp will be compiled to bin/Acwung282_MergingOfStones
     -- src/BitOperationTest .cpp will be compiled to bin/BitOperationTest 
+    -- src/Acwing1828_SearchKeywords.cpp will be compiled to bin/Acwing1828_SearchKeywords
     -- src/Queue.cpp will be compiled to bin/Queue
+    -- src/Ccf201403_2Window.cpp will be compiled to bin/Ccf201403_2Window
+    -- src/Ccf201403_3CommandLineOptions.cpp will be compiled to bin/Ccf201403_3CommandLineOptions
+    -- src/Ccf201503_1ImageRotation.cpp will be compiled to bin/Ccf201503_1ImageRotation
+    -- src/Ccf201503_2NumberSort.cpp will be compiled to bin/Ccf201503_2NumberSort
     -- src/ExponentialEnumeration.cpp will be compiled to bin/ExponentialEnumeration
     -- src/FIFO.cpp will be compiled to bin/FIFO
     -- src/LongestAscendingSubsequence.cpp will be compiled to bin/LongestAscendingSubsequence

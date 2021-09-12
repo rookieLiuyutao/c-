@@ -142,6 +142,19 @@ dijkstraClass/fast:
 .PHONY : dijkstraClass/fast
 
 #=============================================================================
+# Target rules for targets named Ccf201503_1ImageRotation
+
+# Build rule for target.
+Ccf201503_1ImageRotation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ccf201503_1ImageRotation
+.PHONY : Ccf201503_1ImageRotation
+
+# fast build rule for target.
+Ccf201503_1ImageRotation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_1ImageRotation.dir\build.make CMakeFiles/Ccf201503_1ImageRotation.dir/build
+.PHONY : Ccf201503_1ImageRotation/fast
+
+#=============================================================================
 # Target rules for targets named Acwung282_MergingOfStones
 
 # Build rule for target.
@@ -179,6 +192,19 @@ ExponentialEnumeration: cmake_check_build_system
 ExponentialEnumeration/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExponentialEnumeration.dir\build.make CMakeFiles/ExponentialEnumeration.dir/build
 .PHONY : ExponentialEnumeration/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1021_CurrencySystem
+
+# Build rule for target.
+Acwing1021_CurrencySystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1021_CurrencySystem
+.PHONY : Acwing1021_CurrencySystem
+
+# fast build rule for target.
+Acwing1021_CurrencySystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1021_CurrencySystem.dir\build.make CMakeFiles/Acwing1021_CurrencySystem.dir/build
+.PHONY : Acwing1021_CurrencySystem/fast
 
 #=============================================================================
 # Target rules for targets named Acwing902_ShortestEditDistance
@@ -257,6 +283,19 @@ Acwing172: cmake_check_build_system
 Acwing172/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing172.dir\build.make CMakeFiles/Acwing172.dir/build
 .PHONY : Acwing172/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1097_LakeCounting
+
+# Build rule for target.
+Acwing1097_LakeCounting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1097_LakeCounting
+.PHONY : Acwing1097_LakeCounting
+
+# fast build rule for target.
+Acwing1097_LakeCounting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1097_LakeCounting.dir\build.make CMakeFiles/Acwing1097_LakeCounting.dir/build
+.PHONY : Acwing1097_LakeCounting/fast
 
 #=============================================================================
 # Target rules for targets named leetcode15_ThreeSum
@@ -400,6 +439,45 @@ leetcode10: cmake_check_build_system
 leetcode10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode10.dir\build.make CMakeFiles/leetcode10.dir/build
 .PHONY : leetcode10/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1828_SearchKeywords
+
+# Build rule for target.
+Acwing1828_SearchKeywords: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1828_SearchKeywords
+.PHONY : Acwing1828_SearchKeywords
+
+# fast build rule for target.
+Acwing1828_SearchKeywords/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1828_SearchKeywords.dir\build.make CMakeFiles/Acwing1828_SearchKeywords.dir/build
+.PHONY : Acwing1828_SearchKeywords/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1053_RepairDNA
+
+# Build rule for target.
+Acwing1053_RepairDNA: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1053_RepairDNA
+.PHONY : Acwing1053_RepairDNA
+
+# fast build rule for target.
+Acwing1053_RepairDNA/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1053_RepairDNA.dir\build.make CMakeFiles/Acwing1053_RepairDNA.dir/build
+.PHONY : Acwing1053_RepairDNA/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1049_TheThiefAfu
+
+# Build rule for target.
+Acwing1049_TheThiefAfu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1049_TheThiefAfu
+.PHONY : Acwing1049_TheThiefAfu
+
+# fast build rule for target.
+Acwing1049_TheThiefAfu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1049_TheThiefAfu.dir\build.make CMakeFiles/Acwing1049_TheThiefAfu.dir/build
+.PHONY : Acwing1049_TheThiefAfu/fast
 
 #=============================================================================
 # Target rules for targets named Acwing482_ChorusFormation
@@ -661,6 +739,58 @@ ccf201403_1OppositeNumber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201403_1OppositeNumber.dir\build.make CMakeFiles/ccf201403_1OppositeNumber.dir/build
 .PHONY : ccf201403_1OppositeNumber/fast
 
+#=============================================================================
+# Target rules for targets named Ccf201403_2Window
+
+# Build rule for target.
+Ccf201403_2Window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ccf201403_2Window
+.PHONY : Ccf201403_2Window
+
+# fast build rule for target.
+Ccf201403_2Window/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201403_2Window.dir\build.make CMakeFiles/Ccf201403_2Window.dir/build
+.PHONY : Ccf201403_2Window/fast
+
+#=============================================================================
+# Target rules for targets named Acwing11_KnapsackProblemForTheNumberOfSolutions
+
+# Build rule for target.
+Acwing11_KnapsackProblemForTheNumberOfSolutions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing11_KnapsackProblemForTheNumberOfSolutions
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions
+
+# fast build rule for target.
+Acwing11_KnapsackProblemForTheNumberOfSolutions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/build
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions/fast
+
+#=============================================================================
+# Target rules for targets named Ccf201403_3CommandLineOptions
+
+# Build rule for target.
+Ccf201403_3CommandLineOptions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ccf201403_3CommandLineOptions
+.PHONY : Ccf201403_3CommandLineOptions
+
+# fast build rule for target.
+Ccf201403_3CommandLineOptions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201403_3CommandLineOptions.dir\build.make CMakeFiles/Ccf201403_3CommandLineOptions.dir/build
+.PHONY : Ccf201403_3CommandLineOptions/fast
+
+#=============================================================================
+# Target rules for targets named Ccf201503_2NumberSort
+
+# Build rule for target.
+Ccf201503_2NumberSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ccf201503_2NumberSort
+.PHONY : Ccf201503_2NumberSort
+
+# fast build rule for target.
+Ccf201503_2NumberSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_2NumberSort.dir\build.make CMakeFiles/Ccf201503_2NumberSort.dir/build
+.PHONY : Ccf201503_2NumberSort/fast
+
 Acwing1010_MissileInterception.obj: Acwing1010_MissileInterception.cpp.obj
 
 .PHONY : Acwing1010_MissileInterception.obj
@@ -877,6 +1007,33 @@ Acwing1020_diver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1020_diver.dir\build.make CMakeFiles/Acwing1020_diver.dir/Acwing1020_diver.cpp.s
 .PHONY : Acwing1020_diver.cpp.s
 
+Acwing1021_CurrencySystem.obj: Acwing1021_CurrencySystem.cpp.obj
+
+.PHONY : Acwing1021_CurrencySystem.obj
+
+# target to build an object file
+Acwing1021_CurrencySystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1021_CurrencySystem.dir\build.make CMakeFiles/Acwing1021_CurrencySystem.dir/Acwing1021_CurrencySystem.cpp.obj
+.PHONY : Acwing1021_CurrencySystem.cpp.obj
+
+Acwing1021_CurrencySystem.i: Acwing1021_CurrencySystem.cpp.i
+
+.PHONY : Acwing1021_CurrencySystem.i
+
+# target to preprocess a source file
+Acwing1021_CurrencySystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1021_CurrencySystem.dir\build.make CMakeFiles/Acwing1021_CurrencySystem.dir/Acwing1021_CurrencySystem.cpp.i
+.PHONY : Acwing1021_CurrencySystem.cpp.i
+
+Acwing1021_CurrencySystem.s: Acwing1021_CurrencySystem.cpp.s
+
+.PHONY : Acwing1021_CurrencySystem.s
+
+# target to generate assembly for a file
+Acwing1021_CurrencySystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1021_CurrencySystem.dir\build.make CMakeFiles/Acwing1021_CurrencySystem.dir/Acwing1021_CurrencySystem.cpp.s
+.PHONY : Acwing1021_CurrencySystem.cpp.s
+
 Acwing1022_PokemonSReception.obj: Acwing1022_PokemonSReception.cpp.obj
 
 .PHONY : Acwing1022_PokemonSReception.obj
@@ -957,6 +1114,114 @@ Acwing1024_PackingProblem.s: Acwing1024_PackingProblem.cpp.s
 Acwing1024_PackingProblem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1024_PackingProblem.dir\build.make CMakeFiles/Acwing1024_PackingProblem.dir/Acwing1024_PackingProblem.cpp.s
 .PHONY : Acwing1024_PackingProblem.cpp.s
+
+Acwing1049_TheThiefAfu.obj: Acwing1049_TheThiefAfu.cpp.obj
+
+.PHONY : Acwing1049_TheThiefAfu.obj
+
+# target to build an object file
+Acwing1049_TheThiefAfu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1049_TheThiefAfu.dir\build.make CMakeFiles/Acwing1049_TheThiefAfu.dir/Acwing1049_TheThiefAfu.cpp.obj
+.PHONY : Acwing1049_TheThiefAfu.cpp.obj
+
+Acwing1049_TheThiefAfu.i: Acwing1049_TheThiefAfu.cpp.i
+
+.PHONY : Acwing1049_TheThiefAfu.i
+
+# target to preprocess a source file
+Acwing1049_TheThiefAfu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1049_TheThiefAfu.dir\build.make CMakeFiles/Acwing1049_TheThiefAfu.dir/Acwing1049_TheThiefAfu.cpp.i
+.PHONY : Acwing1049_TheThiefAfu.cpp.i
+
+Acwing1049_TheThiefAfu.s: Acwing1049_TheThiefAfu.cpp.s
+
+.PHONY : Acwing1049_TheThiefAfu.s
+
+# target to generate assembly for a file
+Acwing1049_TheThiefAfu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1049_TheThiefAfu.dir\build.make CMakeFiles/Acwing1049_TheThiefAfu.dir/Acwing1049_TheThiefAfu.cpp.s
+.PHONY : Acwing1049_TheThiefAfu.cpp.s
+
+Acwing1053_RepairDNA.obj: Acwing1053_RepairDNA.cpp.obj
+
+.PHONY : Acwing1053_RepairDNA.obj
+
+# target to build an object file
+Acwing1053_RepairDNA.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1053_RepairDNA.dir\build.make CMakeFiles/Acwing1053_RepairDNA.dir/Acwing1053_RepairDNA.cpp.obj
+.PHONY : Acwing1053_RepairDNA.cpp.obj
+
+Acwing1053_RepairDNA.i: Acwing1053_RepairDNA.cpp.i
+
+.PHONY : Acwing1053_RepairDNA.i
+
+# target to preprocess a source file
+Acwing1053_RepairDNA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1053_RepairDNA.dir\build.make CMakeFiles/Acwing1053_RepairDNA.dir/Acwing1053_RepairDNA.cpp.i
+.PHONY : Acwing1053_RepairDNA.cpp.i
+
+Acwing1053_RepairDNA.s: Acwing1053_RepairDNA.cpp.s
+
+.PHONY : Acwing1053_RepairDNA.s
+
+# target to generate assembly for a file
+Acwing1053_RepairDNA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1053_RepairDNA.dir\build.make CMakeFiles/Acwing1053_RepairDNA.dir/Acwing1053_RepairDNA.cpp.s
+.PHONY : Acwing1053_RepairDNA.cpp.s
+
+Acwing1097_LakeCounting.obj: Acwing1097_LakeCounting.cpp.obj
+
+.PHONY : Acwing1097_LakeCounting.obj
+
+# target to build an object file
+Acwing1097_LakeCounting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1097_LakeCounting.dir\build.make CMakeFiles/Acwing1097_LakeCounting.dir/Acwing1097_LakeCounting.cpp.obj
+.PHONY : Acwing1097_LakeCounting.cpp.obj
+
+Acwing1097_LakeCounting.i: Acwing1097_LakeCounting.cpp.i
+
+.PHONY : Acwing1097_LakeCounting.i
+
+# target to preprocess a source file
+Acwing1097_LakeCounting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1097_LakeCounting.dir\build.make CMakeFiles/Acwing1097_LakeCounting.dir/Acwing1097_LakeCounting.cpp.i
+.PHONY : Acwing1097_LakeCounting.cpp.i
+
+Acwing1097_LakeCounting.s: Acwing1097_LakeCounting.cpp.s
+
+.PHONY : Acwing1097_LakeCounting.s
+
+# target to generate assembly for a file
+Acwing1097_LakeCounting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1097_LakeCounting.dir\build.make CMakeFiles/Acwing1097_LakeCounting.dir/Acwing1097_LakeCounting.cpp.s
+.PHONY : Acwing1097_LakeCounting.cpp.s
+
+Acwing11_KnapsackProblemForTheNumberOfSolutions.obj: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
+
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.obj
+
+# target to build an object file
+Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
+
+Acwing11_KnapsackProblemForTheNumberOfSolutions.i: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
+
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.i
+
+# target to preprocess a source file
+Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.i
+
+Acwing11_KnapsackProblemForTheNumberOfSolutions.s: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
+
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.s
+
+# target to generate assembly for a file
+Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
+.PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
 
 Acwing154_SlidingWindow.obj: Acwing154_SlidingWindow.cpp.obj
 
@@ -1335,6 +1600,141 @@ BitOperationTest_.s: BitOperationTest_.cpp.s
 BitOperationTest_.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BitOperationTest.dir\build.make CMakeFiles/BitOperationTest.dir/BitOperationTest_.cpp.s
 .PHONY : BitOperationTest_.cpp.s
+
+C++STL/Acwing1828_SearchKeywords.obj: C++STL/Acwing1828_SearchKeywords.cpp.obj
+
+.PHONY : C++STL/Acwing1828_SearchKeywords.obj
+
+# target to build an object file
+C++STL/Acwing1828_SearchKeywords.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1828_SearchKeywords.dir\build.make CMakeFiles/Acwing1828_SearchKeywords.dir/C++STL/Acwing1828_SearchKeywords.cpp.obj
+.PHONY : C++STL/Acwing1828_SearchKeywords.cpp.obj
+
+C++STL/Acwing1828_SearchKeywords.i: C++STL/Acwing1828_SearchKeywords.cpp.i
+
+.PHONY : C++STL/Acwing1828_SearchKeywords.i
+
+# target to preprocess a source file
+C++STL/Acwing1828_SearchKeywords.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1828_SearchKeywords.dir\build.make CMakeFiles/Acwing1828_SearchKeywords.dir/C++STL/Acwing1828_SearchKeywords.cpp.i
+.PHONY : C++STL/Acwing1828_SearchKeywords.cpp.i
+
+C++STL/Acwing1828_SearchKeywords.s: C++STL/Acwing1828_SearchKeywords.cpp.s
+
+.PHONY : C++STL/Acwing1828_SearchKeywords.s
+
+# target to generate assembly for a file
+C++STL/Acwing1828_SearchKeywords.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1828_SearchKeywords.dir\build.make CMakeFiles/Acwing1828_SearchKeywords.dir/C++STL/Acwing1828_SearchKeywords.cpp.s
+.PHONY : C++STL/Acwing1828_SearchKeywords.cpp.s
+
+Ccf201403_2Window.obj: Ccf201403_2Window.cpp.obj
+
+.PHONY : Ccf201403_2Window.obj
+
+# target to build an object file
+Ccf201403_2Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201403_2Window.dir\build.make CMakeFiles/Ccf201403_2Window.dir/Ccf201403_2Window.cpp.obj
+.PHONY : Ccf201403_2Window.cpp.obj
+
+Ccf201403_2Window.i: Ccf201403_2Window.cpp.i
+
+.PHONY : Ccf201403_2Window.i
+
+# target to preprocess a source file
+Ccf201403_2Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201403_2Window.dir\build.make CMakeFiles/Ccf201403_2Window.dir/Ccf201403_2Window.cpp.i
+.PHONY : Ccf201403_2Window.cpp.i
+
+Ccf201403_2Window.s: Ccf201403_2Window.cpp.s
+
+.PHONY : Ccf201403_2Window.s
+
+# target to generate assembly for a file
+Ccf201403_2Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201403_2Window.dir\build.make CMakeFiles/Ccf201403_2Window.dir/Ccf201403_2Window.cpp.s
+.PHONY : Ccf201403_2Window.cpp.s
+
+Ccf201403_3CommandLineOptions.obj: Ccf201403_3CommandLineOptions.cpp.obj
+
+.PHONY : Ccf201403_3CommandLineOptions.obj
+
+# target to build an object file
+Ccf201403_3CommandLineOptions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201403_3CommandLineOptions.dir\build.make CMakeFiles/Ccf201403_3CommandLineOptions.dir/Ccf201403_3CommandLineOptions.cpp.obj
+.PHONY : Ccf201403_3CommandLineOptions.cpp.obj
+
+Ccf201403_3CommandLineOptions.i: Ccf201403_3CommandLineOptions.cpp.i
+
+.PHONY : Ccf201403_3CommandLineOptions.i
+
+# target to preprocess a source file
+Ccf201403_3CommandLineOptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201403_3CommandLineOptions.dir\build.make CMakeFiles/Ccf201403_3CommandLineOptions.dir/Ccf201403_3CommandLineOptions.cpp.i
+.PHONY : Ccf201403_3CommandLineOptions.cpp.i
+
+Ccf201403_3CommandLineOptions.s: Ccf201403_3CommandLineOptions.cpp.s
+
+.PHONY : Ccf201403_3CommandLineOptions.s
+
+# target to generate assembly for a file
+Ccf201403_3CommandLineOptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201403_3CommandLineOptions.dir\build.make CMakeFiles/Ccf201403_3CommandLineOptions.dir/Ccf201403_3CommandLineOptions.cpp.s
+.PHONY : Ccf201403_3CommandLineOptions.cpp.s
+
+Ccf201503_1ImageRotation.obj: Ccf201503_1ImageRotation.cpp.obj
+
+.PHONY : Ccf201503_1ImageRotation.obj
+
+# target to build an object file
+Ccf201503_1ImageRotation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_1ImageRotation.dir\build.make CMakeFiles/Ccf201503_1ImageRotation.dir/Ccf201503_1ImageRotation.cpp.obj
+.PHONY : Ccf201503_1ImageRotation.cpp.obj
+
+Ccf201503_1ImageRotation.i: Ccf201503_1ImageRotation.cpp.i
+
+.PHONY : Ccf201503_1ImageRotation.i
+
+# target to preprocess a source file
+Ccf201503_1ImageRotation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_1ImageRotation.dir\build.make CMakeFiles/Ccf201503_1ImageRotation.dir/Ccf201503_1ImageRotation.cpp.i
+.PHONY : Ccf201503_1ImageRotation.cpp.i
+
+Ccf201503_1ImageRotation.s: Ccf201503_1ImageRotation.cpp.s
+
+.PHONY : Ccf201503_1ImageRotation.s
+
+# target to generate assembly for a file
+Ccf201503_1ImageRotation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_1ImageRotation.dir\build.make CMakeFiles/Ccf201503_1ImageRotation.dir/Ccf201503_1ImageRotation.cpp.s
+.PHONY : Ccf201503_1ImageRotation.cpp.s
+
+Ccf201503_2NumberSort.obj: Ccf201503_2NumberSort.cpp.obj
+
+.PHONY : Ccf201503_2NumberSort.obj
+
+# target to build an object file
+Ccf201503_2NumberSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_2NumberSort.dir\build.make CMakeFiles/Ccf201503_2NumberSort.dir/Ccf201503_2NumberSort.cpp.obj
+.PHONY : Ccf201503_2NumberSort.cpp.obj
+
+Ccf201503_2NumberSort.i: Ccf201503_2NumberSort.cpp.i
+
+.PHONY : Ccf201503_2NumberSort.i
+
+# target to preprocess a source file
+Ccf201503_2NumberSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_2NumberSort.dir\build.make CMakeFiles/Ccf201503_2NumberSort.dir/Ccf201503_2NumberSort.cpp.i
+.PHONY : Ccf201503_2NumberSort.cpp.i
+
+Ccf201503_2NumberSort.s: Ccf201503_2NumberSort.cpp.s
+
+.PHONY : Ccf201503_2NumberSort.s
+
+# target to generate assembly for a file
+Ccf201503_2NumberSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_2NumberSort.dir\build.make CMakeFiles/Ccf201503_2NumberSort.dir/Ccf201503_2NumberSort.cpp.s
+.PHONY : Ccf201503_2NumberSort.cpp.s
 
 ExponentialEnumeration.obj: ExponentialEnumeration.cpp.obj
 
@@ -1784,11 +2184,17 @@ help:
 	@echo ... Acwing1018_MinimumToll
 	@echo ... Acwing1019_CelebrationParty
 	@echo ... Acwing1020_diver
+	@echo ... Acwing1021_CurrencySystem
 	@echo ... Acwing1022_PokemonSReception
 	@echo ... Acwing1023_BuyBook
 	@echo ... Acwing1024_PackingProblem
+	@echo ... Acwing1049_TheThiefAfu
+	@echo ... Acwing1053_RepairDNA
+	@echo ... Acwing1097_LakeCounting
+	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions
 	@echo ... Acwing154_SlidingWindow
 	@echo ... Acwing172
+	@echo ... Acwing1828_SearchKeywords
 	@echo ... Acwing187_MissileDefenseSystem
 	@echo ... Acwing275_PassingANote
 	@echo ... Acwing3607_PrintDate
@@ -1800,6 +2206,10 @@ help:
 	@echo ... Acwing_3483PowerOfTwo
 	@echo ... Acwung282_MergingOfStones
 	@echo ... BitOperationTest
+	@echo ... Ccf201403_2Window
+	@echo ... Ccf201403_3CommandLineOptions
+	@echo ... Ccf201503_1ImageRotation
+	@echo ... Ccf201503_2NumberSort
 	@echo ... DigitalTriangle
 	@echo ... ExponentialEnumeration
 	@echo ... FIFO
@@ -1841,6 +2251,9 @@ help:
 	@echo ... Acwing1020_diver.obj
 	@echo ... Acwing1020_diver.i
 	@echo ... Acwing1020_diver.s
+	@echo ... Acwing1021_CurrencySystem.obj
+	@echo ... Acwing1021_CurrencySystem.i
+	@echo ... Acwing1021_CurrencySystem.s
 	@echo ... Acwing1022_PokemonSReception.obj
 	@echo ... Acwing1022_PokemonSReception.i
 	@echo ... Acwing1022_PokemonSReception.s
@@ -1850,6 +2263,18 @@ help:
 	@echo ... Acwing1024_PackingProblem.obj
 	@echo ... Acwing1024_PackingProblem.i
 	@echo ... Acwing1024_PackingProblem.s
+	@echo ... Acwing1049_TheThiefAfu.obj
+	@echo ... Acwing1049_TheThiefAfu.i
+	@echo ... Acwing1049_TheThiefAfu.s
+	@echo ... Acwing1053_RepairDNA.obj
+	@echo ... Acwing1053_RepairDNA.i
+	@echo ... Acwing1053_RepairDNA.s
+	@echo ... Acwing1097_LakeCounting.obj
+	@echo ... Acwing1097_LakeCounting.i
+	@echo ... Acwing1097_LakeCounting.s
+	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.obj
+	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.i
+	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.s
 	@echo ... Acwing154_SlidingWindow.obj
 	@echo ... Acwing154_SlidingWindow.i
 	@echo ... Acwing154_SlidingWindow.s
@@ -1892,6 +2317,21 @@ help:
 	@echo ... BitOperationTest_.obj
 	@echo ... BitOperationTest_.i
 	@echo ... BitOperationTest_.s
+	@echo ... C++STL/Acwing1828_SearchKeywords.obj
+	@echo ... C++STL/Acwing1828_SearchKeywords.i
+	@echo ... C++STL/Acwing1828_SearchKeywords.s
+	@echo ... Ccf201403_2Window.obj
+	@echo ... Ccf201403_2Window.i
+	@echo ... Ccf201403_2Window.s
+	@echo ... Ccf201403_3CommandLineOptions.obj
+	@echo ... Ccf201403_3CommandLineOptions.i
+	@echo ... Ccf201403_3CommandLineOptions.s
+	@echo ... Ccf201503_1ImageRotation.obj
+	@echo ... Ccf201503_1ImageRotation.i
+	@echo ... Ccf201503_1ImageRotation.s
+	@echo ... Ccf201503_2NumberSort.obj
+	@echo ... Ccf201503_2NumberSort.i
+	@echo ... Ccf201503_2NumberSort.s
 	@echo ... ExponentialEnumeration.obj
 	@echo ... ExponentialEnumeration.i
 	@echo ... ExponentialEnumeration.s

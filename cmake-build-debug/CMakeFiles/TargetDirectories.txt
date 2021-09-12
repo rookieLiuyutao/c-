@@ -1,14 +1,17 @@
 E:/cppCode/cmake-build-debug/CMakeFiles/dijkstraClass.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Ccf201503_1ImageRotation.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwung282_MergingOfStones.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/FIFO.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/ExponentialEnumeration.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1021_CurrencySystem.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing902_ShortestEditDistance.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1010_MissileInterception.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing897_LongestCommonSubsequence.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing187_MissileDefenseSystem.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing95.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing172.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1097_LakeCounting.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/leetcode15_ThreeSum.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/PushTheThreeDimensionalBox.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/o1Bag.dir
@@ -20,6 +23,9 @@ E:/cppCode/cmake-build-debug/CMakeFiles/Acwing154_SlidingWindow.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/leetcode957PrisonAfterNDays.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing275_PassingANote.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/leetcode10.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1828_SearchKeywords.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1053_RepairDNA.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1049_TheThiefAfu.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing482_ChorusFormation.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/BitOperationTest.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/leetcode_5793NearestExit.dir
@@ -41,3 +47,7 @@ E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1020_diver.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1019_CelebrationParty.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/ccf201312_1theMostFrequentOccurrences.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/ccf201403_1OppositeNumber.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Ccf201403_2Window.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Ccf201403_3CommandLineOptions.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Ccf201503_2NumberSort.dir
