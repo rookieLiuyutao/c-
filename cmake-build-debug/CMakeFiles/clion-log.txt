@@ -13,14 +13,21 @@
     -- src/Acwing1024_PackingProblem.cpp will be compiled to bin/Acwing1024_PackingProblem
     -- src/Acwing1049_TheThiefAfu.cpp will be compiled to bin/Acwing1049_TheThiefAfu
     -- src/Acwing1053_RepairDNA.cpp will be compiled to bin/Acwing1053_RepairDNA
+    -- src/Acwing1064_the-little-king.cpp will be compiled to bin/Acwing1064_the-little-king
     -- src/Acwing1097_LakeCounting.cpp will be compiled to bin/Acwing1097_LakeCounting
+    -- src/Acwing1126_MinimumCost.cpp will be compiled to bin/Acwing1126_MinimumCost
+    -- src/Acwing1127_SweetButter.cpp will be compiled to bin/Acwing1127_SweetButter
+    -- src/Acwing1128_Messager.cpp will be compiled to bin/Acwing1128_Messager
     -- src/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp will be compiled to bin/Acwing11_KnapsackProblemForTheNumberOfSolutions
     -- src/Acwing154_SlidingWindow.cpp will be compiled to bin/Acwing154_SlidingWindow
     -- src/Acwing172.cpp will be compiled to bin/Acwing172
     -- src/Acwing187_MissileDefenseSystem.cpp will be compiled to bin/Acwing187_MissileDefenseSystem
     -- src/Acwing275_PassingANote.cpp will be compiled to bin/Acwing275_PassingANote
+    -- src/Acwing3277.cpp will be compiled to bin/Acwing3277
+    -- src/Acwing3278.cpp will be compiled to bin/Acwing3278
     -- src/Acwing3607_PrintDate.cpp will be compiled to bin/Acwing3607_PrintDate
     -- src/Acwing482_ChorusFormation.cpp will be compiled to bin/Acwing482_ChorusFormation
+    -- src/Acwing850_DijkstraII.cpp will be compiled to bin/Acwing850_DijkstraII
     -- src/Acwing897_LongestCommonSubsequence .cpp will be compiled to bin/Acwing897_LongestCommonSubsequence 
     -- src/Acwing902_ShortestEditDistance .cpp will be compiled to bin/Acwing902_ShortestEditDistance 
     -- src/Acwing95.cpp will be compiled to bin/Acwing95
@@ -31,6 +38,7 @@
     -- src/Acwung282_MergingOfStones.cpp will be compiled to bin/Acwung282_MergingOfStones
     -- src/BitOperationTest .cpp will be compiled to bin/BitOperationTest 
     -- src/Acwing1828_SearchKeywords.cpp will be compiled to bin/Acwing1828_SearchKeywords
+    -- src/PriorityQueue.cpp will be compiled to bin/PriorityQueue
     -- src/Queue.cpp will be compiled to bin/Queue
     -- src/Ccf201403_2Window.cpp will be compiled to bin/Ccf201403_2Window
     -- src/Ccf201403_3CommandLineOptions.cpp will be compiled to bin/Ccf201403_3CommandLineOptions
@@ -45,6 +53,10 @@
     -- src/ThreeKingdoms2.cpp will be compiled to bin/ThreeKingdoms2
     -- src/ccf201312_1theMostFrequentOccurrences.cpp will be compiled to bin/ccf201312_1theMostFrequentOccurrences
     -- src/ccf201403_1OppositeNumber.cpp will be compiled to bin/ccf201403_1OppositeNumber
+    -- src/ccf201909_2_Acwing3283.cpp will be compiled to bin/ccf201909_2_Acwing3283
+    -- src/ccf202006_2_Acwing3288.cpp will be compiled to bin/ccf202006_2_Acwing3288
+    -- src/ccf2021_04_3.cpp will be compiled to bin/ccf2021_04_3
+    -- src/ccf2021_9_2.cpp will be compiled to bin/ccf2021_9_2
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/dijkstraClass.cpp will be compiled to bin/dijkstraClass
     -- src/leetcode10.cpp will be compiled to bin/leetcode10
@@ -52,7 +64,9 @@
     -- src/leetcode957PrisonAfterNDays.cpp will be compiled to bin/leetcode957PrisonAfterNDays
     -- src/leetcode_5793NearestExit.cpp will be compiled to bin/leetcode_5793NearestExit
     -- src/lut.cpp will be compiled to bin/lut
+    -- src/match_main.cpp will be compiled to bin/match_main
     -- src/o1Bag.cpp will be compiled to bin/o1Bag
+    -- src/test.cpp will be compiled to bin/test
 -- Configuring done
 -- Generating done
 -- Build files have been written to: E:/cppCode/cmake-build-debug

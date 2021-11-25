@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = E:\cppCode\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -95,6 +84,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -142,6 +142,19 @@ dijkstraClass/fast:
 .PHONY : dijkstraClass/fast
 
 #=============================================================================
+# Target rules for targets named Acwung282_MergingOfStones
+
+# Build rule for target.
+Acwung282_MergingOfStones: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwung282_MergingOfStones
+.PHONY : Acwung282_MergingOfStones
+
+# fast build rule for target.
+Acwung282_MergingOfStones/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/build
+.PHONY : Acwung282_MergingOfStones/fast
+
+#=============================================================================
 # Target rules for targets named Ccf201503_1ImageRotation
 
 # Build rule for target.
@@ -155,17 +168,17 @@ Ccf201503_1ImageRotation/fast:
 .PHONY : Ccf201503_1ImageRotation/fast
 
 #=============================================================================
-# Target rules for targets named Acwung282_MergingOfStones
+# Target rules for targets named ccf2021_9_2
 
 # Build rule for target.
-Acwung282_MergingOfStones: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwung282_MergingOfStones
-.PHONY : Acwung282_MergingOfStones
+ccf2021_9_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ccf2021_9_2
+.PHONY : ccf2021_9_2
 
 # fast build rule for target.
-Acwung282_MergingOfStones/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwung282_MergingOfStones.dir\build.make CMakeFiles/Acwung282_MergingOfStones.dir/build
-.PHONY : Acwung282_MergingOfStones/fast
+ccf2021_9_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_9_2.dir\build.make CMakeFiles/ccf2021_9_2.dir/build
+.PHONY : ccf2021_9_2/fast
 
 #=============================================================================
 # Target rules for targets named FIFO
@@ -194,6 +207,32 @@ ExponentialEnumeration/fast:
 .PHONY : ExponentialEnumeration/fast
 
 #=============================================================================
+# Target rules for targets named Acwing1010_MissileInterception
+
+# Build rule for target.
+Acwing1010_MissileInterception: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1010_MissileInterception
+.PHONY : Acwing1010_MissileInterception
+
+# fast build rule for target.
+Acwing1010_MissileInterception/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1010_MissileInterception.dir\build.make CMakeFiles/Acwing1010_MissileInterception.dir/build
+.PHONY : Acwing1010_MissileInterception/fast
+
+#=============================================================================
+# Target rules for targets named Acwing3277
+
+# Build rule for target.
+Acwing3277: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing3277
+.PHONY : Acwing3277
+
+# fast build rule for target.
+Acwing3277/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3277.dir\build.make CMakeFiles/Acwing3277.dir/build
+.PHONY : Acwing3277/fast
+
+#=============================================================================
 # Target rules for targets named Acwing1021_CurrencySystem
 
 # Build rule for target.
@@ -220,19 +259,6 @@ Acwing902_ShortestEditDistance/fast:
 .PHONY : Acwing902_ShortestEditDistance/fast
 
 #=============================================================================
-# Target rules for targets named Acwing1010_MissileInterception
-
-# Build rule for target.
-Acwing1010_MissileInterception: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1010_MissileInterception
-.PHONY : Acwing1010_MissileInterception
-
-# fast build rule for target.
-Acwing1010_MissileInterception/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1010_MissileInterception.dir\build.make CMakeFiles/Acwing1010_MissileInterception.dir/build
-.PHONY : Acwing1010_MissileInterception/fast
-
-#=============================================================================
 # Target rules for targets named Acwing897_LongestCommonSubsequence
 
 # Build rule for target.
@@ -244,6 +270,19 @@ Acwing897_LongestCommonSubsequence: cmake_check_build_system
 Acwing897_LongestCommonSubsequence/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing897_LongestCommonSubsequence.dir\build.make CMakeFiles/Acwing897_LongestCommonSubsequence.dir/build
 .PHONY : Acwing897_LongestCommonSubsequence/fast
+
+#=============================================================================
+# Target rules for targets named Acwing95
+
+# Build rule for target.
+Acwing95: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing95
+.PHONY : Acwing95
+
+# fast build rule for target.
+Acwing95/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/build
+.PHONY : Acwing95/fast
 
 #=============================================================================
 # Target rules for targets named Acwing187_MissileDefenseSystem
@@ -259,17 +298,17 @@ Acwing187_MissileDefenseSystem/fast:
 .PHONY : Acwing187_MissileDefenseSystem/fast
 
 #=============================================================================
-# Target rules for targets named Acwing95
+# Target rules for targets named Acwing1128_Messager
 
 # Build rule for target.
-Acwing95: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing95
-.PHONY : Acwing95
+Acwing1128_Messager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1128_Messager
+.PHONY : Acwing1128_Messager
 
 # fast build rule for target.
-Acwing95/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/build
-.PHONY : Acwing95/fast
+Acwing1128_Messager/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1128_Messager.dir\build.make CMakeFiles/Acwing1128_Messager.dir/build
+.PHONY : Acwing1128_Messager/fast
 
 #=============================================================================
 # Target rules for targets named Acwing172
@@ -350,19 +389,6 @@ MyAtoi/fast:
 .PHONY : MyAtoi/fast
 
 #=============================================================================
-# Target rules for targets named Acwing1012_SisterCity
-
-# Build rule for target.
-Acwing1012_SisterCity: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1012_SisterCity
-.PHONY : Acwing1012_SisterCity
-
-# fast build rule for target.
-Acwing1012_SisterCity/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity.dir\build.make CMakeFiles/Acwing1012_SisterCity.dir/build
-.PHONY : Acwing1012_SisterCity/fast
-
-#=============================================================================
 # Target rules for targets named lut
 
 # Build rule for target.
@@ -376,6 +402,32 @@ lut/fast:
 .PHONY : lut/fast
 
 #=============================================================================
+# Target rules for targets named Acwing1127_SweetButter
+
+# Build rule for target.
+Acwing1127_SweetButter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1127_SweetButter
+.PHONY : Acwing1127_SweetButter
+
+# fast build rule for target.
+Acwing1127_SweetButter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1127_SweetButter.dir\build.make CMakeFiles/Acwing1127_SweetButter.dir/build
+.PHONY : Acwing1127_SweetButter/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1012_SisterCity
+
+# Build rule for target.
+Acwing1012_SisterCity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1012_SisterCity
+.PHONY : Acwing1012_SisterCity
+
+# fast build rule for target.
+Acwing1012_SisterCity/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1012_SisterCity.dir\build.make CMakeFiles/Acwing1012_SisterCity.dir/build
+.PHONY : Acwing1012_SisterCity/fast
+
+#=============================================================================
 # Target rules for targets named LongestAscendingSubsequence
 
 # Build rule for target.
@@ -387,6 +439,19 @@ LongestAscendingSubsequence: cmake_check_build_system
 LongestAscendingSubsequence/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LongestAscendingSubsequence.dir\build.make CMakeFiles/LongestAscendingSubsequence.dir/build
 .PHONY : LongestAscendingSubsequence/fast
+
+#=============================================================================
+# Target rules for targets named Acwing3278
+
+# Build rule for target.
+Acwing3278: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing3278
+.PHONY : Acwing3278
+
+# fast build rule for target.
+Acwing3278/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3278.dir\build.make CMakeFiles/Acwing3278.dir/build
+.PHONY : Acwing3278/fast
 
 #=============================================================================
 # Target rules for targets named Acwing154_SlidingWindow
@@ -441,6 +506,19 @@ leetcode10/fast:
 .PHONY : leetcode10/fast
 
 #=============================================================================
+# Target rules for targets named Acwing1049_TheThiefAfu
+
+# Build rule for target.
+Acwing1049_TheThiefAfu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1049_TheThiefAfu
+.PHONY : Acwing1049_TheThiefAfu
+
+# fast build rule for target.
+Acwing1049_TheThiefAfu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1049_TheThiefAfu.dir\build.make CMakeFiles/Acwing1049_TheThiefAfu.dir/build
+.PHONY : Acwing1049_TheThiefAfu/fast
+
+#=============================================================================
 # Target rules for targets named Acwing1828_SearchKeywords
 
 # Build rule for target.
@@ -452,6 +530,19 @@ Acwing1828_SearchKeywords: cmake_check_build_system
 Acwing1828_SearchKeywords/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1828_SearchKeywords.dir\build.make CMakeFiles/Acwing1828_SearchKeywords.dir/build
 .PHONY : Acwing1828_SearchKeywords/fast
+
+#=============================================================================
+# Target rules for targets named Acwing482_ChorusFormation
+
+# Build rule for target.
+Acwing482_ChorusFormation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing482_ChorusFormation
+.PHONY : Acwing482_ChorusFormation
+
+# fast build rule for target.
+Acwing482_ChorusFormation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/build
+.PHONY : Acwing482_ChorusFormation/fast
 
 #=============================================================================
 # Target rules for targets named Acwing1053_RepairDNA
@@ -467,30 +558,17 @@ Acwing1053_RepairDNA/fast:
 .PHONY : Acwing1053_RepairDNA/fast
 
 #=============================================================================
-# Target rules for targets named Acwing1049_TheThiefAfu
+# Target rules for targets named ccf201909_2_Acwing3283
 
 # Build rule for target.
-Acwing1049_TheThiefAfu: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1049_TheThiefAfu
-.PHONY : Acwing1049_TheThiefAfu
+ccf201909_2_Acwing3283: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ccf201909_2_Acwing3283
+.PHONY : ccf201909_2_Acwing3283
 
 # fast build rule for target.
-Acwing1049_TheThiefAfu/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1049_TheThiefAfu.dir\build.make CMakeFiles/Acwing1049_TheThiefAfu.dir/build
-.PHONY : Acwing1049_TheThiefAfu/fast
-
-#=============================================================================
-# Target rules for targets named Acwing482_ChorusFormation
-
-# Build rule for target.
-Acwing482_ChorusFormation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing482_ChorusFormation
-.PHONY : Acwing482_ChorusFormation
-
-# fast build rule for target.
-Acwing482_ChorusFormation/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/build
-.PHONY : Acwing482_ChorusFormation/fast
+ccf201909_2_Acwing3283/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201909_2_Acwing3283.dir\build.make CMakeFiles/ccf201909_2_Acwing3283.dir/build
+.PHONY : ccf201909_2_Acwing3283/fast
 
 #=============================================================================
 # Target rules for targets named BitOperationTest
@@ -662,6 +740,19 @@ Acwing1012_SisterCity2/fast:
 .PHONY : Acwing1012_SisterCity2/fast
 
 #=============================================================================
+# Target rules for targets named Acwing850_DijkstraII
+
+# Build rule for target.
+Acwing850_DijkstraII: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing850_DijkstraII
+.PHONY : Acwing850_DijkstraII
+
+# fast build rule for target.
+Acwing850_DijkstraII/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing850_DijkstraII.dir\build.make CMakeFiles/Acwing850_DijkstraII.dir/build
+.PHONY : Acwing850_DijkstraII/fast
+
+#=============================================================================
 # Target rules for targets named Acwing1024_PackingProblem
 
 # Build rule for target.
@@ -712,6 +803,19 @@ Acwing1019_CelebrationParty: cmake_check_build_system
 Acwing1019_CelebrationParty/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1019_CelebrationParty.dir\build.make CMakeFiles/Acwing1019_CelebrationParty.dir/build
 .PHONY : Acwing1019_CelebrationParty/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1126_MinimumCost
+
+# Build rule for target.
+Acwing1126_MinimumCost: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1126_MinimumCost
+.PHONY : Acwing1126_MinimumCost
+
+# fast build rule for target.
+Acwing1126_MinimumCost/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1126_MinimumCost.dir\build.make CMakeFiles/Acwing1126_MinimumCost.dir/build
+.PHONY : Acwing1126_MinimumCost/fast
 
 #=============================================================================
 # Target rules for targets named ccf201312_1theMostFrequentOccurrences
@@ -766,6 +870,19 @@ Acwing11_KnapsackProblemForTheNumberOfSolutions/fast:
 .PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions/fast
 
 #=============================================================================
+# Target rules for targets named Acwing1064_the-little-king
+
+# Build rule for target.
+Acwing1064_the-little-king: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1064_the-little-king
+.PHONY : Acwing1064_the-little-king
+
+# fast build rule for target.
+Acwing1064_the-little-king/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1064_the-little-king.dir\build.make CMakeFiles/Acwing1064_the-little-king.dir/build
+.PHONY : Acwing1064_the-little-king/fast
+
+#=============================================================================
 # Target rules for targets named Ccf201403_3CommandLineOptions
 
 # Build rule for target.
@@ -790,6 +907,58 @@ Ccf201503_2NumberSort: cmake_check_build_system
 Ccf201503_2NumberSort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ccf201503_2NumberSort.dir\build.make CMakeFiles/Ccf201503_2NumberSort.dir/build
 .PHONY : Ccf201503_2NumberSort/fast
+
+#=============================================================================
+# Target rules for targets named ccf202006_2_Acwing3288
+
+# Build rule for target.
+ccf202006_2_Acwing3288: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ccf202006_2_Acwing3288
+.PHONY : ccf202006_2_Acwing3288
+
+# fast build rule for target.
+ccf202006_2_Acwing3288/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_2_Acwing3288.dir\build.make CMakeFiles/ccf202006_2_Acwing3288.dir/build
+.PHONY : ccf202006_2_Acwing3288/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named PriorityQueue
+
+# Build rule for target.
+PriorityQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PriorityQueue
+.PHONY : PriorityQueue
+
+# fast build rule for target.
+PriorityQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityQueue.dir\build.make CMakeFiles/PriorityQueue.dir/build
+.PHONY : PriorityQueue/fast
+
+#=============================================================================
+# Target rules for targets named ccf2021_04_3
+
+# Build rule for target.
+ccf2021_04_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ccf2021_04_3
+.PHONY : ccf2021_04_3
+
+# fast build rule for target.
+ccf2021_04_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_04_3.dir\build.make CMakeFiles/ccf2021_04_3.dir/build
+.PHONY : ccf2021_04_3/fast
 
 Acwing1010_MissileInterception.obj: Acwing1010_MissileInterception.cpp.obj
 
@@ -1169,6 +1338,33 @@ Acwing1053_RepairDNA.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1053_RepairDNA.dir\build.make CMakeFiles/Acwing1053_RepairDNA.dir/Acwing1053_RepairDNA.cpp.s
 .PHONY : Acwing1053_RepairDNA.cpp.s
 
+Acwing1064_the-little-king.obj: Acwing1064_the-little-king.cpp.obj
+
+.PHONY : Acwing1064_the-little-king.obj
+
+# target to build an object file
+Acwing1064_the-little-king.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1064_the-little-king.dir\build.make CMakeFiles/Acwing1064_the-little-king.dir/Acwing1064_the-little-king.cpp.obj
+.PHONY : Acwing1064_the-little-king.cpp.obj
+
+Acwing1064_the-little-king.i: Acwing1064_the-little-king.cpp.i
+
+.PHONY : Acwing1064_the-little-king.i
+
+# target to preprocess a source file
+Acwing1064_the-little-king.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1064_the-little-king.dir\build.make CMakeFiles/Acwing1064_the-little-king.dir/Acwing1064_the-little-king.cpp.i
+.PHONY : Acwing1064_the-little-king.cpp.i
+
+Acwing1064_the-little-king.s: Acwing1064_the-little-king.cpp.s
+
+.PHONY : Acwing1064_the-little-king.s
+
+# target to generate assembly for a file
+Acwing1064_the-little-king.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1064_the-little-king.dir\build.make CMakeFiles/Acwing1064_the-little-king.dir/Acwing1064_the-little-king.cpp.s
+.PHONY : Acwing1064_the-little-king.cpp.s
+
 Acwing1097_LakeCounting.obj: Acwing1097_LakeCounting.cpp.obj
 
 .PHONY : Acwing1097_LakeCounting.obj
@@ -1195,6 +1391,87 @@ Acwing1097_LakeCounting.s: Acwing1097_LakeCounting.cpp.s
 Acwing1097_LakeCounting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1097_LakeCounting.dir\build.make CMakeFiles/Acwing1097_LakeCounting.dir/Acwing1097_LakeCounting.cpp.s
 .PHONY : Acwing1097_LakeCounting.cpp.s
+
+Acwing1126_MinimumCost.obj: Acwing1126_MinimumCost.cpp.obj
+
+.PHONY : Acwing1126_MinimumCost.obj
+
+# target to build an object file
+Acwing1126_MinimumCost.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1126_MinimumCost.dir\build.make CMakeFiles/Acwing1126_MinimumCost.dir/Acwing1126_MinimumCost.cpp.obj
+.PHONY : Acwing1126_MinimumCost.cpp.obj
+
+Acwing1126_MinimumCost.i: Acwing1126_MinimumCost.cpp.i
+
+.PHONY : Acwing1126_MinimumCost.i
+
+# target to preprocess a source file
+Acwing1126_MinimumCost.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1126_MinimumCost.dir\build.make CMakeFiles/Acwing1126_MinimumCost.dir/Acwing1126_MinimumCost.cpp.i
+.PHONY : Acwing1126_MinimumCost.cpp.i
+
+Acwing1126_MinimumCost.s: Acwing1126_MinimumCost.cpp.s
+
+.PHONY : Acwing1126_MinimumCost.s
+
+# target to generate assembly for a file
+Acwing1126_MinimumCost.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1126_MinimumCost.dir\build.make CMakeFiles/Acwing1126_MinimumCost.dir/Acwing1126_MinimumCost.cpp.s
+.PHONY : Acwing1126_MinimumCost.cpp.s
+
+Acwing1127_SweetButter.obj: Acwing1127_SweetButter.cpp.obj
+
+.PHONY : Acwing1127_SweetButter.obj
+
+# target to build an object file
+Acwing1127_SweetButter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1127_SweetButter.dir\build.make CMakeFiles/Acwing1127_SweetButter.dir/Acwing1127_SweetButter.cpp.obj
+.PHONY : Acwing1127_SweetButter.cpp.obj
+
+Acwing1127_SweetButter.i: Acwing1127_SweetButter.cpp.i
+
+.PHONY : Acwing1127_SweetButter.i
+
+# target to preprocess a source file
+Acwing1127_SweetButter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1127_SweetButter.dir\build.make CMakeFiles/Acwing1127_SweetButter.dir/Acwing1127_SweetButter.cpp.i
+.PHONY : Acwing1127_SweetButter.cpp.i
+
+Acwing1127_SweetButter.s: Acwing1127_SweetButter.cpp.s
+
+.PHONY : Acwing1127_SweetButter.s
+
+# target to generate assembly for a file
+Acwing1127_SweetButter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1127_SweetButter.dir\build.make CMakeFiles/Acwing1127_SweetButter.dir/Acwing1127_SweetButter.cpp.s
+.PHONY : Acwing1127_SweetButter.cpp.s
+
+Acwing1128_Messager.obj: Acwing1128_Messager.cpp.obj
+
+.PHONY : Acwing1128_Messager.obj
+
+# target to build an object file
+Acwing1128_Messager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1128_Messager.dir\build.make CMakeFiles/Acwing1128_Messager.dir/Acwing1128_Messager.cpp.obj
+.PHONY : Acwing1128_Messager.cpp.obj
+
+Acwing1128_Messager.i: Acwing1128_Messager.cpp.i
+
+.PHONY : Acwing1128_Messager.i
+
+# target to preprocess a source file
+Acwing1128_Messager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1128_Messager.dir\build.make CMakeFiles/Acwing1128_Messager.dir/Acwing1128_Messager.cpp.i
+.PHONY : Acwing1128_Messager.cpp.i
+
+Acwing1128_Messager.s: Acwing1128_Messager.cpp.s
+
+.PHONY : Acwing1128_Messager.s
+
+# target to generate assembly for a file
+Acwing1128_Messager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1128_Messager.dir\build.make CMakeFiles/Acwing1128_Messager.dir/Acwing1128_Messager.cpp.s
+.PHONY : Acwing1128_Messager.cpp.s
 
 Acwing11_KnapsackProblemForTheNumberOfSolutions.obj: Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.obj
 
@@ -1331,6 +1608,60 @@ Acwing275_PassingANote.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing275_PassingANote.dir\build.make CMakeFiles/Acwing275_PassingANote.dir/Acwing275_PassingANote.cpp.s
 .PHONY : Acwing275_PassingANote.cpp.s
 
+Acwing3277.obj: Acwing3277.cpp.obj
+
+.PHONY : Acwing3277.obj
+
+# target to build an object file
+Acwing3277.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3277.dir\build.make CMakeFiles/Acwing3277.dir/Acwing3277.cpp.obj
+.PHONY : Acwing3277.cpp.obj
+
+Acwing3277.i: Acwing3277.cpp.i
+
+.PHONY : Acwing3277.i
+
+# target to preprocess a source file
+Acwing3277.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3277.dir\build.make CMakeFiles/Acwing3277.dir/Acwing3277.cpp.i
+.PHONY : Acwing3277.cpp.i
+
+Acwing3277.s: Acwing3277.cpp.s
+
+.PHONY : Acwing3277.s
+
+# target to generate assembly for a file
+Acwing3277.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3277.dir\build.make CMakeFiles/Acwing3277.dir/Acwing3277.cpp.s
+.PHONY : Acwing3277.cpp.s
+
+Acwing3278.obj: Acwing3278.cpp.obj
+
+.PHONY : Acwing3278.obj
+
+# target to build an object file
+Acwing3278.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3278.dir\build.make CMakeFiles/Acwing3278.dir/Acwing3278.cpp.obj
+.PHONY : Acwing3278.cpp.obj
+
+Acwing3278.i: Acwing3278.cpp.i
+
+.PHONY : Acwing3278.i
+
+# target to preprocess a source file
+Acwing3278.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3278.dir\build.make CMakeFiles/Acwing3278.dir/Acwing3278.cpp.i
+.PHONY : Acwing3278.cpp.i
+
+Acwing3278.s: Acwing3278.cpp.s
+
+.PHONY : Acwing3278.s
+
+# target to generate assembly for a file
+Acwing3278.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3278.dir\build.make CMakeFiles/Acwing3278.dir/Acwing3278.cpp.s
+.PHONY : Acwing3278.cpp.s
+
 Acwing3607_PrintDate.obj: Acwing3607_PrintDate.cpp.obj
 
 .PHONY : Acwing3607_PrintDate.obj
@@ -1384,6 +1715,33 @@ Acwing482_ChorusFormation.s: Acwing482_ChorusFormation.cpp.s
 Acwing482_ChorusFormation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/Acwing482_ChorusFormation.cpp.s
 .PHONY : Acwing482_ChorusFormation.cpp.s
+
+Acwing850_DijkstraII.obj: Acwing850_DijkstraII.cpp.obj
+
+.PHONY : Acwing850_DijkstraII.obj
+
+# target to build an object file
+Acwing850_DijkstraII.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing850_DijkstraII.dir\build.make CMakeFiles/Acwing850_DijkstraII.dir/Acwing850_DijkstraII.cpp.obj
+.PHONY : Acwing850_DijkstraII.cpp.obj
+
+Acwing850_DijkstraII.i: Acwing850_DijkstraII.cpp.i
+
+.PHONY : Acwing850_DijkstraII.i
+
+# target to preprocess a source file
+Acwing850_DijkstraII.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing850_DijkstraII.dir\build.make CMakeFiles/Acwing850_DijkstraII.dir/Acwing850_DijkstraII.cpp.i
+.PHONY : Acwing850_DijkstraII.cpp.i
+
+Acwing850_DijkstraII.s: Acwing850_DijkstraII.cpp.s
+
+.PHONY : Acwing850_DijkstraII.s
+
+# target to generate assembly for a file
+Acwing850_DijkstraII.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing850_DijkstraII.dir\build.make CMakeFiles/Acwing850_DijkstraII.dir/Acwing850_DijkstraII.cpp.s
+.PHONY : Acwing850_DijkstraII.cpp.s
 
 Acwing897_LongestCommonSubsequence_.obj: Acwing897_LongestCommonSubsequence_.cpp.obj
 
@@ -1627,6 +1985,33 @@ C++STL/Acwing1828_SearchKeywords.s: C++STL/Acwing1828_SearchKeywords.cpp.s
 C++STL/Acwing1828_SearchKeywords.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1828_SearchKeywords.dir\build.make CMakeFiles/Acwing1828_SearchKeywords.dir/C++STL/Acwing1828_SearchKeywords.cpp.s
 .PHONY : C++STL/Acwing1828_SearchKeywords.cpp.s
+
+C++STL/PriorityQueue.obj: C++STL/PriorityQueue.cpp.obj
+
+.PHONY : C++STL/PriorityQueue.obj
+
+# target to build an object file
+C++STL/PriorityQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityQueue.dir\build.make CMakeFiles/PriorityQueue.dir/C++STL/PriorityQueue.cpp.obj
+.PHONY : C++STL/PriorityQueue.cpp.obj
+
+C++STL/PriorityQueue.i: C++STL/PriorityQueue.cpp.i
+
+.PHONY : C++STL/PriorityQueue.i
+
+# target to preprocess a source file
+C++STL/PriorityQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityQueue.dir\build.make CMakeFiles/PriorityQueue.dir/C++STL/PriorityQueue.cpp.i
+.PHONY : C++STL/PriorityQueue.cpp.i
+
+C++STL/PriorityQueue.s: C++STL/PriorityQueue.cpp.s
+
+.PHONY : C++STL/PriorityQueue.s
+
+# target to generate assembly for a file
+C++STL/PriorityQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PriorityQueue.dir\build.make CMakeFiles/PriorityQueue.dir/C++STL/PriorityQueue.cpp.s
+.PHONY : C++STL/PriorityQueue.cpp.s
 
 Ccf201403_2Window.obj: Ccf201403_2Window.cpp.obj
 
@@ -1979,6 +2364,114 @@ ccf201403_1OppositeNumber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201403_1OppositeNumber.dir\build.make CMakeFiles/ccf201403_1OppositeNumber.dir/ccf201403_1OppositeNumber.cpp.s
 .PHONY : ccf201403_1OppositeNumber.cpp.s
 
+ccf201909_2_Acwing3283.obj: ccf201909_2_Acwing3283.cpp.obj
+
+.PHONY : ccf201909_2_Acwing3283.obj
+
+# target to build an object file
+ccf201909_2_Acwing3283.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201909_2_Acwing3283.dir\build.make CMakeFiles/ccf201909_2_Acwing3283.dir/ccf201909_2_Acwing3283.cpp.obj
+.PHONY : ccf201909_2_Acwing3283.cpp.obj
+
+ccf201909_2_Acwing3283.i: ccf201909_2_Acwing3283.cpp.i
+
+.PHONY : ccf201909_2_Acwing3283.i
+
+# target to preprocess a source file
+ccf201909_2_Acwing3283.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201909_2_Acwing3283.dir\build.make CMakeFiles/ccf201909_2_Acwing3283.dir/ccf201909_2_Acwing3283.cpp.i
+.PHONY : ccf201909_2_Acwing3283.cpp.i
+
+ccf201909_2_Acwing3283.s: ccf201909_2_Acwing3283.cpp.s
+
+.PHONY : ccf201909_2_Acwing3283.s
+
+# target to generate assembly for a file
+ccf201909_2_Acwing3283.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf201909_2_Acwing3283.dir\build.make CMakeFiles/ccf201909_2_Acwing3283.dir/ccf201909_2_Acwing3283.cpp.s
+.PHONY : ccf201909_2_Acwing3283.cpp.s
+
+ccf202006_2_Acwing3288.obj: ccf202006_2_Acwing3288.cpp.obj
+
+.PHONY : ccf202006_2_Acwing3288.obj
+
+# target to build an object file
+ccf202006_2_Acwing3288.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_2_Acwing3288.dir\build.make CMakeFiles/ccf202006_2_Acwing3288.dir/ccf202006_2_Acwing3288.cpp.obj
+.PHONY : ccf202006_2_Acwing3288.cpp.obj
+
+ccf202006_2_Acwing3288.i: ccf202006_2_Acwing3288.cpp.i
+
+.PHONY : ccf202006_2_Acwing3288.i
+
+# target to preprocess a source file
+ccf202006_2_Acwing3288.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_2_Acwing3288.dir\build.make CMakeFiles/ccf202006_2_Acwing3288.dir/ccf202006_2_Acwing3288.cpp.i
+.PHONY : ccf202006_2_Acwing3288.cpp.i
+
+ccf202006_2_Acwing3288.s: ccf202006_2_Acwing3288.cpp.s
+
+.PHONY : ccf202006_2_Acwing3288.s
+
+# target to generate assembly for a file
+ccf202006_2_Acwing3288.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_2_Acwing3288.dir\build.make CMakeFiles/ccf202006_2_Acwing3288.dir/ccf202006_2_Acwing3288.cpp.s
+.PHONY : ccf202006_2_Acwing3288.cpp.s
+
+ccf2021_04_3.obj: ccf2021_04_3.cpp.obj
+
+.PHONY : ccf2021_04_3.obj
+
+# target to build an object file
+ccf2021_04_3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_04_3.dir\build.make CMakeFiles/ccf2021_04_3.dir/ccf2021_04_3.cpp.obj
+.PHONY : ccf2021_04_3.cpp.obj
+
+ccf2021_04_3.i: ccf2021_04_3.cpp.i
+
+.PHONY : ccf2021_04_3.i
+
+# target to preprocess a source file
+ccf2021_04_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_04_3.dir\build.make CMakeFiles/ccf2021_04_3.dir/ccf2021_04_3.cpp.i
+.PHONY : ccf2021_04_3.cpp.i
+
+ccf2021_04_3.s: ccf2021_04_3.cpp.s
+
+.PHONY : ccf2021_04_3.s
+
+# target to generate assembly for a file
+ccf2021_04_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_04_3.dir\build.make CMakeFiles/ccf2021_04_3.dir/ccf2021_04_3.cpp.s
+.PHONY : ccf2021_04_3.cpp.s
+
+ccf2021_9_2.obj: ccf2021_9_2.cpp.obj
+
+.PHONY : ccf2021_9_2.obj
+
+# target to build an object file
+ccf2021_9_2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_9_2.dir\build.make CMakeFiles/ccf2021_9_2.dir/ccf2021_9_2.cpp.obj
+.PHONY : ccf2021_9_2.cpp.obj
+
+ccf2021_9_2.i: ccf2021_9_2.cpp.i
+
+.PHONY : ccf2021_9_2.i
+
+# target to preprocess a source file
+ccf2021_9_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_9_2.dir\build.make CMakeFiles/ccf2021_9_2.dir/ccf2021_9_2.cpp.i
+.PHONY : ccf2021_9_2.cpp.i
+
+ccf2021_9_2.s: ccf2021_9_2.cpp.s
+
+.PHONY : ccf2021_9_2.s
+
+# target to generate assembly for a file
+ccf2021_9_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_9_2.dir\build.make CMakeFiles/ccf2021_9_2.dir/ccf2021_9_2.cpp.s
+.PHONY : ccf2021_9_2.cpp.s
+
 dijkstraClass.obj: dijkstraClass.cpp.obj
 
 .PHONY : dijkstraClass.obj
@@ -2168,6 +2661,33 @@ o1Bag.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\o1Bag.dir\build.make CMakeFiles/o1Bag.dir/o1Bag.cpp.s
 .PHONY : o1Bag.cpp.s
 
+test.obj: test.cpp.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2190,15 +2710,22 @@ help:
 	@echo ... Acwing1024_PackingProblem
 	@echo ... Acwing1049_TheThiefAfu
 	@echo ... Acwing1053_RepairDNA
+	@echo ... Acwing1064_the-little-king
 	@echo ... Acwing1097_LakeCounting
+	@echo ... Acwing1126_MinimumCost
+	@echo ... Acwing1127_SweetButter
+	@echo ... Acwing1128_Messager
 	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions
 	@echo ... Acwing154_SlidingWindow
 	@echo ... Acwing172
 	@echo ... Acwing1828_SearchKeywords
 	@echo ... Acwing187_MissileDefenseSystem
 	@echo ... Acwing275_PassingANote
+	@echo ... Acwing3277
+	@echo ... Acwing3278
 	@echo ... Acwing3607_PrintDate
 	@echo ... Acwing482_ChorusFormation
+	@echo ... Acwing850_DijkstraII
 	@echo ... Acwing897_LongestCommonSubsequence
 	@echo ... Acwing902_ShortestEditDistance
 	@echo ... Acwing95
@@ -2215,11 +2742,16 @@ help:
 	@echo ... FIFO
 	@echo ... LongestAscendingSubsequence
 	@echo ... MyAtoi
+	@echo ... PriorityQueue
 	@echo ... PushTheThreeDimensionalBox
 	@echo ... ThreeKingdoms
 	@echo ... ThreeKingdoms2
 	@echo ... ccf201312_1theMostFrequentOccurrences
 	@echo ... ccf201403_1OppositeNumber
+	@echo ... ccf201909_2_Acwing3283
+	@echo ... ccf202006_2_Acwing3288
+	@echo ... ccf2021_04_3
+	@echo ... ccf2021_9_2
 	@echo ... dijkstraClass
 	@echo ... leetcode10
 	@echo ... leetcode15_ThreeSum
@@ -2227,6 +2759,7 @@ help:
 	@echo ... leetcode_5793NearestExit
 	@echo ... lut
 	@echo ... o1Bag
+	@echo ... test
 	@echo ... Acwing1010_MissileInterception.obj
 	@echo ... Acwing1010_MissileInterception.i
 	@echo ... Acwing1010_MissileInterception.s
@@ -2269,9 +2802,21 @@ help:
 	@echo ... Acwing1053_RepairDNA.obj
 	@echo ... Acwing1053_RepairDNA.i
 	@echo ... Acwing1053_RepairDNA.s
+	@echo ... Acwing1064_the-little-king.obj
+	@echo ... Acwing1064_the-little-king.i
+	@echo ... Acwing1064_the-little-king.s
 	@echo ... Acwing1097_LakeCounting.obj
 	@echo ... Acwing1097_LakeCounting.i
 	@echo ... Acwing1097_LakeCounting.s
+	@echo ... Acwing1126_MinimumCost.obj
+	@echo ... Acwing1126_MinimumCost.i
+	@echo ... Acwing1126_MinimumCost.s
+	@echo ... Acwing1127_SweetButter.obj
+	@echo ... Acwing1127_SweetButter.i
+	@echo ... Acwing1127_SweetButter.s
+	@echo ... Acwing1128_Messager.obj
+	@echo ... Acwing1128_Messager.i
+	@echo ... Acwing1128_Messager.s
 	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.obj
 	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.i
 	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.s
@@ -2287,12 +2832,21 @@ help:
 	@echo ... Acwing275_PassingANote.obj
 	@echo ... Acwing275_PassingANote.i
 	@echo ... Acwing275_PassingANote.s
+	@echo ... Acwing3277.obj
+	@echo ... Acwing3277.i
+	@echo ... Acwing3277.s
+	@echo ... Acwing3278.obj
+	@echo ... Acwing3278.i
+	@echo ... Acwing3278.s
 	@echo ... Acwing3607_PrintDate.obj
 	@echo ... Acwing3607_PrintDate.i
 	@echo ... Acwing3607_PrintDate.s
 	@echo ... Acwing482_ChorusFormation.obj
 	@echo ... Acwing482_ChorusFormation.i
 	@echo ... Acwing482_ChorusFormation.s
+	@echo ... Acwing850_DijkstraII.obj
+	@echo ... Acwing850_DijkstraII.i
+	@echo ... Acwing850_DijkstraII.s
 	@echo ... Acwing897_LongestCommonSubsequence_.obj
 	@echo ... Acwing897_LongestCommonSubsequence_.i
 	@echo ... Acwing897_LongestCommonSubsequence_.s
@@ -2320,6 +2874,9 @@ help:
 	@echo ... C++STL/Acwing1828_SearchKeywords.obj
 	@echo ... C++STL/Acwing1828_SearchKeywords.i
 	@echo ... C++STL/Acwing1828_SearchKeywords.s
+	@echo ... C++STL/PriorityQueue.obj
+	@echo ... C++STL/PriorityQueue.i
+	@echo ... C++STL/PriorityQueue.s
 	@echo ... Ccf201403_2Window.obj
 	@echo ... Ccf201403_2Window.i
 	@echo ... Ccf201403_2Window.s
@@ -2359,6 +2916,18 @@ help:
 	@echo ... ccf201403_1OppositeNumber.obj
 	@echo ... ccf201403_1OppositeNumber.i
 	@echo ... ccf201403_1OppositeNumber.s
+	@echo ... ccf201909_2_Acwing3283.obj
+	@echo ... ccf201909_2_Acwing3283.i
+	@echo ... ccf201909_2_Acwing3283.s
+	@echo ... ccf202006_2_Acwing3288.obj
+	@echo ... ccf202006_2_Acwing3288.i
+	@echo ... ccf202006_2_Acwing3288.s
+	@echo ... ccf2021_04_3.obj
+	@echo ... ccf2021_04_3.i
+	@echo ... ccf2021_04_3.s
+	@echo ... ccf2021_9_2.obj
+	@echo ... ccf2021_9_2.i
+	@echo ... ccf2021_9_2.s
 	@echo ... dijkstraClass.obj
 	@echo ... dijkstraClass.i
 	@echo ... dijkstraClass.s
@@ -2380,6 +2949,9 @@ help:
 	@echo ... o1Bag.obj
 	@echo ... o1Bag.i
 	@echo ... o1Bag.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 
