@@ -194,6 +194,19 @@ FIFO/fast:
 .PHONY : FIFO/fast
 
 #=============================================================================
+# Target rules for targets named Acwing100increaseOrDecreaseInTheSequence
+
+# Build rule for target.
+Acwing100increaseOrDecreaseInTheSequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing100increaseOrDecreaseInTheSequence
+.PHONY : Acwing100increaseOrDecreaseInTheSequence
+
+# fast build rule for target.
+Acwing100increaseOrDecreaseInTheSequence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing100increaseOrDecreaseInTheSequence.dir\build.make CMakeFiles/Acwing100increaseOrDecreaseInTheSequence.dir/build
+.PHONY : Acwing100increaseOrDecreaseInTheSequence/fast
+
+#=============================================================================
 # Target rules for targets named ExponentialEnumeration
 
 # Build rule for target.
@@ -714,6 +727,19 @@ Acwing1016MaximumAscendingSubsequenceSum/fast:
 .PHONY : Acwing1016MaximumAscendingSubsequenceSum/fast
 
 #=============================================================================
+# Target rules for targets named ccf202006_3Markdown
+
+# Build rule for target.
+ccf202006_3Markdown: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ccf202006_3Markdown
+.PHONY : ccf202006_3Markdown
+
+# fast build rule for target.
+ccf202006_3Markdown/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_3Markdown.dir\build.make CMakeFiles/ccf202006_3Markdown.dir/build
+.PHONY : ccf202006_3Markdown/fast
+
+#=============================================================================
 # Target rules for targets named Acwing3607_PrintDate
 
 # Build rule for target.
@@ -959,6 +985,151 @@ ccf2021_04_3: cmake_check_build_system
 ccf2021_04_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf2021_04_3.dir\build.make CMakeFiles/ccf2021_04_3.dir/build
 .PHONY : ccf2021_04_3/fast
+
+#=============================================================================
+# Target rules for targets named Acwing97theSumOfAFew
+
+# Build rule for target.
+Acwing97theSumOfAFew: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing97theSumOfAFew
+.PHONY : Acwing97theSumOfAFew
+
+# fast build rule for target.
+Acwing97theSumOfAFew/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing97theSumOfAFew.dir\build.make CMakeFiles/Acwing97theSumOfAFew.dir/build
+.PHONY : Acwing97theSumOfAFew/fast
+
+#=============================================================================
+# Target rules for targets named Acwing524AngryBirds
+
+# Build rule for target.
+Acwing524AngryBirds: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing524AngryBirds
+.PHONY : Acwing524AngryBirds
+
+# fast build rule for target.
+Acwing524AngryBirds/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing524AngryBirds.dir\build.make CMakeFiles/Acwing524AngryBirds.dir/build
+.PHONY : Acwing524AngryBirds/fast
+
+#=============================================================================
+# Target rules for targets named AcWing3295StarTrek
+
+# Build rule for target.
+AcWing3295StarTrek: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AcWing3295StarTrek
+.PHONY : AcWing3295StarTrek
+
+# fast build rule for target.
+AcWing3295StarTrek/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing3295StarTrek.dir\build.make CMakeFiles/AcWing3295StarTrek.dir/build
+.PHONY : AcWing3295StarTrek/fast
+
+#=============================================================================
+# Target rules for targets named ccf202109_4NetworkCardCard
+
+# Build rule for target.
+ccf202109_4NetworkCardCard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ccf202109_4NetworkCardCard
+.PHONY : ccf202109_4NetworkCardCard
+
+# fast build rule for target.
+ccf202109_4NetworkCardCard/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202109_4NetworkCardCard.dir\build.make CMakeFiles/ccf202109_4NetworkCardCard.dir/build
+.PHONY : ccf202109_4NetworkCardCard/fast
+
+#=============================================================================
+# Target rules for targets named Acwing256MaximumxORSum
+
+# Build rule for target.
+Acwing256MaximumxORSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing256MaximumxORSum
+.PHONY : Acwing256MaximumxORSum
+
+# fast build rule for target.
+Acwing256MaximumxORSum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing256MaximumxORSum.dir\build.make CMakeFiles/Acwing256MaximumxORSum.dir/build
+.PHONY : Acwing256MaximumxORSum/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1275_maximumNumber
+
+# Build rule for target.
+Acwing1275_maximumNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1275_maximumNumber
+.PHONY : Acwing1275_maximumNumber
+
+# fast build rule for target.
+Acwing1275_maximumNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1275_maximumNumber.dir\build.make CMakeFiles/Acwing1275_maximumNumber.dir/build
+.PHONY : Acwing1275_maximumNumber/fast
+
+#=============================================================================
+# Target rules for targets named Acwing245CanYouAnswerTheseQuestions
+
+# Build rule for target.
+Acwing245CanYouAnswerTheseQuestions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing245CanYouAnswerTheseQuestions
+.PHONY : Acwing245CanYouAnswerTheseQuestions
+
+# fast build rule for target.
+Acwing245CanYouAnswerTheseQuestions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing245CanYouAnswerTheseQuestions.dir\build.make CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir/build
+.PHONY : Acwing245CanYouAnswerTheseQuestions/fast
+
+AcWing3295StarTrek.obj: AcWing3295StarTrek.cpp.obj
+
+.PHONY : AcWing3295StarTrek.obj
+
+# target to build an object file
+AcWing3295StarTrek.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing3295StarTrek.dir\build.make CMakeFiles/AcWing3295StarTrek.dir/AcWing3295StarTrek.cpp.obj
+.PHONY : AcWing3295StarTrek.cpp.obj
+
+AcWing3295StarTrek.i: AcWing3295StarTrek.cpp.i
+
+.PHONY : AcWing3295StarTrek.i
+
+# target to preprocess a source file
+AcWing3295StarTrek.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing3295StarTrek.dir\build.make CMakeFiles/AcWing3295StarTrek.dir/AcWing3295StarTrek.cpp.i
+.PHONY : AcWing3295StarTrek.cpp.i
+
+AcWing3295StarTrek.s: AcWing3295StarTrek.cpp.s
+
+.PHONY : AcWing3295StarTrek.s
+
+# target to generate assembly for a file
+AcWing3295StarTrek.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing3295StarTrek.dir\build.make CMakeFiles/AcWing3295StarTrek.dir/AcWing3295StarTrek.cpp.s
+.PHONY : AcWing3295StarTrek.cpp.s
+
+Acwing100increaseOrDecreaseInTheSequence.obj: Acwing100increaseOrDecreaseInTheSequence.cpp.obj
+
+.PHONY : Acwing100increaseOrDecreaseInTheSequence.obj
+
+# target to build an object file
+Acwing100increaseOrDecreaseInTheSequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing100increaseOrDecreaseInTheSequence.dir\build.make CMakeFiles/Acwing100increaseOrDecreaseInTheSequence.dir/Acwing100increaseOrDecreaseInTheSequence.cpp.obj
+.PHONY : Acwing100increaseOrDecreaseInTheSequence.cpp.obj
+
+Acwing100increaseOrDecreaseInTheSequence.i: Acwing100increaseOrDecreaseInTheSequence.cpp.i
+
+.PHONY : Acwing100increaseOrDecreaseInTheSequence.i
+
+# target to preprocess a source file
+Acwing100increaseOrDecreaseInTheSequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing100increaseOrDecreaseInTheSequence.dir\build.make CMakeFiles/Acwing100increaseOrDecreaseInTheSequence.dir/Acwing100increaseOrDecreaseInTheSequence.cpp.i
+.PHONY : Acwing100increaseOrDecreaseInTheSequence.cpp.i
+
+Acwing100increaseOrDecreaseInTheSequence.s: Acwing100increaseOrDecreaseInTheSequence.cpp.s
+
+.PHONY : Acwing100increaseOrDecreaseInTheSequence.s
+
+# target to generate assembly for a file
+Acwing100increaseOrDecreaseInTheSequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing100increaseOrDecreaseInTheSequence.dir\build.make CMakeFiles/Acwing100increaseOrDecreaseInTheSequence.dir/Acwing100increaseOrDecreaseInTheSequence.cpp.s
+.PHONY : Acwing100increaseOrDecreaseInTheSequence.cpp.s
 
 Acwing1010_MissileInterception.obj: Acwing1010_MissileInterception.cpp.obj
 
@@ -1500,6 +1671,33 @@ Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing11_KnapsackProblemForTheNumberOfSolutions.dir\build.make CMakeFiles/Acwing11_KnapsackProblemForTheNumberOfSolutions.dir/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
 .PHONY : Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp.s
 
+Acwing1275_maximumNumber.obj: Acwing1275_maximumNumber.cpp.obj
+
+.PHONY : Acwing1275_maximumNumber.obj
+
+# target to build an object file
+Acwing1275_maximumNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1275_maximumNumber.dir\build.make CMakeFiles/Acwing1275_maximumNumber.dir/Acwing1275_maximumNumber.cpp.obj
+.PHONY : Acwing1275_maximumNumber.cpp.obj
+
+Acwing1275_maximumNumber.i: Acwing1275_maximumNumber.cpp.i
+
+.PHONY : Acwing1275_maximumNumber.i
+
+# target to preprocess a source file
+Acwing1275_maximumNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1275_maximumNumber.dir\build.make CMakeFiles/Acwing1275_maximumNumber.dir/Acwing1275_maximumNumber.cpp.i
+.PHONY : Acwing1275_maximumNumber.cpp.i
+
+Acwing1275_maximumNumber.s: Acwing1275_maximumNumber.cpp.s
+
+.PHONY : Acwing1275_maximumNumber.s
+
+# target to generate assembly for a file
+Acwing1275_maximumNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1275_maximumNumber.dir\build.make CMakeFiles/Acwing1275_maximumNumber.dir/Acwing1275_maximumNumber.cpp.s
+.PHONY : Acwing1275_maximumNumber.cpp.s
+
 Acwing154_SlidingWindow.obj: Acwing154_SlidingWindow.cpp.obj
 
 .PHONY : Acwing154_SlidingWindow.obj
@@ -1580,6 +1778,60 @@ Acwing187_MissileDefenseSystem.s: Acwing187_MissileDefenseSystem.cpp.s
 Acwing187_MissileDefenseSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/Acwing187_MissileDefenseSystem.cpp.s
 .PHONY : Acwing187_MissileDefenseSystem.cpp.s
+
+Acwing245CanYouAnswerTheseQuestions.obj: Acwing245CanYouAnswerTheseQuestions.cpp.obj
+
+.PHONY : Acwing245CanYouAnswerTheseQuestions.obj
+
+# target to build an object file
+Acwing245CanYouAnswerTheseQuestions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing245CanYouAnswerTheseQuestions.dir\build.make CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir/Acwing245CanYouAnswerTheseQuestions.cpp.obj
+.PHONY : Acwing245CanYouAnswerTheseQuestions.cpp.obj
+
+Acwing245CanYouAnswerTheseQuestions.i: Acwing245CanYouAnswerTheseQuestions.cpp.i
+
+.PHONY : Acwing245CanYouAnswerTheseQuestions.i
+
+# target to preprocess a source file
+Acwing245CanYouAnswerTheseQuestions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing245CanYouAnswerTheseQuestions.dir\build.make CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir/Acwing245CanYouAnswerTheseQuestions.cpp.i
+.PHONY : Acwing245CanYouAnswerTheseQuestions.cpp.i
+
+Acwing245CanYouAnswerTheseQuestions.s: Acwing245CanYouAnswerTheseQuestions.cpp.s
+
+.PHONY : Acwing245CanYouAnswerTheseQuestions.s
+
+# target to generate assembly for a file
+Acwing245CanYouAnswerTheseQuestions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing245CanYouAnswerTheseQuestions.dir\build.make CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir/Acwing245CanYouAnswerTheseQuestions.cpp.s
+.PHONY : Acwing245CanYouAnswerTheseQuestions.cpp.s
+
+Acwing256MaximumxORSum.obj: Acwing256MaximumxORSum.cpp.obj
+
+.PHONY : Acwing256MaximumxORSum.obj
+
+# target to build an object file
+Acwing256MaximumxORSum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing256MaximumxORSum.dir\build.make CMakeFiles/Acwing256MaximumxORSum.dir/Acwing256MaximumxORSum.cpp.obj
+.PHONY : Acwing256MaximumxORSum.cpp.obj
+
+Acwing256MaximumxORSum.i: Acwing256MaximumxORSum.cpp.i
+
+.PHONY : Acwing256MaximumxORSum.i
+
+# target to preprocess a source file
+Acwing256MaximumxORSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing256MaximumxORSum.dir\build.make CMakeFiles/Acwing256MaximumxORSum.dir/Acwing256MaximumxORSum.cpp.i
+.PHONY : Acwing256MaximumxORSum.cpp.i
+
+Acwing256MaximumxORSum.s: Acwing256MaximumxORSum.cpp.s
+
+.PHONY : Acwing256MaximumxORSum.s
+
+# target to generate assembly for a file
+Acwing256MaximumxORSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing256MaximumxORSum.dir\build.make CMakeFiles/Acwing256MaximumxORSum.dir/Acwing256MaximumxORSum.cpp.s
+.PHONY : Acwing256MaximumxORSum.cpp.s
 
 Acwing275_PassingANote.obj: Acwing275_PassingANote.cpp.obj
 
@@ -1716,6 +1968,33 @@ Acwing482_ChorusFormation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing482_ChorusFormation.dir\build.make CMakeFiles/Acwing482_ChorusFormation.dir/Acwing482_ChorusFormation.cpp.s
 .PHONY : Acwing482_ChorusFormation.cpp.s
 
+Acwing524AngryBirds.obj: Acwing524AngryBirds.cpp.obj
+
+.PHONY : Acwing524AngryBirds.obj
+
+# target to build an object file
+Acwing524AngryBirds.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing524AngryBirds.dir\build.make CMakeFiles/Acwing524AngryBirds.dir/Acwing524AngryBirds.cpp.obj
+.PHONY : Acwing524AngryBirds.cpp.obj
+
+Acwing524AngryBirds.i: Acwing524AngryBirds.cpp.i
+
+.PHONY : Acwing524AngryBirds.i
+
+# target to preprocess a source file
+Acwing524AngryBirds.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing524AngryBirds.dir\build.make CMakeFiles/Acwing524AngryBirds.dir/Acwing524AngryBirds.cpp.i
+.PHONY : Acwing524AngryBirds.cpp.i
+
+Acwing524AngryBirds.s: Acwing524AngryBirds.cpp.s
+
+.PHONY : Acwing524AngryBirds.s
+
+# target to generate assembly for a file
+Acwing524AngryBirds.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing524AngryBirds.dir\build.make CMakeFiles/Acwing524AngryBirds.dir/Acwing524AngryBirds.cpp.s
+.PHONY : Acwing524AngryBirds.cpp.s
+
 Acwing850_DijkstraII.obj: Acwing850_DijkstraII.cpp.obj
 
 .PHONY : Acwing850_DijkstraII.obj
@@ -1823,6 +2102,33 @@ Acwing95.s: Acwing95.cpp.s
 Acwing95.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing95.dir\build.make CMakeFiles/Acwing95.dir/Acwing95.cpp.s
 .PHONY : Acwing95.cpp.s
+
+Acwing97theSumOfAFew.obj: Acwing97theSumOfAFew.cpp.obj
+
+.PHONY : Acwing97theSumOfAFew.obj
+
+# target to build an object file
+Acwing97theSumOfAFew.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing97theSumOfAFew.dir\build.make CMakeFiles/Acwing97theSumOfAFew.dir/Acwing97theSumOfAFew.cpp.obj
+.PHONY : Acwing97theSumOfAFew.cpp.obj
+
+Acwing97theSumOfAFew.i: Acwing97theSumOfAFew.cpp.i
+
+.PHONY : Acwing97theSumOfAFew.i
+
+# target to preprocess a source file
+Acwing97theSumOfAFew.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing97theSumOfAFew.dir\build.make CMakeFiles/Acwing97theSumOfAFew.dir/Acwing97theSumOfAFew.cpp.i
+.PHONY : Acwing97theSumOfAFew.cpp.i
+
+Acwing97theSumOfAFew.s: Acwing97theSumOfAFew.cpp.s
+
+.PHONY : Acwing97theSumOfAFew.s
+
+# target to generate assembly for a file
+Acwing97theSumOfAFew.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing97theSumOfAFew.dir\build.make CMakeFiles/Acwing97theSumOfAFew.dir/Acwing97theSumOfAFew.cpp.s
+.PHONY : Acwing97theSumOfAFew.cpp.s
 
 Acwing_1225RegularProblem.obj: Acwing_1225RegularProblem.cpp.obj
 
@@ -2418,6 +2724,60 @@ ccf202006_2_Acwing3288.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_2_Acwing3288.dir\build.make CMakeFiles/ccf202006_2_Acwing3288.dir/ccf202006_2_Acwing3288.cpp.s
 .PHONY : ccf202006_2_Acwing3288.cpp.s
 
+ccf202006_3Markdown.obj: ccf202006_3Markdown.cpp.obj
+
+.PHONY : ccf202006_3Markdown.obj
+
+# target to build an object file
+ccf202006_3Markdown.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_3Markdown.dir\build.make CMakeFiles/ccf202006_3Markdown.dir/ccf202006_3Markdown.cpp.obj
+.PHONY : ccf202006_3Markdown.cpp.obj
+
+ccf202006_3Markdown.i: ccf202006_3Markdown.cpp.i
+
+.PHONY : ccf202006_3Markdown.i
+
+# target to preprocess a source file
+ccf202006_3Markdown.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_3Markdown.dir\build.make CMakeFiles/ccf202006_3Markdown.dir/ccf202006_3Markdown.cpp.i
+.PHONY : ccf202006_3Markdown.cpp.i
+
+ccf202006_3Markdown.s: ccf202006_3Markdown.cpp.s
+
+.PHONY : ccf202006_3Markdown.s
+
+# target to generate assembly for a file
+ccf202006_3Markdown.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202006_3Markdown.dir\build.make CMakeFiles/ccf202006_3Markdown.dir/ccf202006_3Markdown.cpp.s
+.PHONY : ccf202006_3Markdown.cpp.s
+
+ccf202109_4NetworkCardCard.obj: ccf202109_4NetworkCardCard.cpp.obj
+
+.PHONY : ccf202109_4NetworkCardCard.obj
+
+# target to build an object file
+ccf202109_4NetworkCardCard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202109_4NetworkCardCard.dir\build.make CMakeFiles/ccf202109_4NetworkCardCard.dir/ccf202109_4NetworkCardCard.cpp.obj
+.PHONY : ccf202109_4NetworkCardCard.cpp.obj
+
+ccf202109_4NetworkCardCard.i: ccf202109_4NetworkCardCard.cpp.i
+
+.PHONY : ccf202109_4NetworkCardCard.i
+
+# target to preprocess a source file
+ccf202109_4NetworkCardCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202109_4NetworkCardCard.dir\build.make CMakeFiles/ccf202109_4NetworkCardCard.dir/ccf202109_4NetworkCardCard.cpp.i
+.PHONY : ccf202109_4NetworkCardCard.cpp.i
+
+ccf202109_4NetworkCardCard.s: ccf202109_4NetworkCardCard.cpp.s
+
+.PHONY : ccf202109_4NetworkCardCard.s
+
+# target to generate assembly for a file
+ccf202109_4NetworkCardCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ccf202109_4NetworkCardCard.dir\build.make CMakeFiles/ccf202109_4NetworkCardCard.dir/ccf202109_4NetworkCardCard.cpp.s
+.PHONY : ccf202109_4NetworkCardCard.cpp.s
+
 ccf2021_04_3.obj: ccf2021_04_3.cpp.obj
 
 .PHONY : ccf2021_04_3.obj
@@ -2696,6 +3056,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AcWing3295StarTrek
+	@echo ... Acwing100increaseOrDecreaseInTheSequence
 	@echo ... Acwing1010_MissileInterception
 	@echo ... Acwing1012_SisterCity
 	@echo ... Acwing1012_SisterCity2
@@ -2716,19 +3078,24 @@ help:
 	@echo ... Acwing1127_SweetButter
 	@echo ... Acwing1128_Messager
 	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions
+	@echo ... Acwing1275_maximumNumber
 	@echo ... Acwing154_SlidingWindow
 	@echo ... Acwing172
 	@echo ... Acwing1828_SearchKeywords
 	@echo ... Acwing187_MissileDefenseSystem
+	@echo ... Acwing245CanYouAnswerTheseQuestions
+	@echo ... Acwing256MaximumxORSum
 	@echo ... Acwing275_PassingANote
 	@echo ... Acwing3277
 	@echo ... Acwing3278
 	@echo ... Acwing3607_PrintDate
 	@echo ... Acwing482_ChorusFormation
+	@echo ... Acwing524AngryBirds
 	@echo ... Acwing850_DijkstraII
 	@echo ... Acwing897_LongestCommonSubsequence
 	@echo ... Acwing902_ShortestEditDistance
 	@echo ... Acwing95
+	@echo ... Acwing97theSumOfAFew
 	@echo ... Acwing_1225RegularProblem
 	@echo ... Acwing_3483PowerOfTwo
 	@echo ... Acwung282_MergingOfStones
@@ -2750,6 +3117,8 @@ help:
 	@echo ... ccf201403_1OppositeNumber
 	@echo ... ccf201909_2_Acwing3283
 	@echo ... ccf202006_2_Acwing3288
+	@echo ... ccf202006_3Markdown
+	@echo ... ccf202109_4NetworkCardCard
 	@echo ... ccf2021_04_3
 	@echo ... ccf2021_9_2
 	@echo ... dijkstraClass
@@ -2760,6 +3129,12 @@ help:
 	@echo ... lut
 	@echo ... o1Bag
 	@echo ... test
+	@echo ... AcWing3295StarTrek.obj
+	@echo ... AcWing3295StarTrek.i
+	@echo ... AcWing3295StarTrek.s
+	@echo ... Acwing100increaseOrDecreaseInTheSequence.obj
+	@echo ... Acwing100increaseOrDecreaseInTheSequence.i
+	@echo ... Acwing100increaseOrDecreaseInTheSequence.s
 	@echo ... Acwing1010_MissileInterception.obj
 	@echo ... Acwing1010_MissileInterception.i
 	@echo ... Acwing1010_MissileInterception.s
@@ -2820,6 +3195,9 @@ help:
 	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.obj
 	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.i
 	@echo ... Acwing11_KnapsackProblemForTheNumberOfSolutions.s
+	@echo ... Acwing1275_maximumNumber.obj
+	@echo ... Acwing1275_maximumNumber.i
+	@echo ... Acwing1275_maximumNumber.s
 	@echo ... Acwing154_SlidingWindow.obj
 	@echo ... Acwing154_SlidingWindow.i
 	@echo ... Acwing154_SlidingWindow.s
@@ -2829,6 +3207,12 @@ help:
 	@echo ... Acwing187_MissileDefenseSystem.obj
 	@echo ... Acwing187_MissileDefenseSystem.i
 	@echo ... Acwing187_MissileDefenseSystem.s
+	@echo ... Acwing245CanYouAnswerTheseQuestions.obj
+	@echo ... Acwing245CanYouAnswerTheseQuestions.i
+	@echo ... Acwing245CanYouAnswerTheseQuestions.s
+	@echo ... Acwing256MaximumxORSum.obj
+	@echo ... Acwing256MaximumxORSum.i
+	@echo ... Acwing256MaximumxORSum.s
 	@echo ... Acwing275_PassingANote.obj
 	@echo ... Acwing275_PassingANote.i
 	@echo ... Acwing275_PassingANote.s
@@ -2844,6 +3228,9 @@ help:
 	@echo ... Acwing482_ChorusFormation.obj
 	@echo ... Acwing482_ChorusFormation.i
 	@echo ... Acwing482_ChorusFormation.s
+	@echo ... Acwing524AngryBirds.obj
+	@echo ... Acwing524AngryBirds.i
+	@echo ... Acwing524AngryBirds.s
 	@echo ... Acwing850_DijkstraII.obj
 	@echo ... Acwing850_DijkstraII.i
 	@echo ... Acwing850_DijkstraII.s
@@ -2856,6 +3243,9 @@ help:
 	@echo ... Acwing95.obj
 	@echo ... Acwing95.i
 	@echo ... Acwing95.s
+	@echo ... Acwing97theSumOfAFew.obj
+	@echo ... Acwing97theSumOfAFew.i
+	@echo ... Acwing97theSumOfAFew.s
 	@echo ... Acwing_1225RegularProblem.obj
 	@echo ... Acwing_1225RegularProblem.i
 	@echo ... Acwing_1225RegularProblem.s
@@ -2922,6 +3312,12 @@ help:
 	@echo ... ccf202006_2_Acwing3288.obj
 	@echo ... ccf202006_2_Acwing3288.i
 	@echo ... ccf202006_2_Acwing3288.s
+	@echo ... ccf202006_3Markdown.obj
+	@echo ... ccf202006_3Markdown.i
+	@echo ... ccf202006_3Markdown.s
+	@echo ... ccf202109_4NetworkCardCard.obj
+	@echo ... ccf202109_4NetworkCardCard.i
+	@echo ... ccf202109_4NetworkCardCard.s
 	@echo ... ccf2021_04_3.obj
 	@echo ... ccf2021_04_3.i
 	@echo ... ccf2021_04_3.s

@@ -1,4 +1,6 @@
 "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\cppCode
+    -- src/AcWing3295StarTrek.cpp will be compiled to bin/AcWing3295StarTrek
+    -- src/Acwing100increaseOrDecreaseInTheSequence.cpp will be compiled to bin/Acwing100increaseOrDecreaseInTheSequence
     -- src/Acwing1010_MissileInterception.cpp will be compiled to bin/Acwing1010_MissileInterception
     -- src/Acwing1012_SisterCity.cpp will be compiled to bin/Acwing1012_SisterCity
     -- src/Acwing1012_SisterCity2.cpp will be compiled to bin/Acwing1012_SisterCity2
@@ -19,18 +21,23 @@
     -- src/Acwing1127_SweetButter.cpp will be compiled to bin/Acwing1127_SweetButter
     -- src/Acwing1128_Messager.cpp will be compiled to bin/Acwing1128_Messager
     -- src/Acwing11_KnapsackProblemForTheNumberOfSolutions.cpp will be compiled to bin/Acwing11_KnapsackProblemForTheNumberOfSolutions
+    -- src/Acwing1275_maximumNumber.cpp will be compiled to bin/Acwing1275_maximumNumber
     -- src/Acwing154_SlidingWindow.cpp will be compiled to bin/Acwing154_SlidingWindow
     -- src/Acwing172.cpp will be compiled to bin/Acwing172
     -- src/Acwing187_MissileDefenseSystem.cpp will be compiled to bin/Acwing187_MissileDefenseSystem
+    -- src/Acwing245CanYouAnswerTheseQuestions.cpp will be compiled to bin/Acwing245CanYouAnswerTheseQuestions
+    -- src/Acwing256MaximumxORSum.cpp will be compiled to bin/Acwing256MaximumxORSum
     -- src/Acwing275_PassingANote.cpp will be compiled to bin/Acwing275_PassingANote
     -- src/Acwing3277.cpp will be compiled to bin/Acwing3277
     -- src/Acwing3278.cpp will be compiled to bin/Acwing3278
     -- src/Acwing3607_PrintDate.cpp will be compiled to bin/Acwing3607_PrintDate
     -- src/Acwing482_ChorusFormation.cpp will be compiled to bin/Acwing482_ChorusFormation
+    -- src/Acwing524AngryBirds.cpp will be compiled to bin/Acwing524AngryBirds
     -- src/Acwing850_DijkstraII.cpp will be compiled to bin/Acwing850_DijkstraII
     -- src/Acwing897_LongestCommonSubsequence .cpp will be compiled to bin/Acwing897_LongestCommonSubsequence 
     -- src/Acwing902_ShortestEditDistance .cpp will be compiled to bin/Acwing902_ShortestEditDistance 
     -- src/Acwing95.cpp will be compiled to bin/Acwing95
+    -- src/Acwing97theSumOfAFew.cpp will be compiled to bin/Acwing97theSumOfAFew
     -- src/Acwing_1225RegularProblem.cpp will be compiled to bin/Acwing_1225RegularProblem
     -- src/Acwing_3483PowerOfTwo.cpp will be compiled to bin/Acwing_3483PowerOfTwo
     -- src/Acwing_898DigitalTriangle.cpp will be compiled to bin/Acwing_898DigitalTriangle
@@ -55,6 +62,8 @@
     -- src/ccf201403_1OppositeNumber.cpp will be compiled to bin/ccf201403_1OppositeNumber
     -- src/ccf201909_2_Acwing3283.cpp will be compiled to bin/ccf201909_2_Acwing3283
     -- src/ccf202006_2_Acwing3288.cpp will be compiled to bin/ccf202006_2_Acwing3288
+    -- src/ccf202006_3Markdown.cpp will be compiled to bin/ccf202006_3Markdown
+    -- src/ccf202109_4NetworkCardCard.cpp will be compiled to bin/ccf202109_4NetworkCardCard
     -- src/ccf2021_04_3.cpp will be compiled to bin/ccf2021_04_3
     -- src/ccf2021_9_2.cpp will be compiled to bin/ccf2021_9_2
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId

@@ -3,6 +3,7 @@ E:/cppCode/cmake-build-debug/CMakeFiles/Acwung282_MergingOfStones.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Ccf201503_1ImageRotation.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/ccf2021_9_2.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/FIFO.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing100increaseOrDecreaseInTheSequence.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/ExponentialEnumeration.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1010_MissileInterception.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing3277.dir
@@ -43,6 +44,7 @@ E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1015_PickPeanuts.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1018_MinimumToll.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1023_BuyBook.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/ccf202006_3Markdown.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing3607_PrintDate.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1012_SisterCity2.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing850_DijkstraII.dir
@@ -62,5 +64,12 @@ E:/cppCode/cmake-build-debug/CMakeFiles/ccf202006_2_Acwing3288.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/test.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/PriorityQueue.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/ccf2021_04_3.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing97theSumOfAFew.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing524AngryBirds.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/AcWing3295StarTrek.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/ccf202109_4NetworkCardCard.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing256MaximumxORSum.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1275_maximumNumber.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
