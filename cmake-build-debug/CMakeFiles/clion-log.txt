@@ -25,7 +25,10 @@
     -- src/Acwing154_SlidingWindow.cpp will be compiled to bin/Acwing154_SlidingWindow
     -- src/Acwing172.cpp will be compiled to bin/Acwing172
     -- src/Acwing187_MissileDefenseSystem.cpp will be compiled to bin/Acwing187_MissileDefenseSystem
+    -- src/Acwing2058ClumsyFingers.cpp will be compiled to bin/Acwing2058ClumsyFingers
+    -- src/Acwing2060TheCowBeauty.cpp will be compiled to bin/Acwing2060TheCowBeauty
     -- src/Acwing245CanYouAnswerTheseQuestions.cpp will be compiled to bin/Acwing245CanYouAnswerTheseQuestions
+    -- src/Acwing246IntervalMaximumCommonDivisor.cpp will be compiled to bin/Acwing246IntervalMaximumCommonDivisor
     -- src/Acwing256MaximumxORSum.cpp will be compiled to bin/Acwing256MaximumxORSum
     -- src/Acwing275_PassingANote.cpp will be compiled to bin/Acwing275_PassingANote
     -- src/Acwing3277.cpp will be compiled to bin/Acwing3277

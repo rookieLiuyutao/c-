@@ -1077,6 +1077,45 @@ Acwing245CanYouAnswerTheseQuestions/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing245CanYouAnswerTheseQuestions.dir\build.make CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir/build
 .PHONY : Acwing245CanYouAnswerTheseQuestions/fast
 
+#=============================================================================
+# Target rules for targets named Acwing246IntervalMaximumCommonDivisor
+
+# Build rule for target.
+Acwing246IntervalMaximumCommonDivisor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing246IntervalMaximumCommonDivisor
+.PHONY : Acwing246IntervalMaximumCommonDivisor
+
+# fast build rule for target.
+Acwing246IntervalMaximumCommonDivisor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing246IntervalMaximumCommonDivisor.dir\build.make CMakeFiles/Acwing246IntervalMaximumCommonDivisor.dir/build
+.PHONY : Acwing246IntervalMaximumCommonDivisor/fast
+
+#=============================================================================
+# Target rules for targets named Acwing2058ClumsyFingers
+
+# Build rule for target.
+Acwing2058ClumsyFingers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing2058ClumsyFingers
+.PHONY : Acwing2058ClumsyFingers
+
+# fast build rule for target.
+Acwing2058ClumsyFingers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2058ClumsyFingers.dir\build.make CMakeFiles/Acwing2058ClumsyFingers.dir/build
+.PHONY : Acwing2058ClumsyFingers/fast
+
+#=============================================================================
+# Target rules for targets named Acwing2060TheCowBeauty
+
+# Build rule for target.
+Acwing2060TheCowBeauty: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing2060TheCowBeauty
+.PHONY : Acwing2060TheCowBeauty
+
+# fast build rule for target.
+Acwing2060TheCowBeauty/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2060TheCowBeauty.dir\build.make CMakeFiles/Acwing2060TheCowBeauty.dir/build
+.PHONY : Acwing2060TheCowBeauty/fast
+
 AcWing3295StarTrek.obj: AcWing3295StarTrek.cpp.obj
 
 .PHONY : AcWing3295StarTrek.obj
@@ -1779,6 +1818,60 @@ Acwing187_MissileDefenseSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/Acwing187_MissileDefenseSystem.cpp.s
 .PHONY : Acwing187_MissileDefenseSystem.cpp.s
 
+Acwing2058ClumsyFingers.obj: Acwing2058ClumsyFingers.cpp.obj
+
+.PHONY : Acwing2058ClumsyFingers.obj
+
+# target to build an object file
+Acwing2058ClumsyFingers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2058ClumsyFingers.dir\build.make CMakeFiles/Acwing2058ClumsyFingers.dir/Acwing2058ClumsyFingers.cpp.obj
+.PHONY : Acwing2058ClumsyFingers.cpp.obj
+
+Acwing2058ClumsyFingers.i: Acwing2058ClumsyFingers.cpp.i
+
+.PHONY : Acwing2058ClumsyFingers.i
+
+# target to preprocess a source file
+Acwing2058ClumsyFingers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2058ClumsyFingers.dir\build.make CMakeFiles/Acwing2058ClumsyFingers.dir/Acwing2058ClumsyFingers.cpp.i
+.PHONY : Acwing2058ClumsyFingers.cpp.i
+
+Acwing2058ClumsyFingers.s: Acwing2058ClumsyFingers.cpp.s
+
+.PHONY : Acwing2058ClumsyFingers.s
+
+# target to generate assembly for a file
+Acwing2058ClumsyFingers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2058ClumsyFingers.dir\build.make CMakeFiles/Acwing2058ClumsyFingers.dir/Acwing2058ClumsyFingers.cpp.s
+.PHONY : Acwing2058ClumsyFingers.cpp.s
+
+Acwing2060TheCowBeauty.obj: Acwing2060TheCowBeauty.cpp.obj
+
+.PHONY : Acwing2060TheCowBeauty.obj
+
+# target to build an object file
+Acwing2060TheCowBeauty.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2060TheCowBeauty.dir\build.make CMakeFiles/Acwing2060TheCowBeauty.dir/Acwing2060TheCowBeauty.cpp.obj
+.PHONY : Acwing2060TheCowBeauty.cpp.obj
+
+Acwing2060TheCowBeauty.i: Acwing2060TheCowBeauty.cpp.i
+
+.PHONY : Acwing2060TheCowBeauty.i
+
+# target to preprocess a source file
+Acwing2060TheCowBeauty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2060TheCowBeauty.dir\build.make CMakeFiles/Acwing2060TheCowBeauty.dir/Acwing2060TheCowBeauty.cpp.i
+.PHONY : Acwing2060TheCowBeauty.cpp.i
+
+Acwing2060TheCowBeauty.s: Acwing2060TheCowBeauty.cpp.s
+
+.PHONY : Acwing2060TheCowBeauty.s
+
+# target to generate assembly for a file
+Acwing2060TheCowBeauty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2060TheCowBeauty.dir\build.make CMakeFiles/Acwing2060TheCowBeauty.dir/Acwing2060TheCowBeauty.cpp.s
+.PHONY : Acwing2060TheCowBeauty.cpp.s
+
 Acwing245CanYouAnswerTheseQuestions.obj: Acwing245CanYouAnswerTheseQuestions.cpp.obj
 
 .PHONY : Acwing245CanYouAnswerTheseQuestions.obj
@@ -1805,6 +1898,33 @@ Acwing245CanYouAnswerTheseQuestions.s: Acwing245CanYouAnswerTheseQuestions.cpp.s
 Acwing245CanYouAnswerTheseQuestions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing245CanYouAnswerTheseQuestions.dir\build.make CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir/Acwing245CanYouAnswerTheseQuestions.cpp.s
 .PHONY : Acwing245CanYouAnswerTheseQuestions.cpp.s
+
+Acwing246IntervalMaximumCommonDivisor.obj: Acwing246IntervalMaximumCommonDivisor.cpp.obj
+
+.PHONY : Acwing246IntervalMaximumCommonDivisor.obj
+
+# target to build an object file
+Acwing246IntervalMaximumCommonDivisor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing246IntervalMaximumCommonDivisor.dir\build.make CMakeFiles/Acwing246IntervalMaximumCommonDivisor.dir/Acwing246IntervalMaximumCommonDivisor.cpp.obj
+.PHONY : Acwing246IntervalMaximumCommonDivisor.cpp.obj
+
+Acwing246IntervalMaximumCommonDivisor.i: Acwing246IntervalMaximumCommonDivisor.cpp.i
+
+.PHONY : Acwing246IntervalMaximumCommonDivisor.i
+
+# target to preprocess a source file
+Acwing246IntervalMaximumCommonDivisor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing246IntervalMaximumCommonDivisor.dir\build.make CMakeFiles/Acwing246IntervalMaximumCommonDivisor.dir/Acwing246IntervalMaximumCommonDivisor.cpp.i
+.PHONY : Acwing246IntervalMaximumCommonDivisor.cpp.i
+
+Acwing246IntervalMaximumCommonDivisor.s: Acwing246IntervalMaximumCommonDivisor.cpp.s
+
+.PHONY : Acwing246IntervalMaximumCommonDivisor.s
+
+# target to generate assembly for a file
+Acwing246IntervalMaximumCommonDivisor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing246IntervalMaximumCommonDivisor.dir\build.make CMakeFiles/Acwing246IntervalMaximumCommonDivisor.dir/Acwing246IntervalMaximumCommonDivisor.cpp.s
+.PHONY : Acwing246IntervalMaximumCommonDivisor.cpp.s
 
 Acwing256MaximumxORSum.obj: Acwing256MaximumxORSum.cpp.obj
 
@@ -3083,7 +3203,10 @@ help:
 	@echo ... Acwing172
 	@echo ... Acwing1828_SearchKeywords
 	@echo ... Acwing187_MissileDefenseSystem
+	@echo ... Acwing2058ClumsyFingers
+	@echo ... Acwing2060TheCowBeauty
 	@echo ... Acwing245CanYouAnswerTheseQuestions
+	@echo ... Acwing246IntervalMaximumCommonDivisor
 	@echo ... Acwing256MaximumxORSum
 	@echo ... Acwing275_PassingANote
 	@echo ... Acwing3277
@@ -3207,9 +3330,18 @@ help:
 	@echo ... Acwing187_MissileDefenseSystem.obj
 	@echo ... Acwing187_MissileDefenseSystem.i
 	@echo ... Acwing187_MissileDefenseSystem.s
+	@echo ... Acwing2058ClumsyFingers.obj
+	@echo ... Acwing2058ClumsyFingers.i
+	@echo ... Acwing2058ClumsyFingers.s
+	@echo ... Acwing2060TheCowBeauty.obj
+	@echo ... Acwing2060TheCowBeauty.i
+	@echo ... Acwing2060TheCowBeauty.s
 	@echo ... Acwing245CanYouAnswerTheseQuestions.obj
 	@echo ... Acwing245CanYouAnswerTheseQuestions.i
 	@echo ... Acwing245CanYouAnswerTheseQuestions.s
+	@echo ... Acwing246IntervalMaximumCommonDivisor.obj
+	@echo ... Acwing246IntervalMaximumCommonDivisor.i
+	@echo ... Acwing246IntervalMaximumCommonDivisor.s
 	@echo ... Acwing256MaximumxORSum.obj
 	@echo ... Acwing256MaximumxORSum.i
 	@echo ... Acwing256MaximumxORSum.s

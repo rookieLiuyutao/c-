@@ -2,5 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/lut.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/wangdeceshi.cpp" charset="GBK" />
   </component>
 </project>

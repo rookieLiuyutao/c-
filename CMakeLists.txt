@@ -84,3 +84,7 @@ add_executable(ccf202006_3Markdown ccf202006_3Markdown.cpp)
 add_executable(Acwing256MaximumxORSum Acwing256MaximumxORSum.cpp)
 add_executable(Acwing1275_maximumNumber Acwing1275_maximumNumber.cpp)
 add_executable(Acwing245CanYouAnswerTheseQuestions Acwing245CanYouAnswerTheseQuestions.cpp)
+add_executable(Acwing246IntervalMaximumCommonDivisor Acwing246IntervalMaximumCommonDivisor.cpp)
+
+add_executable(Acwing2058ClumsyFingers Acwing2058ClumsyFingers.cpp)
+add_executable(Acwing2060TheCowBeauty Acwing2060TheCowBeauty.cpp)

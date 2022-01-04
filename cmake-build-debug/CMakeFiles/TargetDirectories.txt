@@ -71,5 +71,8 @@ E:/cppCode/cmake-build-debug/CMakeFiles/ccf202109_4NetworkCardCard.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing256MaximumxORSum.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1275_maximumNumber.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing246IntervalMaximumCommonDivisor.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing2058ClumsyFingers.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing2060TheCowBeauty.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

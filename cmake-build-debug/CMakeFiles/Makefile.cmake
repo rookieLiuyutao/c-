@@ -124,4 +124,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Acwing256MaximumxORSum.dir/DependInfo.cmake"
   "CMakeFiles/Acwing1275_maximumNumber.dir/DependInfo.cmake"
   "CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir/DependInfo.cmake"
+  "CMakeFiles/Acwing246IntervalMaximumCommonDivisor.dir/DependInfo.cmake"
+  "CMakeFiles/Acwing2058ClumsyFingers.dir/DependInfo.cmake"
+  "CMakeFiles/Acwing2060TheCowBeauty.dir/DependInfo.cmake"
   )
