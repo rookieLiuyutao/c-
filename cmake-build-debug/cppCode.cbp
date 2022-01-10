@@ -2173,6 +2173,50 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Acwing2019theTractor">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing2019theTractor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing2019theTractor"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing2019theTractor/fast">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing2019theTractor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing2019theTractor/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Acwing850_DijkstraII">
 				<Option output="E:/cppCode/cmake-build-debug/Acwing850_DijkstraII.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/cppCode/cmake-build-debug"/>
@@ -3361,6 +3405,314 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Acwing1106PeaksAndValleys">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing1106PeaksAndValleys.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing1106PeaksAndValleys"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing1106PeaksAndValleys/fast">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing1106PeaksAndValleys.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing1106PeaksAndValleys/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AcWing2005Horseshoe">
+				<Option output="E:/cppCode/cmake-build-debug/AcWing2005Horseshoe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 AcWing2005Horseshoe"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AcWing2005Horseshoe/fast">
+				<Option output="E:/cppCode/cmake-build-debug/AcWing2005Horseshoe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 AcWing2005Horseshoe/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing1996DisturbTheLetters">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing1996DisturbTheLetters.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing1996DisturbTheLetters"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing1996DisturbTheLetters/fast">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing1996DisturbTheLetters.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing1996DisturbTheLetters/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing4208phoneNumber">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing4208phoneNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing4208phoneNumber"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing4208phoneNumber/fast">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing4208phoneNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing4208phoneNumber/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing420LongestLegalParenthesisSubsequence">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing420LongestLegalParenthesisSubsequence.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing420LongestLegalParenthesisSubsequence"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Acwing420LongestLegalParenthesisSubsequence/fast">
+				<Option output="E:/cppCode/cmake-build-debug/Acwing420LongestLegalParenthesisSubsequence.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 Acwing420LongestLegalParenthesisSubsequence/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AcWing241LoulanTotem">
+				<Option output="E:/cppCode/cmake-build-debug/AcWing241LoulanTotem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 AcWing241LoulanTotem"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AcWing241LoulanTotem/fast">
+				<Option output="E:/cppCode/cmake-build-debug/AcWing241LoulanTotem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 AcWing241LoulanTotem/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AcWing242ASimpleIntegerProblem">
+				<Option output="E:/cppCode/cmake-build-debug/AcWing242ASimpleIntegerProblem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 AcWing242ASimpleIntegerProblem"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AcWing242ASimpleIntegerProblem/fast">
+				<Option output="E:/cppCode/cmake-build-debug/AcWing242ASimpleIntegerProblem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/cppCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include/c++/9.3.1/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.1/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 AcWing242ASimpleIntegerProblem/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/cppCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/cppCode/cmake-build-debug"/>
 				<Option type="4"/>
@@ -3382,6 +3734,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/cppCode/AcWing2005Horseshoe.cpp">
+			<Option target="AcWing2005Horseshoe"/>
+		</Unit>
+		<Unit filename="E:/cppCode/AcWing241LoulanTotem.cpp">
+			<Option target="AcWing241LoulanTotem"/>
+		</Unit>
+		<Unit filename="E:/cppCode/AcWing242 ASimpleIntegerProblem.cpp">
+			<Option target="AcWing242ASimpleIntegerProblem"/>
+		</Unit>
 		<Unit filename="E:/cppCode/AcWing3295StarTrek.cpp">
 			<Option target="AcWing3295StarTrek"/>
 		</Unit>
@@ -3436,6 +3797,9 @@
 		<Unit filename="E:/cppCode/Acwing1097_LakeCounting.cpp">
 			<Option target="Acwing1097_LakeCounting"/>
 		</Unit>
+		<Unit filename="E:/cppCode/Acwing1106PeaksAndValleys.cpp">
+			<Option target="Acwing1106PeaksAndValleys"/>
+		</Unit>
 		<Unit filename="E:/cppCode/Acwing1126_MinimumCost.cpp">
 			<Option target="Acwing1126_MinimumCost"/>
 		</Unit>
@@ -3459,6 +3823,12 @@
 		</Unit>
 		<Unit filename="E:/cppCode/Acwing187_MissileDefenseSystem.cpp">
 			<Option target="Acwing187_MissileDefenseSystem"/>
+		</Unit>
+		<Unit filename="E:/cppCode/Acwing1996DisturbTheLetters.cpp">
+			<Option target="Acwing1996DisturbTheLetters"/>
+		</Unit>
+		<Unit filename="E:/cppCode/Acwing2019theTractor.cpp">
+			<Option target="Acwing2019theTractor"/>
 		</Unit>
 		<Unit filename="E:/cppCode/Acwing2058ClumsyFingers.cpp">
 			<Option target="Acwing2058ClumsyFingers"/>
@@ -3486,6 +3856,12 @@
 		</Unit>
 		<Unit filename="E:/cppCode/Acwing3607_PrintDate.cpp">
 			<Option target="Acwing3607_PrintDate"/>
+		</Unit>
+		<Unit filename="E:/cppCode/Acwing4208phoneNumber.cpp">
+			<Option target="Acwing4208phoneNumber"/>
+		</Unit>
+		<Unit filename="E:/cppCode/Acwing420LongestLegalParenthesisSubsequence.cpp">
+			<Option target="Acwing420LongestLegalParenthesisSubsequence"/>
 		</Unit>
 		<Unit filename="E:/cppCode/Acwing482_ChorusFormation.cpp">
 			<Option target="Acwing482_ChorusFormation"/>

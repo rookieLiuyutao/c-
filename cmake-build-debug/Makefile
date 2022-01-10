@@ -766,6 +766,19 @@ Acwing1012_SisterCity2/fast:
 .PHONY : Acwing1012_SisterCity2/fast
 
 #=============================================================================
+# Target rules for targets named Acwing2019theTractor
+
+# Build rule for target.
+Acwing2019theTractor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing2019theTractor
+.PHONY : Acwing2019theTractor
+
+# fast build rule for target.
+Acwing2019theTractor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2019theTractor.dir\build.make CMakeFiles/Acwing2019theTractor.dir/build
+.PHONY : Acwing2019theTractor/fast
+
+#=============================================================================
 # Target rules for targets named Acwing850_DijkstraII
 
 # Build rule for target.
@@ -1115,6 +1128,178 @@ Acwing2060TheCowBeauty: cmake_check_build_system
 Acwing2060TheCowBeauty/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2060TheCowBeauty.dir\build.make CMakeFiles/Acwing2060TheCowBeauty.dir/build
 .PHONY : Acwing2060TheCowBeauty/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1106PeaksAndValleys
+
+# Build rule for target.
+Acwing1106PeaksAndValleys: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1106PeaksAndValleys
+.PHONY : Acwing1106PeaksAndValleys
+
+# fast build rule for target.
+Acwing1106PeaksAndValleys/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1106PeaksAndValleys.dir\build.make CMakeFiles/Acwing1106PeaksAndValleys.dir/build
+.PHONY : Acwing1106PeaksAndValleys/fast
+
+#=============================================================================
+# Target rules for targets named AcWing2005Horseshoe
+
+# Build rule for target.
+AcWing2005Horseshoe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AcWing2005Horseshoe
+.PHONY : AcWing2005Horseshoe
+
+# fast build rule for target.
+AcWing2005Horseshoe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing2005Horseshoe.dir\build.make CMakeFiles/AcWing2005Horseshoe.dir/build
+.PHONY : AcWing2005Horseshoe/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1996DisturbTheLetters
+
+# Build rule for target.
+Acwing1996DisturbTheLetters: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1996DisturbTheLetters
+.PHONY : Acwing1996DisturbTheLetters
+
+# fast build rule for target.
+Acwing1996DisturbTheLetters/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1996DisturbTheLetters.dir\build.make CMakeFiles/Acwing1996DisturbTheLetters.dir/build
+.PHONY : Acwing1996DisturbTheLetters/fast
+
+#=============================================================================
+# Target rules for targets named Acwing4208phoneNumber
+
+# Build rule for target.
+Acwing4208phoneNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing4208phoneNumber
+.PHONY : Acwing4208phoneNumber
+
+# fast build rule for target.
+Acwing4208phoneNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing4208phoneNumber.dir\build.make CMakeFiles/Acwing4208phoneNumber.dir/build
+.PHONY : Acwing4208phoneNumber/fast
+
+#=============================================================================
+# Target rules for targets named Acwing420LongestLegalParenthesisSubsequence
+
+# Build rule for target.
+Acwing420LongestLegalParenthesisSubsequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing420LongestLegalParenthesisSubsequence
+.PHONY : Acwing420LongestLegalParenthesisSubsequence
+
+# fast build rule for target.
+Acwing420LongestLegalParenthesisSubsequence/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing420LongestLegalParenthesisSubsequence.dir\build.make CMakeFiles/Acwing420LongestLegalParenthesisSubsequence.dir/build
+.PHONY : Acwing420LongestLegalParenthesisSubsequence/fast
+
+#=============================================================================
+# Target rules for targets named AcWing241LoulanTotem
+
+# Build rule for target.
+AcWing241LoulanTotem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AcWing241LoulanTotem
+.PHONY : AcWing241LoulanTotem
+
+# fast build rule for target.
+AcWing241LoulanTotem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing241LoulanTotem.dir\build.make CMakeFiles/AcWing241LoulanTotem.dir/build
+.PHONY : AcWing241LoulanTotem/fast
+
+#=============================================================================
+# Target rules for targets named AcWing242ASimpleIntegerProblem
+
+# Build rule for target.
+AcWing242ASimpleIntegerProblem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AcWing242ASimpleIntegerProblem
+.PHONY : AcWing242ASimpleIntegerProblem
+
+# fast build rule for target.
+AcWing242ASimpleIntegerProblem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing242ASimpleIntegerProblem.dir\build.make CMakeFiles/AcWing242ASimpleIntegerProblem.dir/build
+.PHONY : AcWing242ASimpleIntegerProblem/fast
+
+AcWing2005Horseshoe.obj: AcWing2005Horseshoe.cpp.obj
+
+.PHONY : AcWing2005Horseshoe.obj
+
+# target to build an object file
+AcWing2005Horseshoe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing2005Horseshoe.dir\build.make CMakeFiles/AcWing2005Horseshoe.dir/AcWing2005Horseshoe.cpp.obj
+.PHONY : AcWing2005Horseshoe.cpp.obj
+
+AcWing2005Horseshoe.i: AcWing2005Horseshoe.cpp.i
+
+.PHONY : AcWing2005Horseshoe.i
+
+# target to preprocess a source file
+AcWing2005Horseshoe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing2005Horseshoe.dir\build.make CMakeFiles/AcWing2005Horseshoe.dir/AcWing2005Horseshoe.cpp.i
+.PHONY : AcWing2005Horseshoe.cpp.i
+
+AcWing2005Horseshoe.s: AcWing2005Horseshoe.cpp.s
+
+.PHONY : AcWing2005Horseshoe.s
+
+# target to generate assembly for a file
+AcWing2005Horseshoe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing2005Horseshoe.dir\build.make CMakeFiles/AcWing2005Horseshoe.dir/AcWing2005Horseshoe.cpp.s
+.PHONY : AcWing2005Horseshoe.cpp.s
+
+AcWing241LoulanTotem.obj: AcWing241LoulanTotem.cpp.obj
+
+.PHONY : AcWing241LoulanTotem.obj
+
+# target to build an object file
+AcWing241LoulanTotem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing241LoulanTotem.dir\build.make CMakeFiles/AcWing241LoulanTotem.dir/AcWing241LoulanTotem.cpp.obj
+.PHONY : AcWing241LoulanTotem.cpp.obj
+
+AcWing241LoulanTotem.i: AcWing241LoulanTotem.cpp.i
+
+.PHONY : AcWing241LoulanTotem.i
+
+# target to preprocess a source file
+AcWing241LoulanTotem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing241LoulanTotem.dir\build.make CMakeFiles/AcWing241LoulanTotem.dir/AcWing241LoulanTotem.cpp.i
+.PHONY : AcWing241LoulanTotem.cpp.i
+
+AcWing241LoulanTotem.s: AcWing241LoulanTotem.cpp.s
+
+.PHONY : AcWing241LoulanTotem.s
+
+# target to generate assembly for a file
+AcWing241LoulanTotem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing241LoulanTotem.dir\build.make CMakeFiles/AcWing241LoulanTotem.dir/AcWing241LoulanTotem.cpp.s
+.PHONY : AcWing241LoulanTotem.cpp.s
+
+AcWing242_ASimpleIntegerProblem.obj: AcWing242_ASimpleIntegerProblem.cpp.obj
+
+.PHONY : AcWing242_ASimpleIntegerProblem.obj
+
+# target to build an object file
+AcWing242_ASimpleIntegerProblem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing242ASimpleIntegerProblem.dir\build.make CMakeFiles/AcWing242ASimpleIntegerProblem.dir/AcWing242_ASimpleIntegerProblem.cpp.obj
+.PHONY : AcWing242_ASimpleIntegerProblem.cpp.obj
+
+AcWing242_ASimpleIntegerProblem.i: AcWing242_ASimpleIntegerProblem.cpp.i
+
+.PHONY : AcWing242_ASimpleIntegerProblem.i
+
+# target to preprocess a source file
+AcWing242_ASimpleIntegerProblem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing242ASimpleIntegerProblem.dir\build.make CMakeFiles/AcWing242ASimpleIntegerProblem.dir/AcWing242_ASimpleIntegerProblem.cpp.i
+.PHONY : AcWing242_ASimpleIntegerProblem.cpp.i
+
+AcWing242_ASimpleIntegerProblem.s: AcWing242_ASimpleIntegerProblem.cpp.s
+
+.PHONY : AcWing242_ASimpleIntegerProblem.s
+
+# target to generate assembly for a file
+AcWing242_ASimpleIntegerProblem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing242ASimpleIntegerProblem.dir\build.make CMakeFiles/AcWing242ASimpleIntegerProblem.dir/AcWing242_ASimpleIntegerProblem.cpp.s
+.PHONY : AcWing242_ASimpleIntegerProblem.cpp.s
 
 AcWing3295StarTrek.obj: AcWing3295StarTrek.cpp.obj
 
@@ -1602,6 +1787,33 @@ Acwing1097_LakeCounting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1097_LakeCounting.dir\build.make CMakeFiles/Acwing1097_LakeCounting.dir/Acwing1097_LakeCounting.cpp.s
 .PHONY : Acwing1097_LakeCounting.cpp.s
 
+Acwing1106PeaksAndValleys.obj: Acwing1106PeaksAndValleys.cpp.obj
+
+.PHONY : Acwing1106PeaksAndValleys.obj
+
+# target to build an object file
+Acwing1106PeaksAndValleys.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1106PeaksAndValleys.dir\build.make CMakeFiles/Acwing1106PeaksAndValleys.dir/Acwing1106PeaksAndValleys.cpp.obj
+.PHONY : Acwing1106PeaksAndValleys.cpp.obj
+
+Acwing1106PeaksAndValleys.i: Acwing1106PeaksAndValleys.cpp.i
+
+.PHONY : Acwing1106PeaksAndValleys.i
+
+# target to preprocess a source file
+Acwing1106PeaksAndValleys.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1106PeaksAndValleys.dir\build.make CMakeFiles/Acwing1106PeaksAndValleys.dir/Acwing1106PeaksAndValleys.cpp.i
+.PHONY : Acwing1106PeaksAndValleys.cpp.i
+
+Acwing1106PeaksAndValleys.s: Acwing1106PeaksAndValleys.cpp.s
+
+.PHONY : Acwing1106PeaksAndValleys.s
+
+# target to generate assembly for a file
+Acwing1106PeaksAndValleys.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1106PeaksAndValleys.dir\build.make CMakeFiles/Acwing1106PeaksAndValleys.dir/Acwing1106PeaksAndValleys.cpp.s
+.PHONY : Acwing1106PeaksAndValleys.cpp.s
+
 Acwing1126_MinimumCost.obj: Acwing1126_MinimumCost.cpp.obj
 
 .PHONY : Acwing1126_MinimumCost.obj
@@ -1817,6 +2029,60 @@ Acwing187_MissileDefenseSystem.s: Acwing187_MissileDefenseSystem.cpp.s
 Acwing187_MissileDefenseSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/Acwing187_MissileDefenseSystem.cpp.s
 .PHONY : Acwing187_MissileDefenseSystem.cpp.s
+
+Acwing1996DisturbTheLetters.obj: Acwing1996DisturbTheLetters.cpp.obj
+
+.PHONY : Acwing1996DisturbTheLetters.obj
+
+# target to build an object file
+Acwing1996DisturbTheLetters.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1996DisturbTheLetters.dir\build.make CMakeFiles/Acwing1996DisturbTheLetters.dir/Acwing1996DisturbTheLetters.cpp.obj
+.PHONY : Acwing1996DisturbTheLetters.cpp.obj
+
+Acwing1996DisturbTheLetters.i: Acwing1996DisturbTheLetters.cpp.i
+
+.PHONY : Acwing1996DisturbTheLetters.i
+
+# target to preprocess a source file
+Acwing1996DisturbTheLetters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1996DisturbTheLetters.dir\build.make CMakeFiles/Acwing1996DisturbTheLetters.dir/Acwing1996DisturbTheLetters.cpp.i
+.PHONY : Acwing1996DisturbTheLetters.cpp.i
+
+Acwing1996DisturbTheLetters.s: Acwing1996DisturbTheLetters.cpp.s
+
+.PHONY : Acwing1996DisturbTheLetters.s
+
+# target to generate assembly for a file
+Acwing1996DisturbTheLetters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1996DisturbTheLetters.dir\build.make CMakeFiles/Acwing1996DisturbTheLetters.dir/Acwing1996DisturbTheLetters.cpp.s
+.PHONY : Acwing1996DisturbTheLetters.cpp.s
+
+Acwing2019theTractor.obj: Acwing2019theTractor.cpp.obj
+
+.PHONY : Acwing2019theTractor.obj
+
+# target to build an object file
+Acwing2019theTractor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2019theTractor.dir\build.make CMakeFiles/Acwing2019theTractor.dir/Acwing2019theTractor.cpp.obj
+.PHONY : Acwing2019theTractor.cpp.obj
+
+Acwing2019theTractor.i: Acwing2019theTractor.cpp.i
+
+.PHONY : Acwing2019theTractor.i
+
+# target to preprocess a source file
+Acwing2019theTractor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2019theTractor.dir\build.make CMakeFiles/Acwing2019theTractor.dir/Acwing2019theTractor.cpp.i
+.PHONY : Acwing2019theTractor.cpp.i
+
+Acwing2019theTractor.s: Acwing2019theTractor.cpp.s
+
+.PHONY : Acwing2019theTractor.s
+
+# target to generate assembly for a file
+Acwing2019theTractor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing2019theTractor.dir\build.make CMakeFiles/Acwing2019theTractor.dir/Acwing2019theTractor.cpp.s
+.PHONY : Acwing2019theTractor.cpp.s
 
 Acwing2058ClumsyFingers.obj: Acwing2058ClumsyFingers.cpp.obj
 
@@ -2060,6 +2326,60 @@ Acwing3607_PrintDate.s: Acwing3607_PrintDate.cpp.s
 Acwing3607_PrintDate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3607_PrintDate.dir\build.make CMakeFiles/Acwing3607_PrintDate.dir/Acwing3607_PrintDate.cpp.s
 .PHONY : Acwing3607_PrintDate.cpp.s
+
+Acwing4208phoneNumber.obj: Acwing4208phoneNumber.cpp.obj
+
+.PHONY : Acwing4208phoneNumber.obj
+
+# target to build an object file
+Acwing4208phoneNumber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing4208phoneNumber.dir\build.make CMakeFiles/Acwing4208phoneNumber.dir/Acwing4208phoneNumber.cpp.obj
+.PHONY : Acwing4208phoneNumber.cpp.obj
+
+Acwing4208phoneNumber.i: Acwing4208phoneNumber.cpp.i
+
+.PHONY : Acwing4208phoneNumber.i
+
+# target to preprocess a source file
+Acwing4208phoneNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing4208phoneNumber.dir\build.make CMakeFiles/Acwing4208phoneNumber.dir/Acwing4208phoneNumber.cpp.i
+.PHONY : Acwing4208phoneNumber.cpp.i
+
+Acwing4208phoneNumber.s: Acwing4208phoneNumber.cpp.s
+
+.PHONY : Acwing4208phoneNumber.s
+
+# target to generate assembly for a file
+Acwing4208phoneNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing4208phoneNumber.dir\build.make CMakeFiles/Acwing4208phoneNumber.dir/Acwing4208phoneNumber.cpp.s
+.PHONY : Acwing4208phoneNumber.cpp.s
+
+Acwing420LongestLegalParenthesisSubsequence.obj: Acwing420LongestLegalParenthesisSubsequence.cpp.obj
+
+.PHONY : Acwing420LongestLegalParenthesisSubsequence.obj
+
+# target to build an object file
+Acwing420LongestLegalParenthesisSubsequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing420LongestLegalParenthesisSubsequence.dir\build.make CMakeFiles/Acwing420LongestLegalParenthesisSubsequence.dir/Acwing420LongestLegalParenthesisSubsequence.cpp.obj
+.PHONY : Acwing420LongestLegalParenthesisSubsequence.cpp.obj
+
+Acwing420LongestLegalParenthesisSubsequence.i: Acwing420LongestLegalParenthesisSubsequence.cpp.i
+
+.PHONY : Acwing420LongestLegalParenthesisSubsequence.i
+
+# target to preprocess a source file
+Acwing420LongestLegalParenthesisSubsequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing420LongestLegalParenthesisSubsequence.dir\build.make CMakeFiles/Acwing420LongestLegalParenthesisSubsequence.dir/Acwing420LongestLegalParenthesisSubsequence.cpp.i
+.PHONY : Acwing420LongestLegalParenthesisSubsequence.cpp.i
+
+Acwing420LongestLegalParenthesisSubsequence.s: Acwing420LongestLegalParenthesisSubsequence.cpp.s
+
+.PHONY : Acwing420LongestLegalParenthesisSubsequence.s
+
+# target to generate assembly for a file
+Acwing420LongestLegalParenthesisSubsequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing420LongestLegalParenthesisSubsequence.dir\build.make CMakeFiles/Acwing420LongestLegalParenthesisSubsequence.dir/Acwing420LongestLegalParenthesisSubsequence.cpp.s
+.PHONY : Acwing420LongestLegalParenthesisSubsequence.cpp.s
 
 Acwing482_ChorusFormation.obj: Acwing482_ChorusFormation.cpp.obj
 
@@ -3176,6 +3496,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AcWing2005Horseshoe
+	@echo ... AcWing241LoulanTotem
+	@echo ... AcWing242ASimpleIntegerProblem
 	@echo ... AcWing3295StarTrek
 	@echo ... Acwing100increaseOrDecreaseInTheSequence
 	@echo ... Acwing1010_MissileInterception
@@ -3194,6 +3517,7 @@ help:
 	@echo ... Acwing1053_RepairDNA
 	@echo ... Acwing1064_the-little-king
 	@echo ... Acwing1097_LakeCounting
+	@echo ... Acwing1106PeaksAndValleys
 	@echo ... Acwing1126_MinimumCost
 	@echo ... Acwing1127_SweetButter
 	@echo ... Acwing1128_Messager
@@ -3203,6 +3527,8 @@ help:
 	@echo ... Acwing172
 	@echo ... Acwing1828_SearchKeywords
 	@echo ... Acwing187_MissileDefenseSystem
+	@echo ... Acwing1996DisturbTheLetters
+	@echo ... Acwing2019theTractor
 	@echo ... Acwing2058ClumsyFingers
 	@echo ... Acwing2060TheCowBeauty
 	@echo ... Acwing245CanYouAnswerTheseQuestions
@@ -3212,6 +3538,8 @@ help:
 	@echo ... Acwing3277
 	@echo ... Acwing3278
 	@echo ... Acwing3607_PrintDate
+	@echo ... Acwing4208phoneNumber
+	@echo ... Acwing420LongestLegalParenthesisSubsequence
 	@echo ... Acwing482_ChorusFormation
 	@echo ... Acwing524AngryBirds
 	@echo ... Acwing850_DijkstraII
@@ -3252,6 +3580,15 @@ help:
 	@echo ... lut
 	@echo ... o1Bag
 	@echo ... test
+	@echo ... AcWing2005Horseshoe.obj
+	@echo ... AcWing2005Horseshoe.i
+	@echo ... AcWing2005Horseshoe.s
+	@echo ... AcWing241LoulanTotem.obj
+	@echo ... AcWing241LoulanTotem.i
+	@echo ... AcWing241LoulanTotem.s
+	@echo ... AcWing242_ASimpleIntegerProblem.obj
+	@echo ... AcWing242_ASimpleIntegerProblem.i
+	@echo ... AcWing242_ASimpleIntegerProblem.s
 	@echo ... AcWing3295StarTrek.obj
 	@echo ... AcWing3295StarTrek.i
 	@echo ... AcWing3295StarTrek.s
@@ -3306,6 +3643,9 @@ help:
 	@echo ... Acwing1097_LakeCounting.obj
 	@echo ... Acwing1097_LakeCounting.i
 	@echo ... Acwing1097_LakeCounting.s
+	@echo ... Acwing1106PeaksAndValleys.obj
+	@echo ... Acwing1106PeaksAndValleys.i
+	@echo ... Acwing1106PeaksAndValleys.s
 	@echo ... Acwing1126_MinimumCost.obj
 	@echo ... Acwing1126_MinimumCost.i
 	@echo ... Acwing1126_MinimumCost.s
@@ -3330,6 +3670,12 @@ help:
 	@echo ... Acwing187_MissileDefenseSystem.obj
 	@echo ... Acwing187_MissileDefenseSystem.i
 	@echo ... Acwing187_MissileDefenseSystem.s
+	@echo ... Acwing1996DisturbTheLetters.obj
+	@echo ... Acwing1996DisturbTheLetters.i
+	@echo ... Acwing1996DisturbTheLetters.s
+	@echo ... Acwing2019theTractor.obj
+	@echo ... Acwing2019theTractor.i
+	@echo ... Acwing2019theTractor.s
 	@echo ... Acwing2058ClumsyFingers.obj
 	@echo ... Acwing2058ClumsyFingers.i
 	@echo ... Acwing2058ClumsyFingers.s
@@ -3357,6 +3703,12 @@ help:
 	@echo ... Acwing3607_PrintDate.obj
 	@echo ... Acwing3607_PrintDate.i
 	@echo ... Acwing3607_PrintDate.s
+	@echo ... Acwing4208phoneNumber.obj
+	@echo ... Acwing4208phoneNumber.i
+	@echo ... Acwing4208phoneNumber.s
+	@echo ... Acwing420LongestLegalParenthesisSubsequence.obj
+	@echo ... Acwing420LongestLegalParenthesisSubsequence.i
+	@echo ... Acwing420LongestLegalParenthesisSubsequence.s
 	@echo ... Acwing482_ChorusFormation.obj
 	@echo ... Acwing482_ChorusFormation.i
 	@echo ... Acwing482_ChorusFormation.s

@@ -1,4 +1,7 @@
 "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\cppCode
+    -- src/AcWing2005Horseshoe.cpp will be compiled to bin/AcWing2005Horseshoe
+    -- src/AcWing241LoulanTotem.cpp will be compiled to bin/AcWing241LoulanTotem
+    -- src/AcWing242 ASimpleIntegerProblem.cpp will be compiled to bin/AcWing242 ASimpleIntegerProblem
     -- src/AcWing3295StarTrek.cpp will be compiled to bin/AcWing3295StarTrek
     -- src/Acwing100increaseOrDecreaseInTheSequence.cpp will be compiled to bin/Acwing100increaseOrDecreaseInTheSequence
     -- src/Acwing1010_MissileInterception.cpp will be compiled to bin/Acwing1010_MissileInterception
@@ -17,6 +20,7 @@
     -- src/Acwing1053_RepairDNA.cpp will be compiled to bin/Acwing1053_RepairDNA
     -- src/Acwing1064_the-little-king.cpp will be compiled to bin/Acwing1064_the-little-king
     -- src/Acwing1097_LakeCounting.cpp will be compiled to bin/Acwing1097_LakeCounting
+    -- src/Acwing1106PeaksAndValleys.cpp will be compiled to bin/Acwing1106PeaksAndValleys
     -- src/Acwing1126_MinimumCost.cpp will be compiled to bin/Acwing1126_MinimumCost
     -- src/Acwing1127_SweetButter.cpp will be compiled to bin/Acwing1127_SweetButter
     -- src/Acwing1128_Messager.cpp will be compiled to bin/Acwing1128_Messager
@@ -25,6 +29,8 @@
     -- src/Acwing154_SlidingWindow.cpp will be compiled to bin/Acwing154_SlidingWindow
     -- src/Acwing172.cpp will be compiled to bin/Acwing172
     -- src/Acwing187_MissileDefenseSystem.cpp will be compiled to bin/Acwing187_MissileDefenseSystem
+    -- src/Acwing1996DisturbTheLetters.cpp will be compiled to bin/Acwing1996DisturbTheLetters
+    -- src/Acwing2019theTractor.cpp will be compiled to bin/Acwing2019theTractor
     -- src/Acwing2058ClumsyFingers.cpp will be compiled to bin/Acwing2058ClumsyFingers
     -- src/Acwing2060TheCowBeauty.cpp will be compiled to bin/Acwing2060TheCowBeauty
     -- src/Acwing245CanYouAnswerTheseQuestions.cpp will be compiled to bin/Acwing245CanYouAnswerTheseQuestions
@@ -34,6 +40,8 @@
     -- src/Acwing3277.cpp will be compiled to bin/Acwing3277
     -- src/Acwing3278.cpp will be compiled to bin/Acwing3278
     -- src/Acwing3607_PrintDate.cpp will be compiled to bin/Acwing3607_PrintDate
+    -- src/Acwing4208phoneNumber.cpp will be compiled to bin/Acwing4208phoneNumber
+    -- src/Acwing420LongestLegalParenthesisSubsequence.cpp will be compiled to bin/Acwing420LongestLegalParenthesisSubsequence
     -- src/Acwing482_ChorusFormation.cpp will be compiled to bin/Acwing482_ChorusFormation
     -- src/Acwing524AngryBirds.cpp will be compiled to bin/Acwing524AngryBirds
     -- src/Acwing850_DijkstraII.cpp will be compiled to bin/Acwing850_DijkstraII

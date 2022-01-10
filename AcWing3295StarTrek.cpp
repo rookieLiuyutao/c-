@@ -5,7 +5,7 @@ const int N = 105, M = 2005;
 
 int n, m;
 double r;
-double o[N], p[M][N];
+double o[N], phone[M][N];
 //为了减少重复计算，d存每个点到圆心的距离平方，rd存点到圆的切线长的平方
 double d[M],rd[M];
 //存下每个点到其他点的距离和
@@ -25,8 +25,8 @@ int main() {
     for (int i = 1; i <= m; i++) {
         double res = 0;
         for (int j = 1; j <= n; j++) {
-            cin >> p[i][j];
-            res += sqr(p[i][j] - o[j]);
+            cin >> phone[i][j];
+            res += sqr(phone[i][j] - o[j]);
         }
         d[i] = res;
         rd[i] =  sqrt(d[i] - sqr(r));
@@ -38,7 +38,7 @@ int main() {
             //算两点间的距离
             double c2 = 0, a = sqrt(d[i]), b = sqrt(d[j]);
             for (int k = 1; k <= n; k++) {
-                c2 += sqr(p[i][k] - p[j][k]);
+                c2 += sqr(phone[i][k] - phone[j][k]);
             }
             double c = sqrt(c2);
             //算大三角形面积

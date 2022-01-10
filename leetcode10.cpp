@@ -31,7 +31,7 @@ bool isMatch(string s, string p) {
 
 int main() {
     string s = "mississippi";
-    string p = "mis*is*p*.";
+    string p = "mis*is*phone*.";
     cout <<isMatch(s,p);
 
 }

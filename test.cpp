@@ -60,26 +60,9 @@ Node query(int u,int l,int r){
 }
 
 int main(){
-  cin>>n>>m;
-  for(int i = 1;i<=n;i++)cin>>w[i];
-  build(1,1,n);
-  LL d;
-  int l,r;
-  char op;
-  while(m--){
-    cin>>op;
-    if(op=='Q'){
-      cin>>l>>r;
-      Node left = query(1,1,l),right({0,0,0,0});
-      if(l+1<=r)right = query(1,l+1,r);
-      LL res = abs(gcd(left.sum,right.d));
-      cout<<res<<endl;
-    }else if(op=='C'){
-      cin>>l>>r>>d;
-      modify(1,l,d);
-      if(r+1<=n)modify(1,r+1,-d);
-    }
-  }
+  string x = "adldladls";
+  x.reserve();
+  cout<<x;
 }
 
 

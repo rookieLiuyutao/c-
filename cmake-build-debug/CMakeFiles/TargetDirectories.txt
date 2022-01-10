@@ -47,6 +47,7 @@ E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1016MaximumAscendingSubsequenceSum
 E:/cppCode/cmake-build-debug/CMakeFiles/ccf202006_3Markdown.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing3607_PrintDate.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1012_SisterCity2.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing2019theTractor.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing850_DijkstraII.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1024_PackingProblem.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1022_PokemonSReception.dir
@@ -74,5 +75,12 @@ E:/cppCode/cmake-build-debug/CMakeFiles/Acwing245CanYouAnswerTheseQuestions.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing246IntervalMaximumCommonDivisor.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing2058ClumsyFingers.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/Acwing2060TheCowBeauty.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1106PeaksAndValleys.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/AcWing2005Horseshoe.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing1996DisturbTheLetters.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing4208phoneNumber.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/Acwing420LongestLegalParenthesisSubsequence.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/AcWing241LoulanTotem.dir
+E:/cppCode/cmake-build-debug/CMakeFiles/AcWing242ASimpleIntegerProblem.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/cppCode/cmake-build-debug/CMakeFiles/rebuild_cache.dir

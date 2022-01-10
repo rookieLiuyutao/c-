@@ -5,7 +5,7 @@
 
 using namespace std;
 const int N = 1500,INF = 0x3f3f3f3f;
-int h[N], e[N], ne[N], w[N], dis[N], arr[N], n, m, p, idx;
+int h[N], e[N], ne[N], w[N], dis[N], arr[N], n, m, phone, idx;
 bool st[N];
 
 void add(int a, int b, int c) {
@@ -43,7 +43,7 @@ int spfa(int start) {
 }
 
 int main() {
-    cin >> n >> p >> m;
+    cin >> n >> phone >> m;
     for (int i = 1; i <= n; i++) {
         cin >> arr[i];
     }
@@ -55,7 +55,7 @@ int main() {
         add(b,a,c);
     }
     int ans = INF;
-    for(int i = 1; i <=p; i++) {
+    for(int i = 1; i <= phone; i++) {
        ans =  min(ans, spfa(i));
     }
     cout<<ans;

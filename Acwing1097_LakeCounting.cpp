@@ -35,7 +35,7 @@ int main() {
     int res = 0;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
-            if (!st[i][j] && g[i][j] == 'W') {
+              if (!st[i][j] && g[i][j] == 'W') {
                 bfs(i, j);
                 res++;
             }
