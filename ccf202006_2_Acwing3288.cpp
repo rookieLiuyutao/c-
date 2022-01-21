@@ -8,7 +8,7 @@ typedef long long LL;
 typedef unordered_map<int, int> MII;
 
 MII u, v;
-unordered_set<int > s;
+unordered_set<int > q;
 int n, a, b;
 
 int main() {

@@ -80,7 +80,7 @@ int bfs(State start, State end) {
 
 int main() {
     while (scanf("%d%d", &n, &pass), n || pass) {
-        for (int i = 0; i < n; i++) scanf("%s", g[i]);
+        for (int i = 0; i < n; i++) scanf("%q", g[i]);
 
         State start = {-1}, end;
         for (int i = 0; i < n; i++)

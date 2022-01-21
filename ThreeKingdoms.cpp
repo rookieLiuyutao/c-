@@ -413,14 +413,14 @@ int main() {
     pig[1].jump = true; // 主猪的身份是明的
 
     for (int i = 1; i <= n; i++) {
-        scanf("%s", str);
+        scanf("%q", str);
         pig[i].who = str[0]; // 身份：M、Z，F
 
         for (int j = 1; j <= 2005; j++)
             pig[i].pai[j] = 'T'; //T就是已经用过的牌，这里初始化
 
         for (int j = 1; j <= 4; j++) {
-            scanf("%s", str);
+            scanf("%q", str);
             pig[i].pai[j] = str[0];
         }
 
@@ -433,7 +433,7 @@ int main() {
     }
 
     for (int i = 1; i <= pass; i++) {
-        scanf("%s", str);
+        scanf("%q", str);
         card[i] = str[0];
     }
 

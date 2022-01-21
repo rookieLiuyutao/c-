@@ -60,9 +60,33 @@ Node query(int u,int l,int r){
 }
 
 int main(){
-  string x = "adldladls";
-  x.reserve();
-  cout<<x;
+  int x = 20;
+  for(int i = 0; i <5; i++) {
+    int c = x>>i&1;
+    cout<<c<<' ';
+  }
+  cout<<endl;
+  int res = 0;
+  for(int i = 4; i >=0; i--) {
+    int c = x>>i&1;
+    cout<<c<<' ';
+
+  }
+  cout<<endl;
+  for(int i = 4; i >=0; i--) {
+    int u = (((x>>i)&1)^1)<<i;
+    cout<<u<<' ';
+
+  }
+  cout<<endl;
+  for(int i = 4; i >=0; i--) {
+    int u = (((x>>i)&1))<<i;
+    cout<<u<<' ';
+
+  }
+  cout<<endl;
+  cout<<(20&1)<<endl;
+  cout<<(7&1)<<endl;
 }
 
 

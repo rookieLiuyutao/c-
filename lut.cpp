@@ -36,7 +36,7 @@ FILE *fp = fopen("page.txt","r"), *fq = fopen("task.txt","r");
 int i = 0;
 int a = 0, b = 0, c=0, d=0;
 char e[10];
-while(fscanf(fp,"%d%d%d%d%s",&a,&b,&c,&d,&e)!=EOF)
+while(fscanf(fp,"%d%d%d%d%q",&a,&b,&c,&d,&e)!=EOF)
 {
 	pagelist[i].pageno=a;
 	pagelist[i].flag=b;
@@ -48,7 +48,7 @@ while(fscanf(fp,"%d%d%d%d%s",&a,&b,&c,&d,&e)!=EOF)
 char s[10];
 long n = 0;
 int k=0;
-while(fscanf(fq,"%s%ld",&s,&n)!=EOF)
+while(fscanf(fq,"%q%ld",&s,&n)!=EOF)
 {
 	if(k >= 12)
 		break;
@@ -78,7 +78,7 @@ printf("王誉：1为是，0为否\n");
 printf("操作数\t逻辑地址\t页号\t页内地址\t是否命中\t物理块号\t物理地址\t淘汰页号\t是否写回\n");
 for(int i=0;i<12;i++)
 {
-printf("%s\t%ld\t\t%d\t%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d",worklist[i].operands,worklist[i].adress,worklist[i].pagenum,worklist[i].page_local,worklist[i].sign,worklist[i].Block,worklist[i].page_adress,worklist[i].page_out,worklist[i].page_back);
+printf("%q\t%ld\t\t%d\t%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d",worklist[i].operands,worklist[i].adress,worklist[i].pagenum,worklist[i].page_local,worklist[i].sign,worklist[i].Block,worklist[i].page_adress,worklist[i].page_out,worklist[i].page_back);
 printf("\n");
 }
 }

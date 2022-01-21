@@ -10,7 +10,7 @@ using namespace std;
 #define x first
 #define y second
 const int N = 5010;
-int n,s[N];
+int n, q[N];
 pair<int ,int >c[N];
 
 int main(){
@@ -24,13 +24,13 @@ int main(){
       int l = 0,r = res;
         while (l<r){
             int mid = (l+r+1)>>1;
-            if(s[mid]<c[i].y){
+            if(q[mid]<c[i].y){
                 l = mid;
             } else{
                 r = mid-1;
             }
         }
-        s[l+1] = c[i].y;
+        q[l+1] = c[i].y;
         res = max(res,l+1);
     }
 //    for(int i = 0; i <n; i++) {

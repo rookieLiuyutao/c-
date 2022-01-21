@@ -5,11 +5,11 @@
 using namespace std;
 const int N = 1000010;
 int n,ne[N],tr[N][26],cnt[N],q[N],idx;
-string s,text;
+string q,text;
 void insert(){
     int p = 0;
-    for(int i = 0;i<s.size();i++){
-        int t = s[i]-'a';
+    for(int i = 0;i< q.size();i++){
+        int t = q[i]-'a';
         if(!tr[p][t])tr[p][t] = ++idx;
         p = tr[p][t];
     }
@@ -43,7 +43,7 @@ int main(){
         idx = 0;
         cin>>n;
         for(int i = 0;i<n;i++){
-            cin>>s;
+            cin>> q;
             insert();
         }
         int res = 0;

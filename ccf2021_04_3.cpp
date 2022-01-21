@@ -81,7 +81,7 @@ int main() {
             //将该 IP 地址状态设置为待分配，占用者设置为发送主机；
             ips[chose_id].state = 1;
             ips[chose_id].owner = client;
-            //若报文中过期时刻为 0 ，则设置过期时刻为 t+Tdef
+            //若报文中过期时刻为 0 ，则设置过期时刻为 times+Tdef
             if (te == 0) {
                 ips[chose_id].t = tc + t_def;
             } else {

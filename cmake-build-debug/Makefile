@@ -701,6 +701,19 @@ Acwing1018_MinimumToll/fast:
 .PHONY : Acwing1018_MinimumToll/fast
 
 #=============================================================================
+# Target rules for targets named Acwing1960twinkle
+
+# Build rule for target.
+Acwing1960twinkle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1960twinkle
+.PHONY : Acwing1960twinkle
+
+# fast build rule for target.
+Acwing1960twinkle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1960twinkle.dir\build.make CMakeFiles/Acwing1960twinkle.dir/build
+.PHONY : Acwing1960twinkle/fast
+
+#=============================================================================
 # Target rules for targets named Acwing1023_BuyBook
 
 # Build rule for target.
@@ -751,6 +764,19 @@ Acwing3607_PrintDate: cmake_check_build_system
 Acwing3607_PrintDate/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3607_PrintDate.dir\build.make CMakeFiles/Acwing3607_PrintDate.dir/build
 .PHONY : Acwing3607_PrintDate/fast
+
+#=============================================================================
+# Target rules for targets named Acwing788TheNumberOfSequencePairs
+
+# Build rule for target.
+Acwing788TheNumberOfSequencePairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing788TheNumberOfSequencePairs
+.PHONY : Acwing788TheNumberOfSequencePairs
+
+# fast build rule for target.
+Acwing788TheNumberOfSequencePairs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing788TheNumberOfSequencePairs.dir\build.make CMakeFiles/Acwing788TheNumberOfSequencePairs.dir/build
+.PHONY : Acwing788TheNumberOfSequencePairs/fast
 
 #=============================================================================
 # Target rules for targets named Acwing1012_SisterCity2
@@ -961,6 +987,19 @@ ccf202006_2_Acwing3288/fast:
 .PHONY : ccf202006_2_Acwing3288/fast
 
 #=============================================================================
+# Target rules for targets named Acwing1945TheCowBaseball
+
+# Build rule for target.
+Acwing1945TheCowBaseball: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1945TheCowBaseball
+.PHONY : Acwing1945TheCowBaseball
+
+# fast build rule for target.
+Acwing1945TheCowBaseball/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1945TheCowBaseball.dir\build.make CMakeFiles/Acwing1945TheCowBaseball.dir/build
+.PHONY : Acwing1945TheCowBaseball/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -1156,6 +1195,19 @@ AcWing2005Horseshoe/fast:
 .PHONY : AcWing2005Horseshoe/fast
 
 #=============================================================================
+# Target rules for targets named Acwing1929TheMirrorFields
+
+# Build rule for target.
+Acwing1929TheMirrorFields: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1929TheMirrorFields
+.PHONY : Acwing1929TheMirrorFields
+
+# fast build rule for target.
+Acwing1929TheMirrorFields/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1929TheMirrorFields.dir\build.make CMakeFiles/Acwing1929TheMirrorFields.dir/build
+.PHONY : Acwing1929TheMirrorFields/fast
+
+#=============================================================================
 # Target rules for targets named Acwing1996DisturbTheLetters
 
 # Build rule for target.
@@ -1219,6 +1271,124 @@ AcWing242ASimpleIntegerProblem: cmake_check_build_system
 AcWing242ASimpleIntegerProblem/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing242ASimpleIntegerProblem.dir\build.make CMakeFiles/AcWing242ASimpleIntegerProblem.dir/build
 .PHONY : AcWing242ASimpleIntegerProblem/fast
+
+#=============================================================================
+# Target rules for targets named AcWing1969VarietiesOfAdjacent
+
+# Build rule for target.
+AcWing1969VarietiesOfAdjacent: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AcWing1969VarietiesOfAdjacent
+.PHONY : AcWing1969VarietiesOfAdjacent
+
+# fast build rule for target.
+AcWing1969VarietiesOfAdjacent/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing1969VarietiesOfAdjacent.dir\build.make CMakeFiles/AcWing1969VarietiesOfAdjacent.dir/build
+.PHONY : AcWing1969VarietiesOfAdjacent/fast
+
+#=============================================================================
+# Target rules for targets named Acwing253OrdinaryEquilibriumTree
+
+# Build rule for target.
+Acwing253OrdinaryEquilibriumTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing253OrdinaryEquilibriumTree
+.PHONY : Acwing253OrdinaryEquilibriumTree
+
+# fast build rule for target.
+Acwing253OrdinaryEquilibriumTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing253OrdinaryEquilibriumTree.dir\build.make CMakeFiles/Acwing253OrdinaryEquilibriumTree.dir/build
+.PHONY : Acwing253OrdinaryEquilibriumTree/fast
+
+#=============================================================================
+# Target rules for targets named Acwing4211SequenceRearrangement
+
+# Build rule for target.
+Acwing4211SequenceRearrangement: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing4211SequenceRearrangement
+.PHONY : Acwing4211SequenceRearrangement
+
+# fast build rule for target.
+Acwing4211SequenceRearrangement/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing4211SequenceRearrangement.dir\build.make CMakeFiles/Acwing4211SequenceRearrangement.dir/build
+.PHONY : Acwing4211SequenceRearrangement/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1934BessieSlowedHerPace
+
+# Build rule for target.
+Acwing1934BessieSlowedHerPace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1934BessieSlowedHerPace
+.PHONY : Acwing1934BessieSlowedHerPace
+
+# fast build rule for target.
+Acwing1934BessieSlowedHerPace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1934BessieSlowedHerPace.dir\build.make CMakeFiles/Acwing1934BessieSlowedHerPace.dir/build
+.PHONY : Acwing1934BessieSlowedHerPace/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1904TheCowJogging
+
+# Build rule for target.
+Acwing1904TheCowJogging: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1904TheCowJogging
+.PHONY : Acwing1904TheCowJogging
+
+# fast build rule for target.
+Acwing1904TheCowJogging/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1904TheCowJogging.dir\build.make CMakeFiles/Acwing1904TheCowJogging.dir/build
+.PHONY : Acwing1904TheCowJogging/fast
+
+#=============================================================================
+# Target rules for targets named Acwing1922LazyCow
+
+# Build rule for target.
+Acwing1922LazyCow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing1922LazyCow
+.PHONY : Acwing1922LazyCow
+
+# fast build rule for target.
+Acwing1922LazyCow/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1922LazyCow.dir\build.make CMakeFiles/Acwing1922LazyCow.dir/build
+.PHONY : Acwing1922LazyCow/fast
+
+#=============================================================================
+# Target rules for targets named Acwing3167StarsOrTrees
+
+# Build rule for target.
+Acwing3167StarsOrTrees: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Acwing3167StarsOrTrees
+.PHONY : Acwing3167StarsOrTrees
+
+# fast build rule for target.
+Acwing3167StarsOrTrees/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3167StarsOrTrees.dir\build.make CMakeFiles/Acwing3167StarsOrTrees.dir/build
+.PHONY : Acwing3167StarsOrTrees/fast
+
+AcWing1969VarietiesOfAdjacent.obj: AcWing1969VarietiesOfAdjacent.cpp.obj
+
+.PHONY : AcWing1969VarietiesOfAdjacent.obj
+
+# target to build an object file
+AcWing1969VarietiesOfAdjacent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing1969VarietiesOfAdjacent.dir\build.make CMakeFiles/AcWing1969VarietiesOfAdjacent.dir/AcWing1969VarietiesOfAdjacent.cpp.obj
+.PHONY : AcWing1969VarietiesOfAdjacent.cpp.obj
+
+AcWing1969VarietiesOfAdjacent.i: AcWing1969VarietiesOfAdjacent.cpp.i
+
+.PHONY : AcWing1969VarietiesOfAdjacent.i
+
+# target to preprocess a source file
+AcWing1969VarietiesOfAdjacent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing1969VarietiesOfAdjacent.dir\build.make CMakeFiles/AcWing1969VarietiesOfAdjacent.dir/AcWing1969VarietiesOfAdjacent.cpp.i
+.PHONY : AcWing1969VarietiesOfAdjacent.cpp.i
+
+AcWing1969VarietiesOfAdjacent.s: AcWing1969VarietiesOfAdjacent.cpp.s
+
+.PHONY : AcWing1969VarietiesOfAdjacent.s
+
+# target to generate assembly for a file
+AcWing1969VarietiesOfAdjacent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AcWing1969VarietiesOfAdjacent.dir\build.make CMakeFiles/AcWing1969VarietiesOfAdjacent.dir/AcWing1969VarietiesOfAdjacent.cpp.s
+.PHONY : AcWing1969VarietiesOfAdjacent.cpp.s
 
 AcWing2005Horseshoe.obj: AcWing2005Horseshoe.cpp.obj
 
@@ -2030,6 +2200,168 @@ Acwing187_MissileDefenseSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing187_MissileDefenseSystem.dir\build.make CMakeFiles/Acwing187_MissileDefenseSystem.dir/Acwing187_MissileDefenseSystem.cpp.s
 .PHONY : Acwing187_MissileDefenseSystem.cpp.s
 
+Acwing1904TheCowJogging.obj: Acwing1904TheCowJogging.cpp.obj
+
+.PHONY : Acwing1904TheCowJogging.obj
+
+# target to build an object file
+Acwing1904TheCowJogging.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1904TheCowJogging.dir\build.make CMakeFiles/Acwing1904TheCowJogging.dir/Acwing1904TheCowJogging.cpp.obj
+.PHONY : Acwing1904TheCowJogging.cpp.obj
+
+Acwing1904TheCowJogging.i: Acwing1904TheCowJogging.cpp.i
+
+.PHONY : Acwing1904TheCowJogging.i
+
+# target to preprocess a source file
+Acwing1904TheCowJogging.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1904TheCowJogging.dir\build.make CMakeFiles/Acwing1904TheCowJogging.dir/Acwing1904TheCowJogging.cpp.i
+.PHONY : Acwing1904TheCowJogging.cpp.i
+
+Acwing1904TheCowJogging.s: Acwing1904TheCowJogging.cpp.s
+
+.PHONY : Acwing1904TheCowJogging.s
+
+# target to generate assembly for a file
+Acwing1904TheCowJogging.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1904TheCowJogging.dir\build.make CMakeFiles/Acwing1904TheCowJogging.dir/Acwing1904TheCowJogging.cpp.s
+.PHONY : Acwing1904TheCowJogging.cpp.s
+
+Acwing1922LazyCow.obj: Acwing1922LazyCow.cpp.obj
+
+.PHONY : Acwing1922LazyCow.obj
+
+# target to build an object file
+Acwing1922LazyCow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1922LazyCow.dir\build.make CMakeFiles/Acwing1922LazyCow.dir/Acwing1922LazyCow.cpp.obj
+.PHONY : Acwing1922LazyCow.cpp.obj
+
+Acwing1922LazyCow.i: Acwing1922LazyCow.cpp.i
+
+.PHONY : Acwing1922LazyCow.i
+
+# target to preprocess a source file
+Acwing1922LazyCow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1922LazyCow.dir\build.make CMakeFiles/Acwing1922LazyCow.dir/Acwing1922LazyCow.cpp.i
+.PHONY : Acwing1922LazyCow.cpp.i
+
+Acwing1922LazyCow.s: Acwing1922LazyCow.cpp.s
+
+.PHONY : Acwing1922LazyCow.s
+
+# target to generate assembly for a file
+Acwing1922LazyCow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1922LazyCow.dir\build.make CMakeFiles/Acwing1922LazyCow.dir/Acwing1922LazyCow.cpp.s
+.PHONY : Acwing1922LazyCow.cpp.s
+
+Acwing1929TheMirrorFields.obj: Acwing1929TheMirrorFields.cpp.obj
+
+.PHONY : Acwing1929TheMirrorFields.obj
+
+# target to build an object file
+Acwing1929TheMirrorFields.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1929TheMirrorFields.dir\build.make CMakeFiles/Acwing1929TheMirrorFields.dir/Acwing1929TheMirrorFields.cpp.obj
+.PHONY : Acwing1929TheMirrorFields.cpp.obj
+
+Acwing1929TheMirrorFields.i: Acwing1929TheMirrorFields.cpp.i
+
+.PHONY : Acwing1929TheMirrorFields.i
+
+# target to preprocess a source file
+Acwing1929TheMirrorFields.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1929TheMirrorFields.dir\build.make CMakeFiles/Acwing1929TheMirrorFields.dir/Acwing1929TheMirrorFields.cpp.i
+.PHONY : Acwing1929TheMirrorFields.cpp.i
+
+Acwing1929TheMirrorFields.s: Acwing1929TheMirrorFields.cpp.s
+
+.PHONY : Acwing1929TheMirrorFields.s
+
+# target to generate assembly for a file
+Acwing1929TheMirrorFields.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1929TheMirrorFields.dir\build.make CMakeFiles/Acwing1929TheMirrorFields.dir/Acwing1929TheMirrorFields.cpp.s
+.PHONY : Acwing1929TheMirrorFields.cpp.s
+
+Acwing1934BessieSlowedHerPace.obj: Acwing1934BessieSlowedHerPace.cpp.obj
+
+.PHONY : Acwing1934BessieSlowedHerPace.obj
+
+# target to build an object file
+Acwing1934BessieSlowedHerPace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1934BessieSlowedHerPace.dir\build.make CMakeFiles/Acwing1934BessieSlowedHerPace.dir/Acwing1934BessieSlowedHerPace.cpp.obj
+.PHONY : Acwing1934BessieSlowedHerPace.cpp.obj
+
+Acwing1934BessieSlowedHerPace.i: Acwing1934BessieSlowedHerPace.cpp.i
+
+.PHONY : Acwing1934BessieSlowedHerPace.i
+
+# target to preprocess a source file
+Acwing1934BessieSlowedHerPace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1934BessieSlowedHerPace.dir\build.make CMakeFiles/Acwing1934BessieSlowedHerPace.dir/Acwing1934BessieSlowedHerPace.cpp.i
+.PHONY : Acwing1934BessieSlowedHerPace.cpp.i
+
+Acwing1934BessieSlowedHerPace.s: Acwing1934BessieSlowedHerPace.cpp.s
+
+.PHONY : Acwing1934BessieSlowedHerPace.s
+
+# target to generate assembly for a file
+Acwing1934BessieSlowedHerPace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1934BessieSlowedHerPace.dir\build.make CMakeFiles/Acwing1934BessieSlowedHerPace.dir/Acwing1934BessieSlowedHerPace.cpp.s
+.PHONY : Acwing1934BessieSlowedHerPace.cpp.s
+
+Acwing1945TheCowBaseball.obj: Acwing1945TheCowBaseball.cpp.obj
+
+.PHONY : Acwing1945TheCowBaseball.obj
+
+# target to build an object file
+Acwing1945TheCowBaseball.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1945TheCowBaseball.dir\build.make CMakeFiles/Acwing1945TheCowBaseball.dir/Acwing1945TheCowBaseball.cpp.obj
+.PHONY : Acwing1945TheCowBaseball.cpp.obj
+
+Acwing1945TheCowBaseball.i: Acwing1945TheCowBaseball.cpp.i
+
+.PHONY : Acwing1945TheCowBaseball.i
+
+# target to preprocess a source file
+Acwing1945TheCowBaseball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1945TheCowBaseball.dir\build.make CMakeFiles/Acwing1945TheCowBaseball.dir/Acwing1945TheCowBaseball.cpp.i
+.PHONY : Acwing1945TheCowBaseball.cpp.i
+
+Acwing1945TheCowBaseball.s: Acwing1945TheCowBaseball.cpp.s
+
+.PHONY : Acwing1945TheCowBaseball.s
+
+# target to generate assembly for a file
+Acwing1945TheCowBaseball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1945TheCowBaseball.dir\build.make CMakeFiles/Acwing1945TheCowBaseball.dir/Acwing1945TheCowBaseball.cpp.s
+.PHONY : Acwing1945TheCowBaseball.cpp.s
+
+Acwing1960twinkle.obj: Acwing1960twinkle.cpp.obj
+
+.PHONY : Acwing1960twinkle.obj
+
+# target to build an object file
+Acwing1960twinkle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1960twinkle.dir\build.make CMakeFiles/Acwing1960twinkle.dir/Acwing1960twinkle.cpp.obj
+.PHONY : Acwing1960twinkle.cpp.obj
+
+Acwing1960twinkle.i: Acwing1960twinkle.cpp.i
+
+.PHONY : Acwing1960twinkle.i
+
+# target to preprocess a source file
+Acwing1960twinkle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1960twinkle.dir\build.make CMakeFiles/Acwing1960twinkle.dir/Acwing1960twinkle.cpp.i
+.PHONY : Acwing1960twinkle.cpp.i
+
+Acwing1960twinkle.s: Acwing1960twinkle.cpp.s
+
+.PHONY : Acwing1960twinkle.s
+
+# target to generate assembly for a file
+Acwing1960twinkle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing1960twinkle.dir\build.make CMakeFiles/Acwing1960twinkle.dir/Acwing1960twinkle.cpp.s
+.PHONY : Acwing1960twinkle.cpp.s
+
 Acwing1996DisturbTheLetters.obj: Acwing1996DisturbTheLetters.cpp.obj
 
 .PHONY : Acwing1996DisturbTheLetters.obj
@@ -2192,6 +2524,33 @@ Acwing246IntervalMaximumCommonDivisor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing246IntervalMaximumCommonDivisor.dir\build.make CMakeFiles/Acwing246IntervalMaximumCommonDivisor.dir/Acwing246IntervalMaximumCommonDivisor.cpp.s
 .PHONY : Acwing246IntervalMaximumCommonDivisor.cpp.s
 
+Acwing253OrdinaryEquilibriumTree.obj: Acwing253OrdinaryEquilibriumTree.cpp.obj
+
+.PHONY : Acwing253OrdinaryEquilibriumTree.obj
+
+# target to build an object file
+Acwing253OrdinaryEquilibriumTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing253OrdinaryEquilibriumTree.dir\build.make CMakeFiles/Acwing253OrdinaryEquilibriumTree.dir/Acwing253OrdinaryEquilibriumTree.cpp.obj
+.PHONY : Acwing253OrdinaryEquilibriumTree.cpp.obj
+
+Acwing253OrdinaryEquilibriumTree.i: Acwing253OrdinaryEquilibriumTree.cpp.i
+
+.PHONY : Acwing253OrdinaryEquilibriumTree.i
+
+# target to preprocess a source file
+Acwing253OrdinaryEquilibriumTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing253OrdinaryEquilibriumTree.dir\build.make CMakeFiles/Acwing253OrdinaryEquilibriumTree.dir/Acwing253OrdinaryEquilibriumTree.cpp.i
+.PHONY : Acwing253OrdinaryEquilibriumTree.cpp.i
+
+Acwing253OrdinaryEquilibriumTree.s: Acwing253OrdinaryEquilibriumTree.cpp.s
+
+.PHONY : Acwing253OrdinaryEquilibriumTree.s
+
+# target to generate assembly for a file
+Acwing253OrdinaryEquilibriumTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing253OrdinaryEquilibriumTree.dir\build.make CMakeFiles/Acwing253OrdinaryEquilibriumTree.dir/Acwing253OrdinaryEquilibriumTree.cpp.s
+.PHONY : Acwing253OrdinaryEquilibriumTree.cpp.s
+
 Acwing256MaximumxORSum.obj: Acwing256MaximumxORSum.cpp.obj
 
 .PHONY : Acwing256MaximumxORSum.obj
@@ -2245,6 +2604,33 @@ Acwing275_PassingANote.s: Acwing275_PassingANote.cpp.s
 Acwing275_PassingANote.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing275_PassingANote.dir\build.make CMakeFiles/Acwing275_PassingANote.dir/Acwing275_PassingANote.cpp.s
 .PHONY : Acwing275_PassingANote.cpp.s
+
+Acwing3167StarsOrTrees.obj: Acwing3167StarsOrTrees.cpp.obj
+
+.PHONY : Acwing3167StarsOrTrees.obj
+
+# target to build an object file
+Acwing3167StarsOrTrees.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3167StarsOrTrees.dir\build.make CMakeFiles/Acwing3167StarsOrTrees.dir/Acwing3167StarsOrTrees.cpp.obj
+.PHONY : Acwing3167StarsOrTrees.cpp.obj
+
+Acwing3167StarsOrTrees.i: Acwing3167StarsOrTrees.cpp.i
+
+.PHONY : Acwing3167StarsOrTrees.i
+
+# target to preprocess a source file
+Acwing3167StarsOrTrees.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3167StarsOrTrees.dir\build.make CMakeFiles/Acwing3167StarsOrTrees.dir/Acwing3167StarsOrTrees.cpp.i
+.PHONY : Acwing3167StarsOrTrees.cpp.i
+
+Acwing3167StarsOrTrees.s: Acwing3167StarsOrTrees.cpp.s
+
+.PHONY : Acwing3167StarsOrTrees.s
+
+# target to generate assembly for a file
+Acwing3167StarsOrTrees.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing3167StarsOrTrees.dir\build.make CMakeFiles/Acwing3167StarsOrTrees.dir/Acwing3167StarsOrTrees.cpp.s
+.PHONY : Acwing3167StarsOrTrees.cpp.s
 
 Acwing3277.obj: Acwing3277.cpp.obj
 
@@ -2381,6 +2767,33 @@ Acwing420LongestLegalParenthesisSubsequence.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing420LongestLegalParenthesisSubsequence.dir\build.make CMakeFiles/Acwing420LongestLegalParenthesisSubsequence.dir/Acwing420LongestLegalParenthesisSubsequence.cpp.s
 .PHONY : Acwing420LongestLegalParenthesisSubsequence.cpp.s
 
+Acwing4211SequenceRearrangement.obj: Acwing4211SequenceRearrangement.cpp.obj
+
+.PHONY : Acwing4211SequenceRearrangement.obj
+
+# target to build an object file
+Acwing4211SequenceRearrangement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing4211SequenceRearrangement.dir\build.make CMakeFiles/Acwing4211SequenceRearrangement.dir/Acwing4211SequenceRearrangement.cpp.obj
+.PHONY : Acwing4211SequenceRearrangement.cpp.obj
+
+Acwing4211SequenceRearrangement.i: Acwing4211SequenceRearrangement.cpp.i
+
+.PHONY : Acwing4211SequenceRearrangement.i
+
+# target to preprocess a source file
+Acwing4211SequenceRearrangement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing4211SequenceRearrangement.dir\build.make CMakeFiles/Acwing4211SequenceRearrangement.dir/Acwing4211SequenceRearrangement.cpp.i
+.PHONY : Acwing4211SequenceRearrangement.cpp.i
+
+Acwing4211SequenceRearrangement.s: Acwing4211SequenceRearrangement.cpp.s
+
+.PHONY : Acwing4211SequenceRearrangement.s
+
+# target to generate assembly for a file
+Acwing4211SequenceRearrangement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing4211SequenceRearrangement.dir\build.make CMakeFiles/Acwing4211SequenceRearrangement.dir/Acwing4211SequenceRearrangement.cpp.s
+.PHONY : Acwing4211SequenceRearrangement.cpp.s
+
 Acwing482_ChorusFormation.obj: Acwing482_ChorusFormation.cpp.obj
 
 .PHONY : Acwing482_ChorusFormation.obj
@@ -2434,6 +2847,33 @@ Acwing524AngryBirds.s: Acwing524AngryBirds.cpp.s
 Acwing524AngryBirds.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing524AngryBirds.dir\build.make CMakeFiles/Acwing524AngryBirds.dir/Acwing524AngryBirds.cpp.s
 .PHONY : Acwing524AngryBirds.cpp.s
+
+Acwing788TheNumberOfSequencePairs.obj: Acwing788TheNumberOfSequencePairs.cpp.obj
+
+.PHONY : Acwing788TheNumberOfSequencePairs.obj
+
+# target to build an object file
+Acwing788TheNumberOfSequencePairs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing788TheNumberOfSequencePairs.dir\build.make CMakeFiles/Acwing788TheNumberOfSequencePairs.dir/Acwing788TheNumberOfSequencePairs.cpp.obj
+.PHONY : Acwing788TheNumberOfSequencePairs.cpp.obj
+
+Acwing788TheNumberOfSequencePairs.i: Acwing788TheNumberOfSequencePairs.cpp.i
+
+.PHONY : Acwing788TheNumberOfSequencePairs.i
+
+# target to preprocess a source file
+Acwing788TheNumberOfSequencePairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing788TheNumberOfSequencePairs.dir\build.make CMakeFiles/Acwing788TheNumberOfSequencePairs.dir/Acwing788TheNumberOfSequencePairs.cpp.i
+.PHONY : Acwing788TheNumberOfSequencePairs.cpp.i
+
+Acwing788TheNumberOfSequencePairs.s: Acwing788TheNumberOfSequencePairs.cpp.s
+
+.PHONY : Acwing788TheNumberOfSequencePairs.s
+
+# target to generate assembly for a file
+Acwing788TheNumberOfSequencePairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Acwing788TheNumberOfSequencePairs.dir\build.make CMakeFiles/Acwing788TheNumberOfSequencePairs.dir/Acwing788TheNumberOfSequencePairs.cpp.s
+.PHONY : Acwing788TheNumberOfSequencePairs.cpp.s
 
 Acwing850_DijkstraII.obj: Acwing850_DijkstraII.cpp.obj
 
@@ -3496,6 +3936,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AcWing1969VarietiesOfAdjacent
 	@echo ... AcWing2005Horseshoe
 	@echo ... AcWing241LoulanTotem
 	@echo ... AcWing242ASimpleIntegerProblem
@@ -3527,21 +3968,31 @@ help:
 	@echo ... Acwing172
 	@echo ... Acwing1828_SearchKeywords
 	@echo ... Acwing187_MissileDefenseSystem
+	@echo ... Acwing1904TheCowJogging
+	@echo ... Acwing1922LazyCow
+	@echo ... Acwing1929TheMirrorFields
+	@echo ... Acwing1934BessieSlowedHerPace
+	@echo ... Acwing1945TheCowBaseball
+	@echo ... Acwing1960twinkle
 	@echo ... Acwing1996DisturbTheLetters
 	@echo ... Acwing2019theTractor
 	@echo ... Acwing2058ClumsyFingers
 	@echo ... Acwing2060TheCowBeauty
 	@echo ... Acwing245CanYouAnswerTheseQuestions
 	@echo ... Acwing246IntervalMaximumCommonDivisor
+	@echo ... Acwing253OrdinaryEquilibriumTree
 	@echo ... Acwing256MaximumxORSum
 	@echo ... Acwing275_PassingANote
+	@echo ... Acwing3167StarsOrTrees
 	@echo ... Acwing3277
 	@echo ... Acwing3278
 	@echo ... Acwing3607_PrintDate
 	@echo ... Acwing4208phoneNumber
 	@echo ... Acwing420LongestLegalParenthesisSubsequence
+	@echo ... Acwing4211SequenceRearrangement
 	@echo ... Acwing482_ChorusFormation
 	@echo ... Acwing524AngryBirds
+	@echo ... Acwing788TheNumberOfSequencePairs
 	@echo ... Acwing850_DijkstraII
 	@echo ... Acwing897_LongestCommonSubsequence
 	@echo ... Acwing902_ShortestEditDistance
@@ -3580,6 +4031,9 @@ help:
 	@echo ... lut
 	@echo ... o1Bag
 	@echo ... test
+	@echo ... AcWing1969VarietiesOfAdjacent.obj
+	@echo ... AcWing1969VarietiesOfAdjacent.i
+	@echo ... AcWing1969VarietiesOfAdjacent.s
 	@echo ... AcWing2005Horseshoe.obj
 	@echo ... AcWing2005Horseshoe.i
 	@echo ... AcWing2005Horseshoe.s
@@ -3670,6 +4124,24 @@ help:
 	@echo ... Acwing187_MissileDefenseSystem.obj
 	@echo ... Acwing187_MissileDefenseSystem.i
 	@echo ... Acwing187_MissileDefenseSystem.s
+	@echo ... Acwing1904TheCowJogging.obj
+	@echo ... Acwing1904TheCowJogging.i
+	@echo ... Acwing1904TheCowJogging.s
+	@echo ... Acwing1922LazyCow.obj
+	@echo ... Acwing1922LazyCow.i
+	@echo ... Acwing1922LazyCow.s
+	@echo ... Acwing1929TheMirrorFields.obj
+	@echo ... Acwing1929TheMirrorFields.i
+	@echo ... Acwing1929TheMirrorFields.s
+	@echo ... Acwing1934BessieSlowedHerPace.obj
+	@echo ... Acwing1934BessieSlowedHerPace.i
+	@echo ... Acwing1934BessieSlowedHerPace.s
+	@echo ... Acwing1945TheCowBaseball.obj
+	@echo ... Acwing1945TheCowBaseball.i
+	@echo ... Acwing1945TheCowBaseball.s
+	@echo ... Acwing1960twinkle.obj
+	@echo ... Acwing1960twinkle.i
+	@echo ... Acwing1960twinkle.s
 	@echo ... Acwing1996DisturbTheLetters.obj
 	@echo ... Acwing1996DisturbTheLetters.i
 	@echo ... Acwing1996DisturbTheLetters.s
@@ -3688,12 +4160,18 @@ help:
 	@echo ... Acwing246IntervalMaximumCommonDivisor.obj
 	@echo ... Acwing246IntervalMaximumCommonDivisor.i
 	@echo ... Acwing246IntervalMaximumCommonDivisor.s
+	@echo ... Acwing253OrdinaryEquilibriumTree.obj
+	@echo ... Acwing253OrdinaryEquilibriumTree.i
+	@echo ... Acwing253OrdinaryEquilibriumTree.s
 	@echo ... Acwing256MaximumxORSum.obj
 	@echo ... Acwing256MaximumxORSum.i
 	@echo ... Acwing256MaximumxORSum.s
 	@echo ... Acwing275_PassingANote.obj
 	@echo ... Acwing275_PassingANote.i
 	@echo ... Acwing275_PassingANote.s
+	@echo ... Acwing3167StarsOrTrees.obj
+	@echo ... Acwing3167StarsOrTrees.i
+	@echo ... Acwing3167StarsOrTrees.s
 	@echo ... Acwing3277.obj
 	@echo ... Acwing3277.i
 	@echo ... Acwing3277.s
@@ -3709,12 +4187,18 @@ help:
 	@echo ... Acwing420LongestLegalParenthesisSubsequence.obj
 	@echo ... Acwing420LongestLegalParenthesisSubsequence.i
 	@echo ... Acwing420LongestLegalParenthesisSubsequence.s
+	@echo ... Acwing4211SequenceRearrangement.obj
+	@echo ... Acwing4211SequenceRearrangement.i
+	@echo ... Acwing4211SequenceRearrangement.s
 	@echo ... Acwing482_ChorusFormation.obj
 	@echo ... Acwing482_ChorusFormation.i
 	@echo ... Acwing482_ChorusFormation.s
 	@echo ... Acwing524AngryBirds.obj
 	@echo ... Acwing524AngryBirds.i
 	@echo ... Acwing524AngryBirds.s
+	@echo ... Acwing788TheNumberOfSequencePairs.obj
+	@echo ... Acwing788TheNumberOfSequencePairs.i
+	@echo ... Acwing788TheNumberOfSequencePairs.s
 	@echo ... Acwing850_DijkstraII.obj
 	@echo ... Acwing850_DijkstraII.i
 	@echo ... Acwing850_DijkstraII.s

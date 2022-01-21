@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <cctype>
-int N, M, End, tot_f;
+const int N, M, End, tot_f;
 char Card_Heap[2005];
 struct Role {
     char tp, V[2015];

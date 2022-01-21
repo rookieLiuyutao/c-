@@ -15,7 +15,7 @@ int n, m;
 //注意,这里要开M,因为每个数的范围是10e7，大约是24位二进制数
 int tr[M][2];
 //用来存前缀异或和
-int s[N];
+int q[N];
 //存每个数的根节点编号
 int root[N];
 //节点编号
@@ -32,7 +32,7 @@ int max_id[M];
 void insert(int i, int p, int q) {
     max_id[q] = i;
     for(int k = 23; k >=0; k--) {
-        int v = s[i] >> k & 1;
+        int v = q[i] >> k & 1;
         //如果新的路径走了已经存在的节点，就复制原来的信息
         if (p) {
             tr[q][v ^ 1] = tr[p][v ^ 1];
@@ -55,7 +55,7 @@ int query(int first, int p, int l) {
             q = tr[q][v];
         }
     }
-    return s[max_id[q]] ^ p;
+    return q[max_id[q]] ^ p;
 }
 
 int main() {
@@ -66,7 +66,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         int a;
         cin >> a;
-        s[i] = s[i - 1] ^ a;
+        q[i] = q[i - 1] ^ a;
         root[i] = ++idx;
         insert(i, root[i - 1], root[i]);
 
@@ -78,11 +78,11 @@ int main() {
         cin >> op;
         if (op == 'Q') {
             cin >> l >> r >> x;
-            cout << query(root[r - 1], s[n] ^ x, l - 1) << endl;
+            cout << query(root[r - 1], q[n] ^ x, l - 1) << endl;
         } else {
             cin >> x;
             root[++n] = ++idx;
-            s[n] = s[n - 1] ^ x;
+            q[n] = q[n - 1] ^ x;
             insert(n, root[n - 1], root[n]);
         }
     }

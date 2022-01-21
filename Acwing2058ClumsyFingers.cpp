@@ -2,7 +2,7 @@
 using namespace std;
 //为了方便遍历数的每一位，用string来存
 string a, b;
-unordered_set<int> s;
+unordered_set<int> q;
 
 /**
  * 把n进制的x转换为10进制
@@ -25,11 +25,11 @@ int main() {
     int x = a[i] - '0';
     if (x == 0) {
       a[i] = '1';
-      s.insert(get(2, a));
+      q.insert(get(2, a));
       a[i] = '0';
     } else if (x == 1) {
       a[i] = '0';
-      s.insert(get(2, a));
+      q.insert(get(2, a));
       a[i] = '1';
     }
   }
@@ -40,7 +40,7 @@ int main() {
       if (i + '0' != t) {
         c = i + '0';
         int x = get(3,b);
-        if (s.count(x)) {
+        if (q.count(x)) {
           cout << x << endl;
           return 0;
         }
