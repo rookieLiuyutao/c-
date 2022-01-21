@@ -1,3 +1,0 @@
-"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TwoSum.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\TwoSum.dir/objects.a @CMakeFiles\TwoSum.dir\objects1.rsp
-D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TwoSum.dir/objects.a -Wl,--no-whole-archive -o TwoSum.exe -Wl,--out-implib,libTwoSum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TwoSum.dir\linklibs.rsp

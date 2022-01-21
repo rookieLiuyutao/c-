@@ -1,3 +1,0 @@
-"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MergingOfStones.dir/objects.a
-D:\mingw64\bin\ar.exe cr CMakeFiles\MergingOfStones.dir/objects.a @CMakeFiles\MergingOfStones.dir\objects1.rsp
-D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MergingOfStones.dir/objects.a -Wl,--no-whole-archive -o MergingOfStones.exe -Wl,--out-implib,libMergingOfStones.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MergingOfStones.dir\linklibs.rsp
