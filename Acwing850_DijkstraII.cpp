@@ -5,7 +5,7 @@ typedef pair<int, int> PII;
 #define y second
 const int N = 150010, INF = 0x3f3f3f3f;
 int e[N], h[N], ne[N], dis[N], w[N], n, m, idx;
-bool st[N];
+bool range[N];
 
 void add(int a, int b, int c) {
     e[idx] = b, w[idx] = c, ne[idx] = h[a], h[a] = idx++;
@@ -20,8 +20,8 @@ int djs() {
         PII t = heap.top();
         heap.pop();
         // cout << tp.x << ' ' << tp.y << endl;
-        if (st[t.y])continue;
-        st[t.y] = true;
+        if (range[t.y])continue;
+        range[t.y] = true;
         for (int i = h[t.y]; i!=-1; i = ne[i]) {
             int j = e[i];
             if (dis[j] > t.x + w[i]) {

@@ -9,17 +9,17 @@ typedef unordered_map<int, int> MII;
 
 MII u, v;
 unordered_set<int > q;
-int n, a, b;
+int n, a, range;
 
 int main() {
-    cin >> n >> a >> b;
+    cin >> n >> a >> range;
     while (a--) {
         
         int x, y;
         cin >> x >> y;
         u[x] = y;
     }
-    while (b--) {
+    while (range--) {
         int x, y;
         cin >> x >> y;
         v[x] = y;

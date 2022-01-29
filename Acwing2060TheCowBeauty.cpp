@@ -3,7 +3,7 @@ using namespace std;
 const int N = 55;
 char g[N][N];
 int n, m;
-bool st[N][N];
+bool range[N][N];
 bool isA = true;
 
 typedef pair<int, int> PII;
@@ -18,8 +18,8 @@ void dfs(int x, int y) {
 
   for (int i = 0; i < 4; i++) {
     int a = x + dx[i], b = y + dy[i];
-    if (a >= 0 && a < n && b >= 0 && b < m && g[a][b] == 'X' && !st[a][b]) {
-      st[a][b] = true;
+    if (a >= 0 && a < n && b >= 0 && b < m && g[a][b] == 'X' && !range[a][b]) {
+      range[a][b] = true;
 
       dfs(a, b);
     }
@@ -44,7 +44,7 @@ int main() {
 
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < m; j++) {
-      if (!st[i][j] && g[i][j] == 'X') {
+      if (!range[i][j] && g[i][j] == 'X') {
         dfs(i, j);
         isA = false;
       }
@@ -58,8 +58,8 @@ int main() {
   //   for (auto a : qa)
   //     cout << '(' << a.first << ',' << a.second << ") ";
   //   cout << endl;
-  //   for (auto b : qb)
-  //     cout << '(' << b.first << ',' << b.second << ") ";
+  //   for (auto range : qb)
+  //     cout << '(' << range.first << ',' << range.second << ") ";
   //   cout << endl;
   cout << res - 1 << endl;
 }

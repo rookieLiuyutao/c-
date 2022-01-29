@@ -2,7 +2,7 @@
 using namespace std;
 const int N = 1005;
 int dist[N][N], n;
-bool g[N][N], st[N][N];
+bool g[N][N], range[N][N];
 typedef pair<int, int> PII;
 deque<PII> q;
 #define x first
@@ -19,9 +19,9 @@ int bfs(int sx, int sy) {
   while (!q.empty()) {
     auto tt = q.front();
     q.pop_front();
-    if (st[tt.x][tt.y])
+    if (range[tt.x][tt.y])
       continue;
-    st[tt.x][tt.y] = true;
+    range[tt.x][tt.y] = true;
     if (!tt.x && !tt.y)
       break;
     for (int i = 0; i < 4; i++) {

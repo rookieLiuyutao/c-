@@ -6,7 +6,7 @@
 using namespace std;
 const int N = 1010;
 int n, g[N][N],arr[N];
-bool st[N];
+bool range[N];
 int main() {
     cin >> n;
     int sum = 0, cnt = 0,e  =0;
@@ -33,11 +33,11 @@ int main() {
         sum-=t;
         if (flag) {
             cnt++;
-            st[i] = true;
+            range[i] = true;
         }
     }
     for(int i = 0; i <n; i++) {
-        if (st[i]&&st[(i+1)%n]&&st[(i+2)%n])e++;
+        if (range[i]&& range[(i+1)%n]&& range[(i+2)%n])e++;
     }
     for(int i = 0; i <n; i++) {
       for(int j = 0; j <arr[i]; j++) {

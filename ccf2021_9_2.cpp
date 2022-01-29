@@ -9,7 +9,7 @@
 using namespace std;
 const int N = 500010;
 int a[N], n;
-bool st[N];
+bool range[N];
 
 int main() {
     cin >> n;
@@ -17,20 +17,20 @@ int main() {
     int cnt = 0;
     for (int i = 0; i < n; i++) {
         int ans = 0;
-        memset(st, true, sizeof st);
+        memset(range, true, sizeof range);
         for (int j = 0; j < n; j++) {
             if (a[j] < 12 || a[j] == 0) {
-                st[j] = false;
+              range[j] = false;
             }
         }
         for (int j = 0; j < n; j++) {
-            cout << st[j] << ' ';
+            cout << range[j] << ' ';
         }
         int j = 0;
         while (j<n){
-            while (j<n&&!st[j])j++;
+            while (j<n&&!range[j])j++;
             ans++;
-            while (j<n&&st[j])j++;
+            while (j<n&& range[j])j++;
         }
 
         cout << endl;

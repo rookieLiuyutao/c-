@@ -6,7 +6,7 @@
 using namespace std;
 
 const int N = 12, M = 1 << N;
-vector<int> st;
+vector<int> range;
 vector<int> head[M];
 int cnt[M], n, k;
 int dp[N][N*N][M];
@@ -28,17 +28,17 @@ int main() {
     cin >> n >> k;
     for (int i = 0; i < 1<<n; i++) {
         if (check(i)) {
-            st.push_back(i);
+          range.push_back(i);
             cnt[i] = lower_bit(i);
         }
     }
 
-    for (int i = 0; i < st.size(); i++) {
-        for (int j = i; j < st.size(); j++) {
-            if ((st[i] & st[j]) == 0 && check(st[i] | st[j])) {
-                head[st[i]].push_back(st[j]);
+    for (int i = 0; i < range.size(); i++) {
+        for (int j = i; j < range.size(); j++) {
+            if ((range[i] & range[j]) == 0 && check(range[i] | range[j])) {
+                head[range[i]].push_back(range[j]);
                 if (i != j) {
-                    head[st[j]].push_back(st[i]);
+                    head[range[j]].push_back(range[i]);
                 }
             }
         }
@@ -47,7 +47,7 @@ int main() {
     dp[0][0][0] = 1;
     for (int i = 1; i <= n + 1; i++) {
         for (int j = 0; j <= k; j++) {
-            for (auto &p:st) {
+            for (auto &p: range) {
                 for (auto &q:head[p]) {
                     if (j - cnt[p] >= 0) {
                         dp[i][j][p] += dp[i - 1][j - cnt[p]][q];

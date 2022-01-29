@@ -10,7 +10,7 @@ const int N = 1010;
 
 int n, m;
 char g[N][N];
-bool st[N][N];
+bool range[N][N];
 
 void bfs(int sx, int sy) {
     queue<pair<int, int>> q;
@@ -21,9 +21,9 @@ void bfs(int sx, int sy) {
         for (int i = t.first - 1; i <= t.first + 1; i++) {
             for (int j = t.second - 1; j <= t.second + 1; j++) {
                 if (i == t.first && j == t.second)continue;
-                if (i >= n || i < 0 || j >= m || j < 0 || st[i][j] || g[i][j] == '.')continue;
+                if (i >= n || i < 0 || j >= m || j < 0 || range[i][j] || g[i][j] == '.')continue;
                 q.push({i, j});
-                st[i][j] = true;
+                range[i][j] = true;
             }
         }
     }
@@ -35,7 +35,7 @@ int main() {
     int res = 0;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
-              if (!st[i][j] && g[i][j] == 'W') {
+              if (!range[i][j] && g[i][j] == 'W') {
                 bfs(i, j);
                 res++;
             }

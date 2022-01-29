@@ -9,7 +9,7 @@
 
 using namespace std;
 const int N = 1010;
-int ne[N], tr[N][4], idx, q[N], n, st[N], dp[N][N],get_num[128];
+int ne[N], tr[N][4], idx, q[N], n, range[N], dp[N][N],get_num[128];
 
 
 void insert(string str) {
@@ -22,7 +22,7 @@ void insert(string str) {
         }
         p = tr[p][t];
     }
-    st[p] = 1;
+    range[p] = 1;
 }
 
 void build() {
@@ -38,7 +38,7 @@ void build() {
             else {
                 ne[p] = tr[ne[t]][i];
                 q[++tt] = p;
-                st[p] |= st[ne[p]];
+                range[p] |= range[ne[p]];
             }
         }
     }
@@ -50,7 +50,7 @@ int main() {
     while (cin >> n, n) {
         memset(tr, 0, sizeof tr);
         memset(ne, 0, sizeof ne);
-        memset(st, 0, sizeof st);
+        memset(range, 0, sizeof range);
         idx = 0;
         for (int i = 0; i < n; i++) {
             string str;
@@ -68,7 +68,7 @@ int main() {
                 for (int k = 0; k < 4; k++) {
                     int flag = get_num[text[i + 1]] != k;
                     int p = tr[j][k];
-                    if (!st[p]) {
+                    if (!range[p]) {
                         dp[i + 1][p] = min(dp[i + 1][p], dp[i][j] + flag);
                     }
                 }

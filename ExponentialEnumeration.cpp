@@ -7,21 +7,21 @@
 using namespace std;
 const int N = 17;
 int n;
-int st[N];
+int range[N];
 
 void dfs(int u) {
     if (u > n) {
         for (int i = 1; i <= n; ++i) {
-            if (st[i]) {
+            if (range[i]) {
                 cout << i << ' ';
             }
         }
         puts("");
         return;
     }
-    st[u] = false;
+    range[u] = false;
     dfs(u + 1);
-    st[u] = true;
+    range[u] = true;
     dfs(u + 1);
 
 }

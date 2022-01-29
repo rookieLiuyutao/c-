@@ -7,17 +7,17 @@ using namespace std;
 const int N = 2010;
 int n, m;
 double g[N][N], dis[N];
-bool st[N];
+bool range[N];
 
 void djs(int s) {
     dis[s] = 1;
     for (int i = 1; i <= n; i++) {
         int t = -1;
         for (int j = 1; j <= n; j++) {
-            while (!st[j] && (t == -1 || dis[t] < dis[j]))t = j;
+            while (!range[j] && (t == -1 || dis[t] < dis[j]))t = j;
         }
         if (t == n)break;
-        st[t] = true;
+        range[t] = true;
         for (int j = 1; j <= n; j++) {
             dis[j] = max(dis[j], dis[t] * g[t][j]);
         }

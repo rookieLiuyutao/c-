@@ -10,7 +10,7 @@ typedef long long LL;
 const int mod = 9901;
 unordered_map<int, int> pr;
 
-int a, b;
+int a, range;
 
 /**
  * 对n分解质因数
@@ -58,11 +58,11 @@ int sum(int p, int k) {
 }
 
 int main() {
-    cin >> a >> b;
+    cin >> a >> range;
     devide(a);
     int res = 1;
     for (auto i:pr) {
-        int x = i.first, y = i.second*b;
+        int x = i.first, y = i.second* range;
         res = (LL) res * sum(x,y+1)%mod;
     }
     if(a==0)res = 0;

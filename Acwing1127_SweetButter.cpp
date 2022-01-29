@@ -6,7 +6,7 @@
 using namespace std;
 const int N = 1500,INF = 0x3f3f3f3f;
 int h[N], e[N], ne[N], w[N], dis[N], arr[N], n, m, phone, idx;
-bool st[N];
+bool range[N];
 
 void add(int a, int b, int c) {
     e[idx] = b, w[idx] = c, ne[idx] = h[a], h[a] = idx++;
@@ -17,18 +17,18 @@ int spfa(int start) {
     memset(dis, 0x3f, sizeof dis);
     dis[start] = 0;
     q.push(start);
-    st[start] = true;
+    range[start] = true;
     while (!q.empty()) {
         int t = q.front();
         q.pop();
-        st[t] = false;
+        range[t] = false;
         for (int i = h[t]; i != -1; i = ne[i]) {
             int j = e[i];
             if (dis[j] > dis[t] + w[i]) {
                 dis[j] = dis[t] + w[i];
-                if (!st[j]) {
+                if (!range[j]) {
                     q.push(j);
-                    st[j] = true;
+                    range[j] = true;
                 }
             }
         }
