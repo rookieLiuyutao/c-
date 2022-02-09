@@ -5,19 +5,27 @@
 using namespace std;
 typedef long long LL;
 typedef pair<int, int> PII;
-#define x first
-#define y second
+#define r first
+#define l second
 const int N = 2505;
 int n, m;
-PII range[N];
-int cover[N], spf[N];
+PII range[N],spf[N];
+
 int main() {
   cin >> n >> m;
-  for (int i = 0; i < n; i++) {
-    cin >> range[i].x >> range[i].y;
+  for (int i = 0; i < n; i++)cin >> range[i].r >> range[i].l;
+  for (int i = 0; i < m; i++)cin>>spf[i].r >>spf[i].l;
+  sort(range, range + n);
+  sort(spf,spf+m);
+  int res = 0;
+  for (int i = n-1;i>=0;i--) {
+    for(int j = m-1; j >=0; j--) {
+      if (spf[j].r <= range[i].l && spf[j].r >= range[i].r && spf[j].l) {
+        res++;
+        spf[j].l--;
+        break;
+      }
+    }
   }
-  for (int i = 0; i < m; i++) {
-    cin >> spf[i] >> cover[i];
-  }
-
+  cout<<res;
 }

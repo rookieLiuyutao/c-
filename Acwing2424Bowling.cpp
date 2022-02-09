@@ -7,8 +7,8 @@ using namespace std;
 typedef long long LL;
 typedef pair<int, int> PII;
 const int N = 55;
-#define x first
-#define y second
+#define r first
+#define l second
 int n, m;
 int ans;
 PII q[N];
@@ -16,12 +16,12 @@ PII q[N];
 int calc() {
   int res = 0;
   for (int i = 0; i < m; i++) {
-    res += q[i].x + q[i].y;
+    res += q[i].r + q[i].l;
     if (i < n) {
-      if (q[i].x == 10) {
-        res += q[i + 1].x + q[i + 1].y;
-      } else if (q[i].x + q[i].y == 10) {
-        res += q[i + 1].x;
+      if (q[i].r == 10) {
+        res += q[i + 1].r + q[i + 1].l;
+      } else if (q[i].r + q[i].l == 10) {
+        res += q[i + 1].r;
       }
     }
   }
@@ -35,7 +35,7 @@ void sa() {
     int a = rand() % m, b = rand() % m;
     int p = calc();
     swap(q[a], q[b]);
-    if (n + (q[n - 1].x == 10) == m) {
+    if (n + (q[n - 1].r == 10) == m) {
       int u = calc();
       int d = u-p;
       if (exp(d / t) < (double)rand() / RAND_MAX) {
@@ -50,12 +50,12 @@ void sa() {
 int main() {
   cin >> n;
   for (int i = 0; i < n; i++) {
-    cin >> q[i].x >> q[i].y;
+    cin >> q[i].r >> q[i].l;
   }
   //看看有没有第n+1轮
-  if (q[n - 1].x == 10) {
+  if (q[n - 1].r == 10) {
     m = n + 1;
-    cin >> q[n].x >> q[n].y;
+    cin >> q[n].r >> q[n].l;
   } else {
     m = n;
   }

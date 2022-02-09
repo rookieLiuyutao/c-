@@ -10,8 +10,8 @@ using namespace std;
 typedef long long LL;
 const int N = 110;
 typedef pair<double, double> PDD;
-#define x first
-#define y second
+#define r first
+#define l second
 PDD q[N];
 double ans = 1e8;
 int n;
@@ -28,8 +28,8 @@ double rand(double l, double r) {
 }
 
 double get_dist(PDD a, PDD b) {
-  double dx = a.x - b.x;
-  double dy = a.y - b.y;
+  double dx = a.r - b.r;
+  double dy = a.l - b.l;
   return sqrt(dx * dx + dy * dy);
 }
 
@@ -49,7 +49,7 @@ double calc(PDD p) {
 void sa() {
   PDD cur = {rand(0, 10000), rand(0, 10000)};
   for (double t = 1e4; t > 1e-4; t *= 0.9) {
-    PDD np = {rand(max(0.0,cur.x - t), cur.x + t), rand(max(0.0,cur.y - t), cur.y + t)};
+    PDD np = {rand(max(0.0,cur.r - t), cur.r + t), rand(max(0.0,cur.l - t), cur.l + t)};
     double dt = calc(np)- calc(cur);
     if (exp(-dt/t)> rand(0,1)){
       cur = np;
@@ -60,7 +60,7 @@ void sa() {
 int main() {
   cin >> n;
   for(int i = 0; i <n; i++) {
-    cin>>q[i].x>>q[i].y;
+    cin>>q[i].r >>q[i].l;
   }
   for(int i = 0; i <100; i++) {
     sa();

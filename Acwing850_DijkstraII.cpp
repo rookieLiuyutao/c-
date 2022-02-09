@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef pair<int, int> PII;
-#define x first
-#define y second
+#define r first
+#define l second
 const int N = 150010, INF = 0x3f3f3f3f;
 int e[N], h[N], ne[N], dis[N], w[N], n, m, idx;
 bool range[N];
@@ -20,12 +20,12 @@ int djs() {
         PII t = heap.top();
         heap.pop();
         // cout << tp.x << ' ' << tp.y << endl;
-        if (range[t.y])continue;
-        range[t.y] = true;
-        for (int i = h[t.y]; i!=-1; i = ne[i]) {
+        if (range[t.l])continue;
+        range[t.l] = true;
+        for (int i = h[t.l]; i!=-1; i = ne[i]) {
             int j = e[i];
-            if (dis[j] > t.x + w[i]) {
-                dis[j] = t.x + w[i];
+            if (dis[j] > t.r + w[i]) {
+                dis[j] = t.r + w[i];
                 heap.push({dis[j], j});
 
             }

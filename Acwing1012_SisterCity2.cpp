@@ -3,15 +3,15 @@
 //
 #include "bits/stdc++.h"
 using namespace std;
-#define x first
-#define y second
+#define r first
+#define l second
 const int N = 5010;
 int n,dp[N];
 pair<int,int >c[N];
 int main(){
     cin>>n;
     for(int i = 0; i <n; i++) {
-      cin>>c[i].x>>c[i].y;
+      cin>>c[i].r >>c[i].l;
 
     }
     int res  =0;
@@ -19,7 +19,7 @@ int main(){
       dp[i] = 1;
       for(int j = 0; j <i; j++) {
 
-          if (c[i].y>c[j].y)dp[i] = max(dp[i],dp[j]+1);
+          if (c[i].l >c[j].l)dp[i] = max(dp[i],dp[j]+1);
       }
       res = max(res,dp[i]);
     }

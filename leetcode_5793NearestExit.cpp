@@ -4,8 +4,8 @@
 #include "bits/stdc++.h"
 
 using namespace std;
-#define x first
-#define y second
+#define r first
+#define l second
 typedef pair<int, int> PII;
 
 int nearestExit(vector<vector<char>> &maze, vector<int> &entrance) {
@@ -19,10 +19,10 @@ int nearestExit(vector<vector<char>> &maze, vector<int> &entrance) {
         auto tt = q.front();
         q.pop();
         for (int i = 0; i < 4; i++) {
-            int a = tt.x + dx[i];
-            int b = tt.y + dy[i];
-            if (a >= 0 && a < n && b >= 0 && b < m && maze[a][b] == '.' && dist[a][b] > dist[tt.x][tt.y]) {
-                dist[a][b] = dist[tt.x][tt.y] + 1;
+            int a = tt.r + dx[i];
+            int b = tt.l + dy[i];
+            if (a >= 0 && a < n && b >= 0 && b < m && maze[a][b] == '.' && dist[a][b] > dist[tt.r][tt.l]) {
+                dist[a][b] = dist[tt.r][tt.l] + 1;
                 if (a == 0 || a == n - 1 || b == 0 || b == m - 1) {
                     return dist[a][b];
                 }
