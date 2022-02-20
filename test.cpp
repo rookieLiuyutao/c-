@@ -19,8 +19,11 @@ LL ms(LL q[],int l,int r){
 
 
 int main() {
-  while(cin>>n,n){
-    for (int i = 0; i < n; i++)cin >> a[i];
-    cout << ms(a, 0, n -1) << endl;
-  }
+//  while(cin>>n,n){
+//    for (int i = 0; i < n; i++)cin >> a[i];
+//    cout << ms(a, 0, n -1) << endl;
+//  }
+
+
+
 }
