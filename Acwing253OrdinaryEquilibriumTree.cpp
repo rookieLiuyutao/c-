@@ -60,6 +60,7 @@ void zig(int &p) {
 void zag(int &p) {
   int q = tr[p].r;
   tr[p].r = tr[q].l;
+
 }
 
 void insert(int &p,int k){

@@ -19,6 +19,70 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.cpp" />
+              <option name="questionId" value="100283" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 10- II]青蛙跳台阶问题.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 10- II]青蛙跳台阶问题.cpp" />
+              <option name="questionId" value="100277" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 10- I]斐波那契数列.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 10- I]斐波那契数列.cpp" />
+              <option name="questionId" value="100274" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 11]旋转数组的最小数字.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 11]旋转数组的最小数字.cpp" />
+              <option name="questionId" value="100278" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 12]矩阵中的路径.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 12]矩阵中的路径.cpp" />
+              <option name="questionId" value="100279" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 13]机器人的运动范围.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 13]机器人的运动范围.cpp" />
+              <option name="questionId" value="100281" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 14- II]剪绳子 II.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 14- II]剪绳子 II.cpp" />
+              <option name="questionId" value="100285" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 14- I]剪绳子.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 14- I]剪绳子.cpp" />
+              <option name="questionId" value="100284" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

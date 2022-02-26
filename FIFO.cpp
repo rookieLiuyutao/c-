@@ -123,7 +123,7 @@ void print(){
 	for (k=1; k<furthest+1; k++)
 		printf("%5c",prochain[k].state);
 	printf("\n");
-	printf("next           ");
+	printf("_next           ");
 	for (k=1; k<furthest+1; k++)
 		printf("%5d",prochain[k].next);
 	printf("\n");
