@@ -6,7 +6,7 @@ using namespace std;
 typedef long long LL;
 const int N = 105;
 int n;
-int a[N][N],s[N][N],b[N],f[N];
+int a[N][N],s[N][N],b[N], dp[N];
 int get(int x1,int y1,int x2,int y2){
   return s[x2][y2]-s[x2][y1-1]-s[x2-1][y2]+s[x1-1][y1-1];
 }

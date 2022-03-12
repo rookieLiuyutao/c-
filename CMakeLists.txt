@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.19)
 project(cppCode)
-
 set(CMAKE_CXX_STANDARD 14)
 
 file (GLOB_RECURSE files *.cpp)
@@ -9,8 +8,6 @@ foreach (file ${files})
     
     message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
-
-
 add_executable(Acwung282_MergingOfStones Acwung282_MergingOfStones.cpp)
 add_executable(ExponentialEnumeration ExponentialEnumeration.cpp)
 add_executable(Acwing897_LongestCommonSubsequence  "Acwing897_LongestCommonSubsequence .cpp")
@@ -139,7 +136,6 @@ add_executable(Acwing240FoodCycle Acwing240FoodCycle.cpp)
 add_executable(Acwing477NeuralNetwork Acwing477NeuralNetwork.cpp)
 add_executable(AcWing115ToDyeTheTree AcWing115ToDyeTheTree.cpp)
 add_executable(Acwing2437Splay Acwing2437Splay.cpp)
-
 add_executable(Acwing785Quicksort Acwing785Quicksort.cpp)
 add_executable(AcWing1131SavingPrivateRyan AcWing1131SavingPrivateRyan.cpp)
 add_executable(Acwing3205TheOptimalCatering Acwing3205TheOptimalCatering.cpp)
@@ -155,3 +151,11 @@ add_executable(Acwing3491PerfectSquares Acwing3491PerfectSquares.cpp)
 add_executable(AcWing90StringConversion AcWing90StringConversion.cpp)
 add_executable(Acwing1118TheyWereDividedIntoMassGroups Acwing1118TheyWereDividedIntoMassGroups.cpp)
 add_executable(AcWing1068CircularStoneAmalgamation AcWing1068CircularStoneAmalgamation.cpp)
+add_executable(Acwing320EnergyNecklace Acwing320EnergyNecklace.cpp)
+add_executable(Acwing4310DFSOfTree Acwing4310DFSOfTree.cpp)
+add_executable(AcWing3300FoodTransportation AcWing3300FoodTransportation.cpp)
+add_executable(Acwing479PlusBinaryTree Acwing479PlusBinaryTree.cpp)
+add_executable(AcWing1069PartitionOfConvexPolygons AcWing1069PartitionOfConvexPolygons.cpp)
+add_executable(Acwing1174ThePopularCow Acwing1174ThePopularCow.cpp)
+add_executable(Acwing1072TheLongestPathToATree Acwing1072TheLongestPathToATree.cpp)
+add_executable(Acwing1073TheCenterOfTheTree Acwing1073TheCenterOfTheTree.cpp)

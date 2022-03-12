@@ -7,7 +7,7 @@ typedef long long LL;
 const int N = 110;
 int n,m;
 int h[N],ne[N],e[N*N],w[N*N],idx;
-int f[N],u[N];
+int dp[N],u[N];
 int din[N],dout[N];
 int q[N];
 void add (int a,int b,int c){
@@ -38,9 +38,10 @@ void topsort(){
 int main(){
   cin>>n>>m;
   for(int i = 1; i <=n; i++) {
-    cin>>f[i]>>u[i];
+    cin>> dp[i]>>u[i];
     //因为最后的值要减去阈值，所以可以提前减去
-    if (!f[i])f[i]-=u[i];
+    if (!dp[i])
+      dp[i]-=u[i];
   }
 
   memset(h,-1,sizeof h);
@@ -59,9 +60,9 @@ int main(){
   //拓扑排序完。队列里的点就是有拓扑序的
   for(int i = 1; i <=n; i++){
     int j = q[i];
-    if (f[j]>0){
+    if (dp[j]>0){
       for(int k = h[j]; ~k; k = ne[k]) {
-        f[e[k]]+=f[j]*w[k];
+        dp[e[k]]+= dp[j]*w[k];
       }
     }
   }
@@ -70,8 +71,8 @@ int main(){
 //    cout<<f[i]<<' ';
 //  }
   for(int i = 1; i <=n; i++) {
-    if (!dout[i]&&f[i]>0){
-      cout<<i<<' '<<f[i]<<endl;
+    if (!dout[i]&& dp[i]>0){
+      cout<<i<<' '<< dp[i]<<endl;
       has_p = true;
     }
   }

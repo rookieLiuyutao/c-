@@ -4,7 +4,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 const int N = 1010;
-int f[N] , cnt[N];
+int dp[N] , cnt[N];
 int mod = 1e9 + 7;
 int n , v ;
 int main() {
@@ -15,17 +15,17 @@ int main() {
         int v , w;
         cin >> v >> w;
         for (int j = v ; j >= v ; j -- ) {
-            int value = f[j - v] + w;
-            if (value > f[j]) {
-                f[j] = value;
+            int value = dp[j - v] + w;
+            if (value > dp[j]) {
+              dp[j] = value;
                 cnt[j] = cnt[j - v];
             }
-            else if (value == f[j]) cnt[j] = (cnt[j] + cnt[j - v]) % mod;
+            else if (value == dp[j]) cnt[j] = (cnt[j] + cnt[j - v]) % mod;
         }
     }
     cout << cnt[v];
     for(int i = 0; i <= v; i++) {
-      cout<<f[i]<<' ';
+      cout<< dp[i]<<' ';
     }
     puts("");
     for(int i = 0; i <= v; i++) {
