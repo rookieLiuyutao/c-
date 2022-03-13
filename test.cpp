@@ -1,20 +1,20 @@
-#include <iostream>
-#include <cstring>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
-const int N = 100010;
-int a[N];
-int n;
-int main()
-{
-  cin>>n;
-  int res = 0;
-  for (int i = 0; i < n; i ++ )cin>>a[i];
-  int j = 0;
-  for (int i = 0; i < n; ){
-    while(j<n&&a[j]<=a[i])j++;
-    res+=(a[j]-a[i]);
-    i = j;
+class Solution {
+public:
+  int maximumTop(vector<int>& a, int k) {
+    int n = a.size();
+    if (n==1&&k>=1)return -1;
+    int maxv = -1;
+    if (k>n){
+      for(int i = 0; i <n; i++) {
+        maxv = max(maxv,a[i]);
+      }
+    }else{
+      for(int i = 0; i <k; i++) {
+        maxv = max(maxv,a[i]);
+      }
+    }
+    return maxv;
   }
-  cout << res;
-}
+};
