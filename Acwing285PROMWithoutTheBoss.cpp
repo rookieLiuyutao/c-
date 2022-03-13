@@ -10,7 +10,7 @@ int h[N],e[M],ne[M],w[M],idx;
 bool st[N];
 //表示以u为根节点的子树是否选择当前根节点
 int dp[N][2];
-int root;
+int root = 1;
 void add(int a,int b){
   e[idx] = b,ne[idx] = h[a],h[a] = idx++;
 }
