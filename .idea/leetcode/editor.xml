@@ -7,7 +7,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../../算法/leetcode刷题/leetcode/editor/cn/[10]正则表达式匹配.cpp" />
-              <option name="questionId" value="10" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -15,7 +14,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../../算法/leetcode刷题/leetcode/editor/cn/[8]字符串转换整数 (atoi).cpp" />
-              <option name="questionId" value="8" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -23,7 +21,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[3]无重复字符的最长子串.cpp" />
-              <option name="questionId" value="3" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -31,7 +28,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[69]x 的平方根 .cpp" />
-              <option name="questionId" value="69" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -39,7 +35,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[70]爬楼梯.cpp" />
-              <option name="questionId" value="70" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -47,7 +42,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[73]矩阵置零.cpp" />
-              <option name="questionId" value="73" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -55,7 +49,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[75]颜色分类.cpp" />
-              <option name="questionId" value="75" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -63,7 +56,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[76]最小覆盖子串.cpp" />
-              <option name="questionId" value="76" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -71,7 +63,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[77]组合.cpp" />
-              <option name="questionId" value="77" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -79,7 +70,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[78]子集.cpp" />
-              <option name="questionId" value="78" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -87,7 +77,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[79]单词搜索.cpp" />
-              <option name="questionId" value="79" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -95,23 +84,50 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[83]删除排序链表中的重复元素.cpp" />
-              <option name="questionId" value="83" />
             </LeetcodeEditor>
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[84]柱状图中最大的矩形.cpp">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/doc/content/[84]柱状图中最大的矩形.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com84" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[84]柱状图中最大的矩形.cpp" />
-              <option name="questionId" value="84" />
+              <option name="titleSlug" value="largest-rectangle-in-histogram" />
             </LeetcodeEditor>
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[85]最大矩形.cpp">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/doc/content/[85]最大矩形.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com85" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[85]最大矩形.cpp" />
-              <option name="questionId" value="85" />
+              <option name="titleSlug" value="maximal-rectangle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[86]分隔链表.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/doc/content/[86]分隔链表.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com86" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[86]分隔链表.cpp" />
+              <option name="titleSlug" value="partition-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[97]交错字符串.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/doc/content/[97]交错字符串.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com97" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[97]交错字符串.cpp" />
+              <option name="titleSlug" value="interleaving-string" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -119,7 +135,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.cpp" />
-              <option name="questionId" value="100283" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -127,7 +142,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 10- II]青蛙跳台阶问题.cpp" />
-              <option name="questionId" value="100277" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -135,7 +149,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 10- I]斐波那契数列.cpp" />
-              <option name="questionId" value="100274" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -143,7 +156,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 11]旋转数组的最小数字.cpp" />
-              <option name="questionId" value="100278" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -151,7 +163,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 12]矩阵中的路径.cpp" />
-              <option name="questionId" value="100279" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -159,7 +170,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 13]机器人的运动范围.cpp" />
-              <option name="questionId" value="100281" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -167,7 +177,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 14- II]剪绳子 II.cpp" />
-              <option name="questionId" value="100285" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -175,7 +184,6 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[剑指 Offer 14- I]剪绳子.cpp" />
-              <option name="questionId" value="100284" />
             </LeetcodeEditor>
           </value>
         </entry>

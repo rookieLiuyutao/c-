@@ -44,7 +44,7 @@ void tarjan(int u){
     if (!dfn[j]){
        tarjan(j);
        //更新最小时间戳
-       low[u] = min(low[u ],low[j]);
+       low[u] = min(low[u],low[j]);
 
     }else if (st[j]){
       low[u] = min(low[u],dfn[j]);
