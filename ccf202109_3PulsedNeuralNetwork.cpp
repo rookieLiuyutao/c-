@@ -37,9 +37,10 @@ void add(int aa,int bb,double cc,int dd){
 }
 
 int main(){
+  memset(h,-1,sizeof h);
   scanf("%d%d%d%d", &n, &s, &p, &T);
   scanf("%lf", &dt);
-  memset(h,-1,sizeof h);
+
   //保证所有的 RN 加起来等于 N
   for(int i = 0; i <n;) {
     //每行有以空格分隔的一个正整数 RN 和六个实数 v u a b c d
@@ -54,13 +55,13 @@ int main(){
     }
   }
   //输入接下来的 P 行，每行是一个正整数 r，按顺序每一行对应一个脉冲源的 r 参数
-  for(int i = n; i <=n+p-1; i++) {
-    cin>>r[i];
+  for(int i = n; i <n+p; i++) {
+    scanf("%d", &r[i]);
   }
   //循环数组的长度
   int mod = 0;
   //建图
-  for(int i = 0; i <s; i++) {
+  for(int i = 0; i < s; i++) {
     //其中 s 和 t 分别是入结点和出结点的编号；w 和 D 分别表示脉冲强度和传播延迟
     int ss,tt,dd;
     double ww;
@@ -116,7 +117,7 @@ int main(){
     maxc = max(maxc,cnt[i]);
   }
   printf("%.3lf %.3lf\n", minv, maxv);
-  cout<<minc<<' '<<maxc<<endl;
+  printf("%d %d\n", minc, maxc);
 
 
 }
