@@ -6,18 +6,28 @@ using namespace std;
 typedef long long LL;
 const int N = 110;
 bool g[N][N];
-bool st[N][N];
+bool st[N];
 int n,m,k;
 int match[N];
 
 bool dfs(int u  ){
-  for
+  for(int i = 0; i <m; i++) {
+    if (!st[i]&&g[u][i]){
+      st[i] = true;
+      if(match[i]==-1|| dfs(match[i])){
+        match[i] = u;
+        return true;
+      }
+    }
+  }
+  return false;
 }
 
 int main(){
-  while (cin>>n>>m>>k,n||m||k){
-    memset(g, false,sizeof g);
-    memset(st, false,sizeof st);
+  while (cin>>n>>m>>k,n){
+    memset(g, 0,sizeof g);
+    memset(match, -1, sizeof match);
+
     //读入每个任务
     for(int i = 0; i <k; i++) {
       int c,a,b;
@@ -29,6 +39,10 @@ int main(){
     }
     int res=  0;
 
+    for(int i = 0 ; i <n; i++) {
+      memset(st,0,sizeof st);
+      if (dfs(i))res++;
+    }
     cout<<res;
   }
 }

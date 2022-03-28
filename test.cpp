@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-  cout<<(3&&4);
-  cout<<endl;
-  cout<<(3&&5);
+
+  const char *s = "0123";
+  int x = atoi(s);
+  cout<<x;
 }
