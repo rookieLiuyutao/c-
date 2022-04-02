@@ -199,3 +199,8 @@ add_executable(1656C-MakeEqualWithMod 1656C-MakeEqualWithMod.cpp)
 add_executable(leetcode_t1 leetcode_t1.cpp)
 add_executable(leetcode_t2 leetcode_t2.cpp)
 add_executable(leetcode_t4 leetcode_t4.cpp)
+add_executable(Acwing1235PaymentProblem Acwing1235PaymentProblem.cpp)
+
+add_executable(CodeforcesRound779Div2A.MarinandPhotoshoot CodeforcesRound779Div2A.MarinandPhotoshoot.cpp)
+add_executable(Acwing3516MaximumArea Acwing3516MaximumArea.cpp)
+add_executable(Acwing4394LongestContinuousSubsequence Acwing4394LongestContinuousSubsequence.cpp)

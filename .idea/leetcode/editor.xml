@@ -259,6 +259,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[1606]找到处理最多请求的服务器.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/doc/content/[1606]找到处理最多请求的服务器.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1606" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[1606]找到处理最多请求的服务器.cpp" />
+              <option name="titleSlug" value="find-servers-that-handled-most-number-of-requests" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[241]为运算表达式设计优先级.cpp">
           <value>
             <LeetcodeEditor>
@@ -296,6 +307,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[653]两数之和 IV - 输入 BST.cpp" />
               <option name="titleSlug" value="two-sum-iv-input-is-a-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[669]修剪二叉搜索树.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/doc/content/[669]修剪二叉搜索树.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com669" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[669]修剪二叉搜索树.cpp" />
+              <option name="titleSlug" value="trim-a-binary-search-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
