@@ -299,6 +299,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[6036]构造字符串的总得分和.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/doc/content/[6036]构造字符串的总得分和.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com6036" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[6036]构造字符串的总得分和.cpp" />
+              <option name="titleSlug" value="sum-of-scores-of-built-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../算法/leetcode刷题/leetcode/editor/cn/[653]两数之和 IV - 输入 BST.cpp">
           <value>
             <LeetcodeEditor>
