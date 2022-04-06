@@ -15,7 +15,8 @@ unordered_map<int ,int>mp;
 int siz[N];
 int dfs(int u){
   q.push_back(u);
-  for(int i = 0; h[u].size() ; i ++) {
+  siz[u] = 1;
+  for(int i = 0; i<h[u].size() ; i ++) {
     siz[u]+= dfs(h[u][i]);
   }
   return siz[u];
@@ -24,19 +25,18 @@ int dfs(int u){
 int main()
 {
   cin>>n>>m;
-  memset(h,-1,sizeof h);
-  for(int i = 1; i <=n; i++) {
+  for(int i = 2; i <=n; i++) {
     int p;
     cin>>p;
     h[p].push_back(i);
-    siz[i] = 1;
+
   }
-  siz[1] = 1;
+
 
   dfs(1);
 
   for(int i = 0; i <q.size(); i++) {
-    cout<<q[i]<<' ';
+    // cout<<q[i]<<' ';
     mp[q[i]] = i;
   }
   while (m--){
