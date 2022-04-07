@@ -18,7 +18,7 @@ void add(int x, LL v) {
 
 LL query(int x) {
   LL res = 0;
-  for (int i = x; i <= n; i++) {
+  for (int i = x; i ; i-=i&-i) {
     res = max(res, tr[i]);
   }
   return res;
@@ -28,7 +28,7 @@ int get(int x){
 }
 int main() {
   cin>>n;
-  for(int i = 0; i <n; i++) {
+  for(int i = 1; i <=n; i++) {
     cin>>a[i];
     s.push_back(a[i]);
   }
@@ -37,7 +37,7 @@ int main() {
   s.erase(unique(s.begin(), s.end()),s.end());
 
   LL res = 0;
-  for(int i = 0; i <n; i++) {
+  for(int i = 1; i <=n; i++) {
     int k = get(a[i]);
     dp[i] = query(k-1)+a[i];
     res = max(dp[i],res);
